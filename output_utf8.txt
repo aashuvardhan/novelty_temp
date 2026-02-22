@@ -1,0 +1,5628 @@
+﻿device: cuda
+NVIDIA RTX A4000
+Client 0	 Size of data: 955	 Labels:  [0 1 2 3 4 5 6 7 8 9]
+		 Samples of labels:  [(0, 71), (1, 114), (2, 53), (3, 53), (4, 66), (5, 9), (6, 111), (7, 41), (8, 128), (9, 309)]
+--------------------------------------------------
+Client 1	 Size of data: 1165	 Labels:  [0 1 2 3 4 5 6 7 8 9]
+		 Samples of labels:  [(0, 157), (1, 43), (2, 16), (3, 28), (4, 110), (5, 329), (6, 219), (7, 55), (8, 54), (9, 154)]
+--------------------------------------------------
+Client 2	 Size of data: 1405	 Labels:  [0 1 2 3 4 5 6 7 8]
+		 Samples of labels:  [(0, 2), (1, 116), (2, 384), (3, 76), (4, 236), (5, 218), (6, 31), (7, 193), (8, 149)]
+--------------------------------------------------
+Client 3	 Size of data: 1420	 Labels:  [0 1 2 3 4 5 6 7]
+		 Samples of labels:  [(0, 195), (1, 293), (2, 184), (3, 111), (4, 154), (5, 80), (6, 346), (7, 57)]
+--------------------------------------------------
+Client 4	 Size of data: 444	 Labels:  [0 1 2 3 4 5 6 7 8 9]
+		 Samples of labels:  [(0, 6), (1, 134), (2, 80), (3, 43), (4, 23), (5, 51), (6, 36), (7, 39), (8, 27), (9, 5)]
+--------------------------------------------------
+Client 5	 Size of data: 1400	 Labels:  [0 1 2 3 4 5 6 7 8]
+		 Samples of labels:  [(0, 256), (1, 200), (2, 179), (3, 208), (4, 26), (5, 218), (6, 120), (7, 132), (8, 61)]
+--------------------------------------------------
+Client 6	 Size of data: 1451	 Labels:  [0 1 2 3 4 5 6 7 8]
+		 Samples of labels:  [(0, 717), (1, 95), (2, 38), (3, 19), (4, 3), (5, 124), (6, 201), (7, 193), (8, 61)]
+--------------------------------------------------
+Client 7	 Size of data: 1499	 Labels:  [0 1 2 3 4 5 6 7 8 9]
+		 Samples of labels:  [(0, 68), (1, 14), (2, 96), (3, 139), (4, 293), (5, 334), (6, 149), (7, 182), (8, 23), (9, 201)]
+--------------------------------------------------
+Client 8	 Size of data: 1620	 Labels:  [0 1 2 3 4 5 6 7 8 9]
+		 Samples of labels:  [(0, 51), (1, 158), (2, 152), (3, 168), (4, 237), (5, 428), (6, 5), (7, 150), (8, 44), (9, 227)]
+--------------------------------------------------
+Client 9	 Size of data: 1641	 Labels:  [0 1 2 3 4 5 6 7 8 9]
+		 Samples of labels:  [(0, 178), (1, 94), (2, 44), (3, 192), (4, 105), (5, 73), (6, 159), (7, 378), (8, 157), (9, 261)]
+--------------------------------------------------
+Client 10	 Size of data: 1432	 Labels:  [0 1 2 3 4 5 6]
+		 Samples of labels:  [(0, 247), (1, 231), (2, 139), (3, 90), (4, 573), (5, 13), (6, 139)]
+--------------------------------------------------
+Client 11	 Size of data: 1499	 Labels:  [0 1 2 3 4 5 6 7 8]
+		 Samples of labels:  [(0, 329), (1, 17), (2, 154), (3, 205), (4, 3), (5, 189), (6, 18), (7, 397), (8, 187)]
+--------------------------------------------------
+Client 12	 Size of data: 1476	 Labels:  [1 2 3 4 5 6 7]
+		 Samples of labels:  [(1, 14), (2, 103), (3, 170), (4, 3), (5, 256), (6, 757), (7, 173)]
+--------------------------------------------------
+Client 13	 Size of data: 1211	 Labels:  [0 1 2 3 4 5 6 7 8 9]
+		 Samples of labels:  [(0, 134), (1, 45), (2, 109), (3, 133), (4, 166), (5, 65), (6, 138), (7, 54), (8, 292), (9, 75)]
+--------------------------------------------------
+Client 14	 Size of data: 1473	 Labels:  [0 1 2 3 4 5 6 7 8 9]
+		 Samples of labels:  [(0, 21), (1, 79), (2, 188), (3, 41), (4, 187), (5, 132), (6, 188), (7, 2), (8, 520), (9, 115)]
+--------------------------------------------------
+Client 15	 Size of data: 1485	 Labels:  [0 1 2 3 4 5 6 7]
+		 Samples of labels:  [(0, 25), (1, 175), (2, 297), (3, 211), (4, 58), (5, 308), (6, 25), (7, 386)]
+--------------------------------------------------
+Client 16	 Size of data: 1456	 Labels:  [0 1 2 3 4 5 6 7 8 9]
+		 Samples of labels:  [(0, 486), (1, 71), (2, 64), (3, 24), (4, 217), (5, 177), (6, 20), (7, 40), (8, 218), (9, 139)]
+--------------------------------------------------
+Client 17	 Size of data: 1203	 Labels:  [0 1 2 3 4 5 6 7 8 9]
+		 Samples of labels:  [(0, 35), (1, 181), (2, 79), (3, 2), (4, 89), (5, 128), (6, 68), (7, 132), (8, 366), (9, 123)]
+--------------------------------------------------
+Client 18	 Size of data: 1460	 Labels:  [0 1 2 3 4 5 6 7 8]
+		 Samples of labels:  [(0, 395), (1, 35), (2, 32), (3, 258), (4, 125), (5, 6), (6, 101), (7, 93), (8, 415)]
+--------------------------------------------------
+Client 19	 Size of data: 1603	 Labels:  [0 1 2 3 4 5 6 7 8 9]
+		 Samples of labels:  [(0, 345), (1, 55), (2, 38), (3, 72), (4, 289), (5, 102), (6, 20), (7, 145), (8, 113), (9, 424)]
+--------------------------------------------------
+Client 20	 Size of data: 1505	 Labels:  [0 1 2 3 4 5 6]
+		 Samples of labels:  [(0, 77), (1, 305), (2, 103), (3, 539), (4, 184), (5, 54), (6, 243)]
+--------------------------------------------------
+Client 21	 Size of data: 1448	 Labels:  [0 1 2 3 4 5 6 7 8]
+		 Samples of labels:  [(0, 60), (1, 15), (2, 162), (3, 399), (4, 183), (5, 40), (6, 334), (7, 62), (8, 193)]
+--------------------------------------------------
+Client 22	 Size of data: 1637	 Labels:  [0 1 2 3 4 5 6 7 8 9]
+		 Samples of labels:  [(0, 65), (1, 14), (2, 156), (3, 73), (4, 312), (5, 196), (6, 54), (7, 142), (8, 324), (9, 301)]
+--------------------------------------------------
+Client 23	 Size of data: 1360	 Labels:  [0 1 2 3 4 5 6 7 8 9]
+		 Samples of labels:  [(0, 19), (1, 214), (2, 273), (3, 245), (4, 84), (5, 22), (6, 178), (7, 171), (8, 138), (9, 16)]
+--------------------------------------------------
+Client 24	 Size of data: 1447	 Labels:  [0 1 2 3 4 5 6 7 8]
+		 Samples of labels:  [(0, 131), (1, 335), (2, 57), (3, 101), (4, 54), (5, 81), (6, 150), (7, 293), (8, 245)]
+--------------------------------------------------
+Client 25	 Size of data: 1439	 Labels:  [0 1 2 3 4]
+		 Samples of labels:  [(0, 147), (1, 439), (2, 439), (3, 7), (4, 407)]
+--------------------------------------------------
+Client 26	 Size of data: 1428	 Labels:  [0 1 2 3 4 5 6 7 8]
+		 Samples of labels:  [(0, 6), (1, 427), (2, 105), (3, 76), (4, 219), (5, 54), (6, 32), (7, 124), (8, 385)]
+--------------------------------------------------
+Client 27	 Size of data: 1265	 Labels:  [0 1 2 3 4 5 6 7 8 9]
+		 Samples of labels:  [(0, 94), (1, 93), (2, 61), (3, 31), (4, 26), (5, 12), (6, 122), (7, 269), (8, 453), (9, 104)]
+--------------------------------------------------
+Client 28	 Size of data: 920	 Labels:  [0 1 2 3 4 5 6 7 8 9]
+		 Samples of labels:  [(0, 180), (1, 57), (2, 16), (3, 39), (4, 61), (5, 143), (6, 155), (7, 105), (8, 67), (9, 97)]
+--------------------------------------------------
+Client 29	 Size of data: 1415	 Labels:  [0 1 2 3 4 5 6 7 8 9]
+		 Samples of labels:  [(0, 71), (1, 266), (2, 94), (3, 176), (4, 122), (5, 42), (6, 82), (7, 59), (8, 342), (9, 161)]
+--------------------------------------------------
+Client 30	 Size of data: 1401	 Labels:  [0 1 2 3 4 5 6 7]
+		 Samples of labels:  [(0, 13), (1, 101), (2, 360), (3, 55), (4, 42), (5, 397), (6, 63), (7, 370)]
+--------------------------------------------------
+Client 31	 Size of data: 1052	 Labels:  [0 1 2 3 4 5 6 7 8 9]
+		 Samples of labels:  [(0, 14), (1, 19), (2, 52), (3, 64), (4, 382), (5, 140), (6, 49), (7, 101), (8, 116), (9, 115)]
+--------------------------------------------------
+Client 32	 Size of data: 1571	 Labels:  [0 1 2 3 4 5]
+		 Samples of labels:  [(0, 429), (1, 346), (2, 472), (3, 23), (4, 105), (5, 196)]
+--------------------------------------------------
+Client 33	 Size of data: 786	 Labels:  [0 1 2 3 4 5 6 7 8 9]
+		 Samples of labels:  [(0, 17), (1, 53), (2, 149), (3, 157), (4, 96), (5, 45), (6, 11), (7, 136), (8, 22), (9, 100)]
+--------------------------------------------------
+Client 34	 Size of data: 1311	 Labels:  [0 1 2 3 4 5 6 7 8 9]
+		 Samples of labels:  [(0, 25), (1, 197), (2, 353), (3, 107), (4, 79), (5, 6), (6, 7), (7, 87), (8, 79), (9, 371)]
+--------------------------------------------------
+Client 35	 Size of data: 940	 Labels:  [0 1 2 3 4 5 6 7 8 9]
+		 Samples of labels:  [(0, 9), (1, 60), (2, 8), (3, 36), (4, 47), (5, 54), (6, 250), (7, 68), (8, 405), (9, 3)]
+--------------------------------------------------
+Client 36	 Size of data: 1280	 Labels:  [0 1 2 3 4 5 6 7 8 9]
+		 Samples of labels:  [(0, 28), (1, 93), (2, 361), (3, 53), (4, 6), (5, 134), (6, 204), (7, 240), (8, 129), (9, 32)]
+--------------------------------------------------
+Client 37	 Size of data: 1452	 Labels:  [0 1 2 3 4 5 6 7]
+		 Samples of labels:  [(0, 205), (1, 601), (2, 120), (3, 181), (4, 137), (5, 13), (6, 63), (7, 132)]
+--------------------------------------------------
+Client 38	 Size of data: 1433	 Labels:  [0 1 2 3 4 5 6 7 8 9]
+		 Samples of labels:  [(0, 312), (1, 188), (2, 248), (3, 39), (4, 39), (5, 82), (6, 25), (7, 64), (8, 72), (9, 364)]
+--------------------------------------------------
+Client 39	 Size of data: 3194	 Labels:  [0 1 2 3 4 5 6 7 8 9]
+		 Samples of labels:  [(0, 263), (1, 100), (2, 45), (3, 207), (4, 81), (5, 9), (6, 105), (7, 321), (8, 26), (9, 2037)]
+--------------------------------------------------
+Client 40	 Size of data: 1090	 Labels:  [0 1 2 3 4 5 6 7 8 9]
+		 Samples of labels:  [(0, 505), (1, 53), (2, 33), (3, 142), (4, 25), (5, 70), (6, 149), (7, 16), (8, 15), (9, 82)]
+--------------------------------------------------
+Client 41	 Size of data: 1581	 Labels:  [0 1 2 3 4 5 6 7 8]
+		 Samples of labels:  [(0, 62), (1, 144), (2, 59), (3, 126), (4, 27), (5, 262), (6, 370), (7, 162), (8, 369)]
+--------------------------------------------------
+Client 42	 Size of data: 1731	 Labels:  [0 1 2 3 4 5 6 7 8 9]
+		 Samples of labels:  [(0, 12), (1, 108), (2, 62), (3, 2), (4, 50), (5, 106), (6, 775), (7, 40), (8, 204), (9, 372)]
+--------------------------------------------------
+Client 43	 Size of data: 1516	 Labels:  [0 1 2 3 4 5 6 7 8]
+		 Samples of labels:  [(0, 52), (1, 26), (2, 12), (3, 359), (4, 102), (5, 4), (6, 106), (7, 371), (8, 484)]
+--------------------------------------------------
+Client 44	 Size of data: 1498	 Labels:  [0 1 2 3 4 5]
+		 Samples of labels:  [(0, 291), (1, 126), (2, 292), (3, 139), (4, 135), (5, 515)]
+--------------------------------------------------
+Client 45	 Size of data: 1581	 Labels:  [0 1 2 3 4 5 6 7 8 9]
+		 Samples of labels:  [(0, 53), (1, 54), (2, 89), (3, 120), (4, 159), (5, 22), (6, 159), (7, 167), (8, 55), (9, 703)]
+--------------------------------------------------
+Client 46	 Size of data: 1437	 Labels:  [0 1 2 3 4 5 6]
+		 Samples of labels:  [(0, 55), (1, 125), (2, 220), (3, 412), (4, 197), (5, 129), (6, 299)]
+--------------------------------------------------
+Client 47	 Size of data: 1625	 Labels:  [0 1 2 3 4 5 6 7]
+		 Samples of labels:  [(0, 28), (1, 105), (2, 63), (3, 77), (4, 344), (5, 602), (6, 39), (7, 367)]
+--------------------------------------------------
+Client 48	 Size of data: 1410	 Labels:  [0 1 2 3 4 5 6 7]
+		 Samples of labels:  [(0, 46), (1, 10), (2, 91), (3, 711), (4, 270), (5, 172), (6, 69), (7, 41)]
+--------------------------------------------------
+Client 49	 Size of data: 949	 Labels:  [0 1 2 3 4 5 6 7 8 9]
+		 Samples of labels:  [(0, 13), (1, 162), (2, 16), (3, 61), (4, 62), (5, 158), (6, 56), (7, 250), (8, 62), (9, 109)]
+--------------------------------------------------
+<torch.utils.data.dataloader.DataLoader object at 0x00000190D000D9D0>
+Epoch=0, avg_f_acc=0.06739997823369709, avg_r_acc=0.4953422953189754
+Epoch=1, avg_f_acc=0.03268602807900612, avg_r_acc=0.6696446670181505
+Epoch=2, avg_f_acc=0.028662654610284586, avg_r_acc=0.723963409864782
+Epoch=3, avg_f_acc=0.030939577036808556, avg_r_acc=0.7412703764460945
+Epoch=4, avg_f_acc=0.032358475562638885, avg_r_acc=0.7545559858652153
+Epoch=5, avg_f_acc=0.029868418267400755, avg_r_acc=0.7652138904535284
+Epoch=6, avg_f_acc=0.03839873317268241, avg_r_acc=0.7767139783798217
+Epoch=7, avg_f_acc=0.03964510127196574, avg_r_acc=0.7803784854722673
+Epoch=8, avg_f_acc=0.03927153331233898, avg_r_acc=0.7903848109387988
+Epoch=9, avg_f_acc=0.03570409052269206, avg_r_acc=0.797820156608075
+Epoch=10, avg_f_acc=0.041835399107728134, avg_r_acc=0.7953158453934611
+Epoch=11, avg_f_acc=0.0387277855247039, avg_r_acc=0.8022449544589628
+Epoch=12, avg_f_acc=0.039589340968169594, avg_r_acc=0.805793295894664
+Epoch=13, avg_f_acc=0.03532191719596813, avg_r_acc=0.8097601928038387
+Epoch=14, avg_f_acc=0.03913182584879587, avg_r_acc=0.8098782455571014
+Epoch=15, avg_f_acc=0.03563060514306413, avg_r_acc=0.8158569229854362
+Epoch=16, avg_f_acc=0.04322767510880314, avg_r_acc=0.8112780101016634
+Epoch=17, avg_f_acc=0.0360631533855794, avg_r_acc=0.8212655946569203
+Epoch=18, avg_f_acc=0.04900309714781243, avg_r_acc=0.8031452511441333
+Epoch=19, avg_f_acc=0.0322909954661917, avg_r_acc=0.8283563104227317
+Epoch=20, avg_f_acc=0.07227263246878718, avg_r_acc=0.7807148861673241
+Epoch=21, avg_f_acc=0.027131184367032376, avg_r_acc=0.8371551225724165
+Epoch=22, avg_f_acc=0.10118850071387406, avg_r_acc=0.7504223726266807
+Epoch=23, avg_f_acc=0.011209690308698209, avg_r_acc=0.8393653873283933
+Epoch=24, avg_f_acc=0.11949872112174818, avg_r_acc=0.7362287888751007
+Epoch=25, avg_f_acc=0.010296329717657452, avg_r_acc=0.8459387838441171
+Epoch=26, avg_f_acc=0.12275946550443854, avg_r_acc=0.721927272138051
+Epoch=27, avg_f_acc=0.010419339734282664, avg_r_acc=0.8423484628055895
+Epoch=28, avg_f_acc=0.1424677622006518, avg_r_acc=0.7117391491158858
+Epoch=29, avg_f_acc=0.008813001685938347, avg_r_acc=0.8458376984349968
+Epoch=30, avg_f_acc=0.1308242115709584, avg_r_acc=0.7247345960749133
+Epoch=31, avg_f_acc=0.009091442912655434, avg_r_acc=0.846524331791291
+Epoch=32, avg_f_acc=0.11450717622940544, avg_r_acc=0.7386694011165759
+Epoch=33, avg_f_acc=0.00866888208545841, avg_r_acc=0.8500582473726892
+Epoch=34, avg_f_acc=0.12852772224139283, avg_r_acc=0.7255244413404106
+Epoch=35, avg_f_acc=0.009557526704510553, avg_r_acc=0.8524699749186844
+Epoch=36, avg_f_acc=0.12101525140978522, avg_r_acc=0.7333643128122219
+Epoch=37, avg_f_acc=0.00911280858737864, avg_r_acc=0.8514847632850016
+Epoch=38, avg_f_acc=0.12805664079178541, avg_r_acc=0.7327089264820428
+Epoch=39, avg_f_acc=0.008294328987134218, avg_r_acc=0.8511285953058116
+Epoch=40, avg_f_acc=0.12953131024085868, avg_r_acc=0.7287377085732561
+Epoch=41, avg_f_acc=0.008560368242201686, avg_r_acc=0.8513276966814046
+Epoch=42, avg_f_acc=0.11996579544844045, avg_r_acc=0.7392528707456927
+Epoch=43, avg_f_acc=0.009023331205164648, avg_r_acc=0.8529450764459203
+Epoch=44, avg_f_acc=0.1268989264605593, avg_r_acc=0.7281257444906323
+Epoch=45, avg_f_acc=0.0077972055461896245, avg_r_acc=0.8544099950255348
+Epoch=46, avg_f_acc=0.14582034024009313, avg_r_acc=0.7111832478639813
+Epoch=47, avg_f_acc=0.007224151524859743, avg_r_acc=0.8572012334643928
+Epoch=48, avg_f_acc=0.12757164940984142, avg_r_acc=0.7379176041703613
+Epoch=49, avg_f_acc=0.007429406040459084, avg_r_acc=0.8587190668203417
+FUSED-epoch-xxxx-client forget, Avg_r_acc: 0.8587190668203418, Avg_f_acc: 0.007429406040459084
+FUSED-epoch-0-client forget, Avg_r_acc: 0.8654100171860154, Avg_f_acc: 0.007615885208511769
+FUSED-epoch-1-client forget, Avg_r_acc: 0.8651750080662919, Avg_f_acc: 0.006833637443505382
+FUSED-epoch-2-client forget, Avg_r_acc: 0.8645706918163354, Avg_f_acc: 0.006833637443505382
+FUSED-epoch-3-client forget, Avg_r_acc: 0.8651831542522816, Avg_f_acc: 0.006628382927906039
+FUSED-epoch-4-client forget, Avg_r_acc: 0.8647911989293443, Avg_f_acc: 0.005718421242082284
+FUSED-epoch-5-client forget, Avg_r_acc: 0.8649021003364286, Avg_f_acc: 0.005718421242082284
+FUSED-epoch-6-client forget, Avg_r_acc: 0.8656666342888084, Avg_f_acc: 0.0057184212420822835
+FUSED-epoch-7-client forget, Avg_r_acc: 0.865474061108325, Avg_f_acc: 0.00551316672648294
+FUSED-epoch-8-client forget, Avg_r_acc: 0.8651833878977033, Avg_f_acc: 0.005752630328015507
+FUSED-epoch-9-client forget, Avg_r_acc: 0.8654935428864797, Avg_f_acc: 0.00551316672648294
+FUSED-epoch-10-client forget, Avg_r_acc: 0.8654596764872604, Avg_f_acc: 0.005752630328015507
+FUSED-epoch-11-client forget, Avg_r_acc: 0.8655335393433413, Avg_f_acc: 0.005752630328015507
+FUSED-epoch-12-client forget, Avg_r_acc: 0.8654249718824342, Avg_f_acc: 0.005752630328015507
+FUSED-epoch-13-client forget, Avg_r_acc: 0.865544784750289, Avg_f_acc: 0.005752630328015507
+FUSED-epoch-14-client forget, Avg_r_acc: 0.8656394189527751, Avg_f_acc: 0.005592987926993796
+FUSED-epoch-15-client forget, Avg_r_acc: 0.8662413639848162, Avg_f_acc: 0.005752630328015507
+FUSED-epoch-16-client forget, Avg_r_acc: 0.8654024566617055, Avg_f_acc: 0.005592987926993796
+FUSED-epoch-17-client forget, Avg_r_acc: 0.8651901820767796, Avg_f_acc: 0.005592987926993796
+FUSED-epoch-18-client forget, Avg_r_acc: 0.865437472312733, Avg_f_acc: 0.005592987926993796
+FUSED-epoch-19-client forget, Avg_r_acc: 0.8649918678726731, Avg_f_acc: 0.005592987926993797
+FUSED-epoch-20-client forget, Avg_r_acc: 0.8655035162084882, Avg_f_acc: 0.005592987926993796
+FUSED-epoch-21-client forget, Avg_r_acc: 0.8657112682968112, Avg_f_acc: 0.005592987926993797
+FUSED-epoch-22-client forget, Avg_r_acc: 0.8652007680783638, Avg_f_acc: 0.005592987926993796
+FUSED-epoch-23-client forget, Avg_r_acc: 0.8648547269323915, Avg_f_acc: 0.005592987926993796
+FUSED-epoch-24-client forget, Avg_r_acc: 0.8655240887817647, Avg_f_acc: 0.005592987926993797
+FUSED-epoch-25-client forget, Avg_r_acc: 0.8656573952359544, Avg_f_acc: 0.005592987926993797
+FUSED-epoch-26-client forget, Avg_r_acc: 0.8660151465159474, Avg_f_acc: 0.005592987926993796
+FUSED-epoch-27-client forget, Avg_r_acc: 0.8658775063810352, Avg_f_acc: 0.005592987926993797
+FUSED-epoch-28-client forget, Avg_r_acc: 0.8655225956069902, Avg_f_acc: 0.005592987926993797
+FUSED-epoch-29-client forget, Avg_r_acc: 0.8657601419088645, Avg_f_acc: 0.005592987926993797
+FUSED-epoch-30-client forget, Avg_r_acc: 0.8670103027513131, Avg_f_acc: 0.005592987926993796
+FUSED-epoch-31-client forget, Avg_r_acc: 0.8665304799425559, Avg_f_acc: 0.005592987926993796
+FUSED-epoch-32-client forget, Avg_r_acc: 0.8657083329706868, Avg_f_acc: 0.005592987926993796
+FUSED-epoch-33-client forget, Avg_r_acc: 0.8669797779781016, Avg_f_acc: 0.005592987926993797
+FUSED-epoch-34-client forget, Avg_r_acc: 0.8661462585112386, Avg_f_acc: 0.005592987926993796
+FUSED-epoch-35-client forget, Avg_r_acc: 0.8670179971491382, Avg_f_acc: 0.005592987926993796
+FUSED-epoch-36-client forget, Avg_r_acc: 0.8665673035223574, Avg_f_acc: 0.005592987926993796
+FUSED-epoch-37-client forget, Avg_r_acc: 0.8670119986022278, Avg_f_acc: 0.005387733411394454
+FUSED-epoch-38-client forget, Avg_r_acc: 0.8667049566910727, Avg_f_acc: 0.005592987926993796
+FUSED-epoch-39-client forget, Avg_r_acc: 0.8659466031405715, Avg_f_acc: 0.005592987926993797
+FUSED-epoch-40-client forget, Avg_r_acc: 0.866336672487086, Avg_f_acc: 0.005592987926993797
+FUSED-epoch-41-client forget, Avg_r_acc: 0.8673003572967859, Avg_f_acc: 0.005592987926993797
+FUSED-epoch-42-client forget, Avg_r_acc: 0.8674065590027183, Avg_f_acc: 0.005592987926993796
+FUSED-epoch-43-client forget, Avg_r_acc: 0.8654778650320527, Avg_f_acc: 0.005592987926993797
+FUSED-epoch-44-client forget, Avg_r_acc: 0.8662897277557405, Avg_f_acc: 0.005592987926993797
+FUSED-epoch-45-client forget, Avg_r_acc: 0.8660164485187439, Avg_f_acc: 0.005592987926993797
+FUSED-epoch-46-client forget, Avg_r_acc: 0.8661557465609903, Avg_f_acc: 0.005387733411394453
+FUSED-epoch-47-client forget, Avg_r_acc: 0.8670352086353575, Avg_f_acc: 0.005592987926993796
+FUSED-epoch-48-client forget, Avg_r_acc: 0.8663949470321479, Avg_f_acc: 0.005387733411394453
+FUSED-epoch-49-client forget, Avg_r_acc: 0.8657014013634253, Avg_f_acc: 0.005387733411394453
+Unlearning complete. Extracting the original Phase 1 base model...
+Original Phase 1 model successfully restored and saved to disk!
+FUSED-epoch-xxxx-client forget, Avg_r_acc: 0.8633671589594665, Avg_f_acc: 0.013242544492544493
+FUSED-epoch-0-client forget, Avg_r_acc: 0.862685710964795, Avg_f_acc: 0.012581168831168832
+FUSED-epoch-1-client forget, Avg_r_acc: 0.8667609395219352, Avg_f_acc: 0.01149891774891775
+FUSED-epoch-2-client forget, Avg_r_acc: 0.8711207264416022, Avg_f_acc: 0.010416666666666666
+FUSED-epoch-3-client forget, Avg_r_acc: 0.8700176156974476, Avg_f_acc: 0.010416666666666666
+FUSED-epoch-4-client forget, Avg_r_acc: 0.8723905470911074, Avg_f_acc: 0.010416666666666666
+FUSED-epoch-5-client forget, Avg_r_acc: 0.8725221345655092, Avg_f_acc: 0.010416666666666666
+FUSED-epoch-6-client forget, Avg_r_acc: 0.8687002618366194, Avg_f_acc: 0.010416666666666666
+FUSED-epoch-7-client forget, Avg_r_acc: 0.871726663944283, Avg_f_acc: 0.010416666666666666
+FUSED-epoch-8-client forget, Avg_r_acc: 0.8712680893408525, Avg_f_acc: 0.010416666666666666
+FUSED-epoch-9-client forget, Avg_r_acc: 0.8729866900573253, Avg_f_acc: 0.010416666666666666
+FUSED-epoch-10-client forget, Avg_r_acc: 0.8738271183355144, Avg_f_acc: 0.010416666666666666
+FUSED-epoch-11-client forget, Avg_r_acc: 0.8744448443725691, Avg_f_acc: 0.010416666666666666
+FUSED-epoch-12-client forget, Avg_r_acc: 0.8723495104189611, Avg_f_acc: 0.010416666666666666
+FUSED-epoch-13-client forget, Avg_r_acc: 0.8740044643268313, Avg_f_acc: 0.010416666666666666
+FUSED-epoch-14-client forget, Avg_r_acc: 0.8712675958218355, Avg_f_acc: 0.010416666666666666
+FUSED-epoch-15-client forget, Avg_r_acc: 0.8716587092425333, Avg_f_acc: 0.010416666666666666
+FUSED-epoch-16-client forget, Avg_r_acc: 0.8738372434968884, Avg_f_acc: 0.010416666666666666
+FUSED-epoch-17-client forget, Avg_r_acc: 0.8738337699100386, Avg_f_acc: 0.010416666666666666
+FUSED-epoch-18-client forget, Avg_r_acc: 0.8737479122136665, Avg_f_acc: 0.010416666666666666
+FUSED-epoch-19-client forget, Avg_r_acc: 0.8732298502114608, Avg_f_acc: 0.010416666666666666
+FUSED-epoch-20-client forget, Avg_r_acc: 0.8708577329590335, Avg_f_acc: 0.004464285714285714
+FUSED-epoch-21-client forget, Avg_r_acc: 0.8722504918374312, Avg_f_acc: 0.004464285714285714
+FUSED-epoch-22-client forget, Avg_r_acc: 0.8729096288262079, Avg_f_acc: 0.004464285714285714
+FUSED-epoch-23-client forget, Avg_r_acc: 0.8755293893052499, Avg_f_acc: 0.004464285714285714
+FUSED-epoch-24-client forget, Avg_r_acc: 0.8740695869730106, Avg_f_acc: 0.004464285714285714
+FUSED-epoch-25-client forget, Avg_r_acc: 0.8779154413213796, Avg_f_acc: 0.004464285714285714
+FUSED-epoch-26-client forget, Avg_r_acc: 0.8727646425847573, Avg_f_acc: 0.004464285714285714
+FUSED-epoch-27-client forget, Avg_r_acc: 0.8738707697072271, Avg_f_acc: 0.002976190476190476
+FUSED-epoch-28-client forget, Avg_r_acc: 0.873815134772945, Avg_f_acc: 0.004464285714285714
+FUSED-epoch-29-client forget, Avg_r_acc: 0.8731515008441058, Avg_f_acc: 0.002976190476190476
+FUSED-epoch-30-client forget, Avg_r_acc: 0.8713524143663521, Avg_f_acc: 0.002976190476190476
+FUSED-epoch-31-client forget, Avg_r_acc: 0.8744105620444438, Avg_f_acc: 0.002976190476190476
+FUSED-epoch-32-client forget, Avg_r_acc: 0.8761419707385227, Avg_f_acc: 0.002976190476190476
+FUSED-epoch-33-client forget, Avg_r_acc: 0.8778760622169371, Avg_f_acc: 0.002976190476190476
+FUSED-epoch-34-client forget, Avg_r_acc: 0.8762020489493043, Avg_f_acc: 0.002976190476190476
+FUSED-epoch-35-client forget, Avg_r_acc: 0.8762954207957367, Avg_f_acc: 0.002976190476190476
+FUSED-epoch-36-client forget, Avg_r_acc: 0.8756645771563921, Avg_f_acc: 0.002976190476190476
+FUSED-epoch-37-client forget, Avg_r_acc: 0.8768702066307665, Avg_f_acc: 0.002976190476190476
+FUSED-epoch-38-client forget, Avg_r_acc: 0.8733710647875331, Avg_f_acc: 0.002976190476190476
+FUSED-epoch-39-client forget, Avg_r_acc: 0.8749982160627637, Avg_f_acc: 0.002976190476190476
+FUSED-epoch-40-client forget, Avg_r_acc: 0.8733900084610307, Avg_f_acc: 0.002976190476190476
+FUSED-epoch-41-client forget, Avg_r_acc: 0.8749385725639807, Avg_f_acc: 0.002976190476190476
+FUSED-epoch-42-client forget, Avg_r_acc: 0.8743840140673893, Avg_f_acc: 0.002976190476190476
+FUSED-epoch-43-client forget, Avg_r_acc: 0.8757976438557481, Avg_f_acc: 0.002976190476190476
+FUSED-epoch-44-client forget, Avg_r_acc: 0.8753545536377028, Avg_f_acc: 0.002976190476190476
+FUSED-epoch-45-client forget, Avg_r_acc: 0.8745422876029748, Avg_f_acc: 0.002976190476190476
+FUSED-epoch-46-client forget, Avg_r_acc: 0.8732791882513736, Avg_f_acc: 0.002976190476190476
+FUSED-epoch-47-client forget, Avg_r_acc: 0.8764781251028483, Avg_f_acc: 0.002976190476190476
+FUSED-epoch-48-client forget, Avg_r_acc: 0.8754501817898113, Avg_f_acc: 0.002976190476190476
+FUSED-epoch-49-client forget, Avg_r_acc: 0.8750398452621426, Avg_f_acc: 0.002976190476190476
+Unlearning complete. Extracting the original Phase 1 base model...
+Original Phase 1 model successfully restored and saved to disk!
+FUSED-epoch-xxxx-client forget, Avg_r_acc: 0.8633671589594664, Avg_f_acc: 0.013242544492544493
+FUSED-epoch-0-client forget, Avg_r_acc: 0.8649661054849767, Avg_f_acc: 0.012581168831168832
+FUSED-epoch-1-client forget, Avg_r_acc: 0.864253522301339, Avg_f_acc: 0.01149891774891775
+FUSED-epoch-2-client forget, Avg_r_acc: 0.8639083727260785, Avg_f_acc: 0.01149891774891775
+FUSED-epoch-3-client forget, Avg_r_acc: 0.8659903107141474, Avg_f_acc: 0.010416666666666666
+FUSED-epoch-4-client forget, Avg_r_acc: 0.8682916672166926, Avg_f_acc: 0.010416666666666666
+FUSED-epoch-5-client forget, Avg_r_acc: 0.8686136827945806, Avg_f_acc: 0.010416666666666666
+FUSED-epoch-6-client forget, Avg_r_acc: 0.8672460656001422, Avg_f_acc: 0.010416666666666666
+FUSED-epoch-7-client forget, Avg_r_acc: 0.8677619494169243, Avg_f_acc: 0.010416666666666666
+FUSED-epoch-8-client forget, Avg_r_acc: 0.8714614618713407, Avg_f_acc: 0.010416666666666666
+FUSED-epoch-9-client forget, Avg_r_acc: 0.8686340675312781, Avg_f_acc: 0.010416666666666666
+FUSED-epoch-10-client forget, Avg_r_acc: 0.8679151063066081, Avg_f_acc: 0.010416666666666666
+FUSED-epoch-11-client forget, Avg_r_acc: 0.8682145075042129, Avg_f_acc: 0.008928571428571428
+FUSED-epoch-12-client forget, Avg_r_acc: 0.8724165341284827, Avg_f_acc: 0.008928571428571428
+FUSED-epoch-13-client forget, Avg_r_acc: 0.870310521595498, Avg_f_acc: 0.008928571428571428
+FUSED-epoch-14-client forget, Avg_r_acc: 0.8704731170410889, Avg_f_acc: 0.008928571428571428
+FUSED-epoch-15-client forget, Avg_r_acc: 0.8729683792719609, Avg_f_acc: 0.008928571428571428
+FUSED-epoch-16-client forget, Avg_r_acc: 0.8722823962519174, Avg_f_acc: 0.008928571428571428
+FUSED-epoch-17-client forget, Avg_r_acc: 0.8726972605456199, Avg_f_acc: 0.008928571428571428
+FUSED-epoch-18-client forget, Avg_r_acc: 0.8705999538439194, Avg_f_acc: 0.008928571428571428
+FUSED-epoch-19-client forget, Avg_r_acc: 0.8734715381147119, Avg_f_acc: 0.008928571428571428
+FUSED-epoch-20-client forget, Avg_r_acc: 0.8662538264335041, Avg_f_acc: 0.002976190476190476
+FUSED-epoch-21-client forget, Avg_r_acc: 0.8733885155718083, Avg_f_acc: 0.002976190476190476
+FUSED-epoch-22-client forget, Avg_r_acc: 0.8744627476228163, Avg_f_acc: 0.002976190476190476
+FUSED-epoch-23-client forget, Avg_r_acc: 0.8781444775435541, Avg_f_acc: 0.002976190476190476
+FUSED-epoch-24-client forget, Avg_r_acc: 0.8712834015753589, Avg_f_acc: 0.002976190476190476
+FUSED-epoch-25-client forget, Avg_r_acc: 0.8762684395410173, Avg_f_acc: 0.002976190476190476
+FUSED-epoch-26-client forget, Avg_r_acc: 0.878360450155595, Avg_f_acc: 0.002976190476190476
+FUSED-epoch-27-client forget, Avg_r_acc: 0.878610318006965, Avg_f_acc: 0.002380952380952381
+FUSED-epoch-28-client forget, Avg_r_acc: 0.8776677401502008, Avg_f_acc: 0.002976190476190476
+FUSED-epoch-29-client forget, Avg_r_acc: 0.8778728558290784, Avg_f_acc: 0.002380952380952381
+FUSED-epoch-30-client forget, Avg_r_acc: 0.8784237948000129, Avg_f_acc: 0.002380952380952381
+FUSED-epoch-31-client forget, Avg_r_acc: 0.8764701576251477, Avg_f_acc: 0.002380952380952381
+FUSED-epoch-32-client forget, Avg_r_acc: 0.8741664908742641, Avg_f_acc: 0.002380952380952381
+FUSED-epoch-33-client forget, Avg_r_acc: 0.8807207463113716, Avg_f_acc: 0.002380952380952381
+FUSED-epoch-34-client forget, Avg_r_acc: 0.8765295181503414, Avg_f_acc: 0.002380952380952381
+FUSED-epoch-35-client forget, Avg_r_acc: 0.8771727269602793, Avg_f_acc: 0.002380952380952381
+FUSED-epoch-36-client forget, Avg_r_acc: 0.8788595727099332, Avg_f_acc: 0.002380952380952381
+FUSED-epoch-37-client forget, Avg_r_acc: 0.879047136609297, Avg_f_acc: 0.002380952380952381
+FUSED-epoch-38-client forget, Avg_r_acc: 0.8796115316564986, Avg_f_acc: 0.002380952380952381
+FUSED-epoch-39-client forget, Avg_r_acc: 0.8781772127809125, Avg_f_acc: 0.002380952380952381
+FUSED-epoch-40-client forget, Avg_r_acc: 0.8702204496806252, Avg_f_acc: 0.002380952380952381
+FUSED-epoch-41-client forget, Avg_r_acc: 0.8740215391968608, Avg_f_acc: 0.002380952380952381
+FUSED-epoch-42-client forget, Avg_r_acc: 0.8779562322325131, Avg_f_acc: 0.002380952380952381
+FUSED-epoch-43-client forget, Avg_r_acc: 0.8754223370388156, Avg_f_acc: 0.002380952380952381
+FUSED-epoch-44-client forget, Avg_r_acc: 0.875521657480429, Avg_f_acc: 0.002380952380952381
+FUSED-epoch-45-client forget, Avg_r_acc: 0.8731862788490528, Avg_f_acc: 0.002380952380952381
+FUSED-epoch-46-client forget, Avg_r_acc: 0.8780520658302544, Avg_f_acc: 0.002380952380952381
+FUSED-epoch-47-client forget, Avg_r_acc: 0.8750548370665564, Avg_f_acc: 0.002380952380952381
+FUSED-epoch-48-client forget, Avg_r_acc: 0.8779827657564123, Avg_f_acc: 0.002380952380952381
+FUSED-epoch-49-client forget, Avg_r_acc: 0.8726826197270205, Avg_f_acc: 0.002380952380952381
+Unlearning complete. Extracting the original Phase 1 base model...
+Original Phase 1 model successfully restored and saved to disk!
+FUSED-epoch-xxxx-client forget, Avg_r_acc: 0.8633671589594664, Avg_f_acc: 0.013242544492544493
+FUSED-epoch-0-client forget, Avg_r_acc: 0.8635130977831421, Avg_f_acc: 0.012490981240981242
+FUSED-epoch-1-client forget, Avg_r_acc: 0.867836436985815, Avg_f_acc: 0.01149891774891775
+FUSED-epoch-2-client forget, Avg_r_acc: 0.8701138882124938, Avg_f_acc: 0.010416666666666666
+FUSED-epoch-3-client forget, Avg_r_acc: 0.8702240056894736, Avg_f_acc: 0.010416666666666666
+FUSED-epoch-4-client forget, Avg_r_acc: 0.8706615683087938, Avg_f_acc: 0.010416666666666666
+FUSED-epoch-5-client forget, Avg_r_acc: 0.8713739042491643, Avg_f_acc: 0.010416666666666666
+FUSED-epoch-6-client forget, Avg_r_acc: 0.8709591123294735, Avg_f_acc: 0.010416666666666666
+FUSED-epoch-7-client forget, Avg_r_acc: 0.8724800694242775, Avg_f_acc: 0.010416666666666666
+FUSED-epoch-8-client forget, Avg_r_acc: 0.8708845348481888, Avg_f_acc: 0.010416666666666666
+FUSED-epoch-9-client forget, Avg_r_acc: 0.874195112102227, Avg_f_acc: 0.010416666666666666
+FUSED-epoch-10-client forget, Avg_r_acc: 0.8697611175701072, Avg_f_acc: 0.010416666666666666
+FUSED-epoch-11-client forget, Avg_r_acc: 0.8744985986388567, Avg_f_acc: 0.010416666666666666
+FUSED-epoch-12-client forget, Avg_r_acc: 0.869438498596502, Avg_f_acc: 0.010416666666666666
+FUSED-epoch-13-client forget, Avg_r_acc: 0.8701541738388494, Avg_f_acc: 0.010416666666666666
+FUSED-epoch-14-client forget, Avg_r_acc: 0.8679469582950847, Avg_f_acc: 0.010416666666666666
+FUSED-epoch-15-client forget, Avg_r_acc: 0.8735888174147534, Avg_f_acc: 0.010416666666666666
+FUSED-epoch-16-client forget, Avg_r_acc: 0.8725946747477065, Avg_f_acc: 0.008928571428571428
+FUSED-epoch-17-client forget, Avg_r_acc: 0.8761188748090405, Avg_f_acc: 0.008928571428571428
+FUSED-epoch-18-client forget, Avg_r_acc: 0.875850930173228, Avg_f_acc: 0.008928571428571428
+FUSED-epoch-19-client forget, Avg_r_acc: 0.8725625537243423, Avg_f_acc: 0.008928571428571428
+FUSED-epoch-20-client forget, Avg_r_acc: 0.875685460720612, Avg_f_acc: 0.008928571428571428
+FUSED-epoch-21-client forget, Avg_r_acc: 0.8732688542080752, Avg_f_acc: 0.008928571428571428
+FUSED-epoch-22-client forget, Avg_r_acc: 0.8755605992994925, Avg_f_acc: 0.008928571428571428
+FUSED-epoch-23-client forget, Avg_r_acc: 0.8760351181167576, Avg_f_acc: 0.008928571428571428
+FUSED-epoch-24-client forget, Avg_r_acc: 0.8749173811477743, Avg_f_acc: 0.008928571428571428
+FUSED-epoch-25-client forget, Avg_r_acc: 0.8770147660229627, Avg_f_acc: 0.002976190476190476
+FUSED-epoch-26-client forget, Avg_r_acc: 0.8750229243165489, Avg_f_acc: 0.002976190476190476
+FUSED-epoch-27-client forget, Avg_r_acc: 0.8754678762913901, Avg_f_acc: 0.002976190476190476
+FUSED-epoch-28-client forget, Avg_r_acc: 0.8769918275105759, Avg_f_acc: 0.002380952380952381
+FUSED-epoch-29-client forget, Avg_r_acc: 0.8763768571809243, Avg_f_acc: 0.002976190476190476
+FUSED-epoch-30-client forget, Avg_r_acc: 0.8787919124158972, Avg_f_acc: 0.002976190476190476
+FUSED-epoch-31-client forget, Avg_r_acc: 0.876077671321303, Avg_f_acc: 0.002976190476190476
+FUSED-epoch-32-client forget, Avg_r_acc: 0.8770441624176941, Avg_f_acc: 0.002976190476190476
+FUSED-epoch-33-client forget, Avg_r_acc: 0.8791545803418068, Avg_f_acc: 0.002976190476190476
+FUSED-epoch-34-client forget, Avg_r_acc: 0.8748474483369454, Avg_f_acc: 0.002976190476190476
+FUSED-epoch-35-client forget, Avg_r_acc: 0.8771797196228287, Avg_f_acc: 0.002976190476190476
+FUSED-epoch-36-client forget, Avg_r_acc: 0.8785684708858362, Avg_f_acc: 0.002976190476190476
+FUSED-epoch-37-client forget, Avg_r_acc: 0.8765005716656955, Avg_f_acc: 0.002976190476190476
+FUSED-epoch-38-client forget, Avg_r_acc: 0.8785379611538662, Avg_f_acc: 0.002976190476190476
+FUSED-epoch-39-client forget, Avg_r_acc: 0.8751429013136612, Avg_f_acc: 0.002976190476190476
+FUSED-epoch-40-client forget, Avg_r_acc: 0.879084927972576, Avg_f_acc: 0.002976190476190476
+FUSED-epoch-41-client forget, Avg_r_acc: 0.875032920511118, Avg_f_acc: 0.002976190476190476
+FUSED-epoch-42-client forget, Avg_r_acc: 0.8744589161863857, Avg_f_acc: 0.002976190476190476
+FUSED-epoch-43-client forget, Avg_r_acc: 0.8753372089335587, Avg_f_acc: 0.002976190476190476
+FUSED-epoch-44-client forget, Avg_r_acc: 0.8767796753449351, Avg_f_acc: 0.002976190476190476
+FUSED-epoch-45-client forget, Avg_r_acc: 0.8741694464193713, Avg_f_acc: 0.002380952380952381
+FUSED-epoch-46-client forget, Avg_r_acc: 0.8762896191395526, Avg_f_acc: 0.002380952380952381
+FUSED-epoch-47-client forget, Avg_r_acc: 0.8770817622257521, Avg_f_acc: 0.002976190476190476
+FUSED-epoch-48-client forget, Avg_r_acc: 0.8775888250721068, Avg_f_acc: 0.002976190476190476
+FUSED-epoch-49-client forget, Avg_r_acc: 0.8764183992241895, Avg_f_acc: 0.002380952380952381
+Unlearning complete. Extracting the original Phase 1 base model...
+Original Phase 1 model successfully restored and saved to disk!
+FUSED-epoch-xxxx-client forget, Avg_r_acc: 0.8633671589594664, Avg_f_acc: 0.013242544492544493
+FUSED-epoch-0-client forget, Avg_r_acc: 0.8668666216633751, Avg_f_acc: 0.01149891774891775
+FUSED-epoch-1-client forget, Avg_r_acc: 0.868857059415695, Avg_f_acc: 0.01149891774891775
+FUSED-epoch-2-client forget, Avg_r_acc: 0.8687230575338104, Avg_f_acc: 0.010416666666666666
+FUSED-epoch-3-client forget, Avg_r_acc: 0.8715801234739439, Avg_f_acc: 0.010416666666666666
+FUSED-epoch-4-client forget, Avg_r_acc: 0.8717385555901822, Avg_f_acc: 0.010416666666666666
+FUSED-epoch-5-client forget, Avg_r_acc: 0.8721219670346448, Avg_f_acc: 0.010416666666666666
+FUSED-epoch-6-client forget, Avg_r_acc: 0.8723490406729115, Avg_f_acc: 0.010416666666666666
+FUSED-epoch-7-client forget, Avg_r_acc: 0.8729969966784253, Avg_f_acc: 0.010416666666666666
+FUSED-epoch-8-client forget, Avg_r_acc: 0.8727596757371462, Avg_f_acc: 0.010416666666666666
+FUSED-epoch-9-client forget, Avg_r_acc: 0.8749127396203215, Avg_f_acc: 0.010416666666666666
+FUSED-epoch-10-client forget, Avg_r_acc: 0.8734112104007331, Avg_f_acc: 0.010416666666666666
+FUSED-epoch-11-client forget, Avg_r_acc: 0.8741177205985503, Avg_f_acc: 0.010416666666666666
+FUSED-epoch-12-client forget, Avg_r_acc: 0.8743707832400417, Avg_f_acc: 0.010416666666666666
+FUSED-epoch-13-client forget, Avg_r_acc: 0.8756821891673008, Avg_f_acc: 0.010416666666666666
+FUSED-epoch-14-client forget, Avg_r_acc: 0.8754853268194629, Avg_f_acc: 0.010416666666666666
+FUSED-epoch-15-client forget, Avg_r_acc: 0.8725031223407669, Avg_f_acc: 0.010416666666666666
+FUSED-epoch-16-client forget, Avg_r_acc: 0.872655168386478, Avg_f_acc: 0.010416666666666666
+FUSED-epoch-17-client forget, Avg_r_acc: 0.8747823833222045, Avg_f_acc: 0.010416666666666666
+FUSED-epoch-18-client forget, Avg_r_acc: 0.8739850688719658, Avg_f_acc: 0.004464285714285714
+FUSED-epoch-19-client forget, Avg_r_acc: 0.871432270465885, Avg_f_acc: 0.004464285714285714
+FUSED-epoch-20-client forget, Avg_r_acc: 0.8748193870778116, Avg_f_acc: 0.002976190476190476
+FUSED-epoch-21-client forget, Avg_r_acc: 0.8742050354122529, Avg_f_acc: 0.002976190476190476
+FUSED-epoch-22-client forget, Avg_r_acc: 0.8741236566130476, Avg_f_acc: 0.002976190476190476
+FUSED-epoch-23-client forget, Avg_r_acc: 0.87478859702162, Avg_f_acc: 0.004058441558441558
+FUSED-epoch-24-client forget, Avg_r_acc: 0.8738107452880518, Avg_f_acc: 0.002976190476190476
+FUSED-epoch-25-client forget, Avg_r_acc: 0.87369068783521, Avg_f_acc: 0.002976190476190476
+FUSED-epoch-26-client forget, Avg_r_acc: 0.8692152120871244, Avg_f_acc: 0.002976190476190476
+FUSED-epoch-27-client forget, Avg_r_acc: 0.8731949257884138, Avg_f_acc: 0.002976190476190476
+FUSED-epoch-28-client forget, Avg_r_acc: 0.8730581227487639, Avg_f_acc: 0.002976190476190476
+FUSED-epoch-29-client forget, Avg_r_acc: 0.8725278250530472, Avg_f_acc: 0.002976190476190476
+FUSED-epoch-30-client forget, Avg_r_acc: 0.8751503085687131, Avg_f_acc: 0.002976190476190476
+FUSED-epoch-31-client forget, Avg_r_acc: 0.8766182072190228, Avg_f_acc: 0.002976190476190476
+FUSED-epoch-32-client forget, Avg_r_acc: 0.8718782771925515, Avg_f_acc: 0.002976190476190476
+FUSED-epoch-33-client forget, Avg_r_acc: 0.8757023068189366, Avg_f_acc: 0.002976190476190476
+FUSED-epoch-34-client forget, Avg_r_acc: 0.8759975347687688, Avg_f_acc: 0.002976190476190476
+FUSED-epoch-35-client forget, Avg_r_acc: 0.8762999130314262, Avg_f_acc: 0.002976190476190476
+FUSED-epoch-36-client forget, Avg_r_acc: 0.8746225520621659, Avg_f_acc: 0.002976190476190476
+FUSED-epoch-37-client forget, Avg_r_acc: 0.8759707624859019, Avg_f_acc: 0.002976190476190476
+FUSED-epoch-38-client forget, Avg_r_acc: 0.8761118429185542, Avg_f_acc: 0.002976190476190476
+FUSED-epoch-39-client forget, Avg_r_acc: 0.8742910315517486, Avg_f_acc: 0.002976190476190476
+FUSED-epoch-40-client forget, Avg_r_acc: 0.8756186638977218, Avg_f_acc: 0.002976190476190476
+FUSED-epoch-41-client forget, Avg_r_acc: 0.8752603182453629, Avg_f_acc: 0.004058441558441558
+FUSED-epoch-42-client forget, Avg_r_acc: 0.875339804220158, Avg_f_acc: 0.003463203463203463
+FUSED-epoch-43-client forget, Avg_r_acc: 0.874311032723769, Avg_f_acc: 0.002976190476190476
+FUSED-epoch-44-client forget, Avg_r_acc: 0.874171114372545, Avg_f_acc: 0.002976190476190476
+FUSED-epoch-45-client forget, Avg_r_acc: 0.8756595700011894, Avg_f_acc: 0.003463203463203463
+FUSED-epoch-46-client forget, Avg_r_acc: 0.874808753726224, Avg_f_acc: 0.002380952380952381
+FUSED-epoch-47-client forget, Avg_r_acc: 0.8748510404932984, Avg_f_acc: 0.002380952380952381
+FUSED-epoch-48-client forget, Avg_r_acc: 0.8755662492120712, Avg_f_acc: 0.004058441558441558
+FUSED-epoch-49-client forget, Avg_r_acc: 0.8680661102827746, Avg_f_acc: 0.002976190476190476
+Unlearning complete. Extracting the original Phase 1 base model...
+Original Phase 1 model successfully restored and saved to disk!
+FUSED-epoch-xxxx-client forget, Avg_r_acc: 0.8633671589594664, Avg_f_acc: 0.013242544492544493
+FUSED-epoch-0-client forget, Avg_r_acc: 0.8677396551341335, Avg_f_acc: 0.013573232323232326
+FUSED-epoch-1-client forget, Avg_r_acc: 0.8684065715211796, Avg_f_acc: 0.012490981240981242
+FUSED-epoch-2-client forget, Avg_r_acc: 0.866289876992219, Avg_f_acc: 0.01149891774891775
+FUSED-epoch-3-client forget, Avg_r_acc: 0.8663109320521926, Avg_f_acc: 0.01149891774891775
+FUSED-epoch-4-client forget, Avg_r_acc: 0.8687637890990737, Avg_f_acc: 0.01149891774891775
+FUSED-epoch-5-client forget, Avg_r_acc: 0.8690717501426566, Avg_f_acc: 0.01149891774891775
+FUSED-epoch-6-client forget, Avg_r_acc: 0.8700661892077801, Avg_f_acc: 0.01149891774891775
+FUSED-epoch-7-client forget, Avg_r_acc: 0.8729418187771152, Avg_f_acc: 0.01149891774891775
+FUSED-epoch-8-client forget, Avg_r_acc: 0.8693240106315318, Avg_f_acc: 0.010416666666666666
+FUSED-epoch-9-client forget, Avg_r_acc: 0.8753961165179328, Avg_f_acc: 0.010416666666666666
+FUSED-epoch-10-client forget, Avg_r_acc: 0.871609027591118, Avg_f_acc: 0.01149891774891775
+FUSED-epoch-11-client forget, Avg_r_acc: 0.8720603609479617, Avg_f_acc: 0.010416666666666666
+FUSED-epoch-12-client forget, Avg_r_acc: 0.871498372278367, Avg_f_acc: 0.010416666666666666
+FUSED-epoch-13-client forget, Avg_r_acc: 0.8722068002799684, Avg_f_acc: 0.010416666666666666
+FUSED-epoch-14-client forget, Avg_r_acc: 0.875334423678953, Avg_f_acc: 0.010416666666666666
+FUSED-epoch-15-client forget, Avg_r_acc: 0.8691170034234346, Avg_f_acc: 0.01149891774891775
+FUSED-epoch-16-client forget, Avg_r_acc: 0.8726634412433605, Avg_f_acc: 0.010416666666666666
+FUSED-epoch-17-client forget, Avg_r_acc: 0.8716154102161917, Avg_f_acc: 0.010416666666666666
+FUSED-epoch-18-client forget, Avg_r_acc: 0.8707474562549334, Avg_f_acc: 0.010416666666666666
+FUSED-epoch-19-client forget, Avg_r_acc: 0.8724851110721821, Avg_f_acc: 0.008928571428571428
+FUSED-epoch-20-client forget, Avg_r_acc: 0.870142188709282, Avg_f_acc: 0.010416666666666666
+FUSED-epoch-21-client forget, Avg_r_acc: 0.8735076466794669, Avg_f_acc: 0.01149891774891775
+FUSED-epoch-22-client forget, Avg_r_acc: 0.8727603596852657, Avg_f_acc: 0.002976190476190476
+FUSED-epoch-23-client forget, Avg_r_acc: 0.872223534127132, Avg_f_acc: 0.002976190476190476
+FUSED-epoch-24-client forget, Avg_r_acc: 0.8693461108772186, Avg_f_acc: 0.004464285714285714
+FUSED-epoch-25-client forget, Avg_r_acc: 0.8709240064789042, Avg_f_acc: 0.004464285714285714
+FUSED-epoch-26-client forget, Avg_r_acc: 0.8730905561033745, Avg_f_acc: 0.004464285714285714
+FUSED-epoch-27-client forget, Avg_r_acc: 0.8730354548506681, Avg_f_acc: 0.004464285714285714
+FUSED-epoch-28-client forget, Avg_r_acc: 0.8707276821502569, Avg_f_acc: 0.002976190476190476
+FUSED-epoch-29-client forget, Avg_r_acc: 0.8679326505050309, Avg_f_acc: 0.004058441558441558
+FUSED-epoch-30-client forget, Avg_r_acc: 0.8731720171420699, Avg_f_acc: 0.002976190476190476
+FUSED-epoch-31-client forget, Avg_r_acc: 0.8718654742960241, Avg_f_acc: 0.002976190476190476
+FUSED-epoch-32-client forget, Avg_r_acc: 0.8739908951521079, Avg_f_acc: 0.002976190476190476
+FUSED-epoch-33-client forget, Avg_r_acc: 0.8722895782303712, Avg_f_acc: 0.002976190476190476
+FUSED-epoch-34-client forget, Avg_r_acc: 0.8727539895056211, Avg_f_acc: 0.002976190476190476
+FUSED-epoch-35-client forget, Avg_r_acc: 0.8720395578357136, Avg_f_acc: 0.002976190476190476
+FUSED-epoch-36-client forget, Avg_r_acc: 0.8738051700472175, Avg_f_acc: 0.002976190476190476
+FUSED-epoch-37-client forget, Avg_r_acc: 0.872227715904972, Avg_f_acc: 0.002976190476190476
+FUSED-epoch-38-client forget, Avg_r_acc: 0.8727217607627725, Avg_f_acc: 0.004058441558441558
+FUSED-epoch-39-client forget, Avg_r_acc: 0.8744723427392314, Avg_f_acc: 0.002976190476190476
+FUSED-epoch-40-client forget, Avg_r_acc: 0.8755204277392692, Avg_f_acc: 0.002380952380952381
+FUSED-epoch-41-client forget, Avg_r_acc: 0.8737436886600891, Avg_f_acc: 0.004058441558441558
+FUSED-epoch-42-client forget, Avg_r_acc: 0.8743071280098235, Avg_f_acc: 0.002976190476190476
+FUSED-epoch-43-client forget, Avg_r_acc: 0.8760244947039999, Avg_f_acc: 0.002976190476190476
+FUSED-epoch-44-client forget, Avg_r_acc: 0.8738823580394923, Avg_f_acc: 0.002976190476190476
+FUSED-epoch-45-client forget, Avg_r_acc: 0.8736905307188347, Avg_f_acc: 0.002976190476190476
+FUSED-epoch-46-client forget, Avg_r_acc: 0.8726781463029399, Avg_f_acc: 0.002976190476190476
+FUSED-epoch-47-client forget, Avg_r_acc: 0.8717995560522345, Avg_f_acc: 0.002976190476190476
+FUSED-epoch-48-client forget, Avg_r_acc: 0.8724818029039992, Avg_f_acc: 0.002976190476190476
+FUSED-epoch-49-client forget, Avg_r_acc: 0.8714423712031283, Avg_f_acc: 0.002976190476190476
+Unlearning complete. Extracting the original Phase 1 base model...
+Original Phase 1 model successfully restored and saved to disk!
+Accuracy score for client 0:
+0.5548469387755102
+Accuracy score for client 1:
+0.783157894736842
+Accuracy score for client 2:
+0.8280034572169404
+Accuracy score for client 3:
+0.07216494845360824
+Accuracy score for client 4:
+0.8469945355191257
+Accuracy score for client 5:
+0.8315881326352531
+Accuracy score for client 6:
+0.8456375838926175
+Accuracy score for client 7:
+0.7376518218623481
+Accuracy score for client 8:
+0.7470059880239521
+Accuracy score for client 9:
+0.40544518027961735
+Accuracy score for client 10:
+0.9463373083475298
+Accuracy score for client 11:
+0.7139364303178484
+Accuracy score for client 12:
+0.847233691164327
+Accuracy score for client 13:
+0.266
+Accuracy score for client 14:
+0.7602965403624382
+Accuracy score for client 15:
+0.7837171052631579
+Accuracy score for client 16:
+0.7872696817420436
+Accuracy score for client 17:
+0.6983805668016194
+Accuracy score for client 18:
+0.7201336675020885
+Accuracy score for client 19:
+0.3933685003767898
+Accuracy score for client 20:
+0.8294069861900893
+Accuracy score for client 21:
+0.7779632721202003
+Accuracy score for client 22:
+0.647982062780269
+Accuracy score for client 23:
+0.21774193548387097
+Accuracy score for client 24:
+0.7626262626262627
+Accuracy score for client 25:
+0.9781328847771237
+Accuracy score for client 26:
+0.803770351328192
+Accuracy score for client 27:
+0.6076923076923076
+Accuracy score for client 28:
+0.7342105263157894
+Accuracy score for client 29:
+0.3201035375323555
+Accuracy score for client 30:
+0.8137510879025239
+Accuracy score for client 31:
+0.7523041474654378
+Accuracy score for client 32:
+0.9606177606177606
+Accuracy score for client 33:
+0.3302611367127496
+Accuracy score for client 34:
+0.6253469010175763
+Accuracy score for client 35:
+0.7422279792746114
+Accuracy score for client 36:
+0.7969494756911344
+Accuracy score for client 37:
+0.8608549874266554
+Accuracy score for client 38:
+0.6723259762308998
+Accuracy score for client 39:
+0.7322383498854087
+Accuracy score for client 40:
+0.8040540540540541
+Accuracy score for client 41:
+0.7895142636854279
+Accuracy score for client 42:
+0.7094499294781382
+Accuracy score for client 43:
+0.38616251005631536
+Accuracy score for client 44:
+0.9206868356500408
+Accuracy score for client 45:
+0.4432515337423313
+Accuracy score for client 46:
+0.8485617597292724
+Accuracy score for client 47:
+0.8283582089552238
+Accuracy score for client 48:
+0.7458803122289679
+Accuracy score for client 49:
+0.6581306017925737
+Accuracy score for client 0:
+0.47066326530612246
+Accuracy score for client 1:
+0.7094736842105264
+Accuracy score for client 2:
+0.7631806395851339
+Accuracy score for client 3:
+0.13831615120274915
+Accuracy score for client 4:
+0.8032786885245902
+Accuracy score for client 5:
+0.7198952879581152
+Accuracy score for client 6:
+0.6996644295302014
+Accuracy score for client 7:
+0.6890688259109312
+Accuracy score for client 8:
+0.7013473053892215
+Accuracy score for client 9:
+0.5099337748344371
+Accuracy score for client 10:
+0.8807495741056218
+Accuracy score for client 11:
+0.58679706601467
+Accuracy score for client 12:
+0.7737407101568952
+Accuracy score for client 13:
+0.382
+Accuracy score for client 14:
+0.6548599670510709
+Accuracy score for client 15:
+0.7228618421052632
+Accuracy score for client 16:
+0.6683417085427136
+Accuracy score for client 17:
+0.5961538461538461
+Accuracy score for client 18:
+0.5747702589807853
+Accuracy score for client 19:
+0.4777694046721929
+Accuracy score for client 20:
+0.7611697806661251
+Accuracy score for client 21:
+0.6886477462437396
+Accuracy score for client 22:
+0.5814648729446936
+Accuracy score for client 23:
+0.28046594982078854
+Accuracy score for client 24:
+0.6388888888888888
+Accuracy score for client 25:
+0.9444911690496215
+Accuracy score for client 26:
+0.699228791773779
+Accuracy score for client 27:
+0.47692307692307695
+Accuracy score for client 28:
+0.6447368421052632
+Accuracy score for client 29:
+0.4115616911130285
+Accuracy score for client 30:
+0.7702349869451697
+Accuracy score for client 31:
+0.6854838709677419
+Accuracy score for client 32:
+0.8903474903474904
+Accuracy score for client 33:
+0.3932411674347158
+Accuracy score for client 34:
+0.5670675300647549
+Accuracy score for client 35:
+0.5932642487046632
+Accuracy score for client 36:
+0.7140133460438512
+Accuracy score for client 37:
+0.8038558256496228
+Accuracy score for client 38:
+0.5984719864176571
+Accuracy score for client 39:
+0.7738731856378915
+Accuracy score for client 40:
+0.6846846846846847
+Accuracy score for client 41:
+0.6962220508866616
+Accuracy score for client 42:
+0.6368124118476728
+Accuracy score for client 43:
+0.5382139983909895
+Accuracy score for client 44:
+0.8544562551103843
+Accuracy score for client 45:
+0.40337423312883436
+Accuracy score for client 46:
+0.7918781725888325
+Accuracy score for client 47:
+0.7768656716417911
+Accuracy score for client 48:
+0.6712922810060711
+Accuracy score for client 49:
+0.5966709346991037
+Accuracy score for client 0:
+0.5561224489795918
+Accuracy score for client 1:
+0.78
+Accuracy score for client 2:
+0.8055315471045809
+Accuracy score for client 3:
+0.07731958762886598
+Accuracy score for client 4:
+0.8278688524590164
+Accuracy score for client 5:
+0.8106457242582897
+Accuracy score for client 6:
+0.8800335570469798
+Accuracy score for client 7:
+0.7174089068825911
+Accuracy score for client 8:
+0.7110778443113772
+Accuracy score for client 9:
+0.4311994113318617
+Accuracy score for client 10:
+0.9310051107325383
+Accuracy score for client 11:
+0.6960065199674002
+Accuracy score for client 12:
+0.8257638315441783
+Accuracy score for client 13:
+0.291
+Accuracy score for client 14:
+0.7421746293245469
+Accuracy score for client 15:
+0.7458881578947368
+Accuracy score for client 16:
+0.7956448911222781
+Accuracy score for client 17:
+0.6852226720647774
+Accuracy score for client 18:
+0.7076023391812866
+Accuracy score for client 19:
+0.4024114544084401
+Accuracy score for client 20:
+0.7774167343623071
+Accuracy score for client 21:
+0.7437395659432388
+Accuracy score for client 22:
+0.6270553064275037
+Accuracy score for client 23:
+0.24372759856630824
+Accuracy score for client 24:
+0.7508417508417509
+Accuracy score for client 25:
+0.9714045416316233
+Accuracy score for client 26:
+0.7712082262210797
+Accuracy score for client 27:
+0.6
+Accuracy score for client 28:
+0.7381578947368421
+Accuracy score for client 29:
+0.35893011216566006
+Accuracy score for client 30:
+0.8006962576153177
+Accuracy score for client 31:
+0.7223502304147466
+Accuracy score for client 32:
+0.9776061776061776
+Accuracy score for client 33:
+0.3932411674347158
+Accuracy score for client 34:
+0.5901942645698427
+Accuracy score for client 35:
+0.7072538860103627
+Accuracy score for client 36:
+0.792183031458532
+Accuracy score for client 37:
+0.8591785414920369
+Accuracy score for client 38:
+0.6757215619694398
+Accuracy score for client 39:
+0.7433155080213903
+Accuracy score for client 40:
+0.8096846846846847
+Accuracy score for client 41:
+0.7771781033153431
+Accuracy score for client 42:
+0.7009873060648801
+Accuracy score for client 43:
+0.4440868865647627
+Accuracy score for client 44:
+0.9165985282093213
+Accuracy score for client 45:
+0.4348159509202454
+Accuracy score for client 46:
+0.811336717428088
+Accuracy score for client 47:
+0.8059701492537313
+Accuracy score for client 48:
+0.6721595836947094
+Accuracy score for client 49:
+0.6504481434058899
+Accuracy score for client 0:
+0.5242346938775511
+Accuracy score for client 1:
+0.7231578947368421
+Accuracy score for client 2:
+0.8063958513396715
+Accuracy score for client 3:
+0.13659793814432988
+Accuracy score for client 4:
+0.8142076502732241
+Accuracy score for client 5:
+0.7609075043630017
+Accuracy score for client 6:
+0.8104026845637584
+Accuracy score for client 7:
+0.682591093117409
+Accuracy score for client 8:
+0.6953592814371258
+Accuracy score for client 9:
+0.43340691685062543
+Accuracy score for client 10:
+0.833901192504259
+Accuracy score for client 11:
+0.6919315403422983
+Accuracy score for client 12:
+0.7927332782824112
+Accuracy score for client 13:
+0.32
+Accuracy score for client 14:
+0.7273476112026359
+Accuracy score for client 15:
+0.7689144736842105
+Accuracy score for client 16:
+0.7278056951423786
+Accuracy score for client 17:
+0.694331983805668
+Accuracy score for client 18:
+0.6624895572263994
+Accuracy score for client 19:
+0.4431047475508666
+Accuracy score for client 20:
+0.6929325751421609
+Accuracy score for client 21:
+0.6719532554257095
+Accuracy score for client 22:
+0.6150971599402093
+Accuracy score for client 23:
+0.27956989247311825
+Accuracy score for client 24:
+0.7508417508417509
+Accuracy score for client 25:
+0.9091673675357443
+Accuracy score for client 26:
+0.7600685518423308
+Accuracy score for client 27:
+0.6240384615384615
+Accuracy score for client 28:
+0.7210526315789474
+Accuracy score for client 29:
+0.35806729939603105
+Accuracy score for client 30:
+0.835509138381201
+Accuracy score for client 31:
+0.6947004608294931
+Accuracy score for client 32:
+0.9011583011583012
+Accuracy score for client 33:
+0.40860215053763443
+Accuracy score for client 34:
+0.574468085106383
+Accuracy score for client 35:
+0.7331606217616581
+Accuracy score for client 36:
+0.7969494756911344
+Accuracy score for client 37:
+0.8055322715842415
+Accuracy score for client 38:
+0.6307300509337861
+Accuracy score for client 39:
+0.7524828113063408
+Accuracy score for client 40:
+0.7162162162162162
+Accuracy score for client 41:
+0.7671549730146492
+Accuracy score for client 42:
+0.6727785613540197
+Accuracy score for client 43:
+0.46017699115044247
+Accuracy score for client 44:
+0.8462796402289452
+Accuracy score for client 45:
+0.4148773006134969
+Accuracy score for client 46:
+0.7191201353637902
+Accuracy score for client 47:
+0.8097014925373134
+Accuracy score for client 48:
+0.5498699045967043
+Accuracy score for client 49:
+0.6722151088348272
+Accuracy score for client 0:
+0.5127551020408163
+Accuracy score for client 1:
+0.6978947368421052
+Accuracy score for client 2:
+0.8262748487467588
+Accuracy score for client 3:
+0.16580756013745704
+Accuracy score for client 4:
+0.8224043715846995
+Accuracy score for client 5:
+0.7521815008726004
+Accuracy score for client 6:
+0.74748322147651
+Accuracy score for client 7:
+0.6890688259109312
+Accuracy score for client 8:
+0.7140718562874252
+Accuracy score for client 9:
+0.4297277409860191
+Accuracy score for client 10:
+0.8185689948892675
+Accuracy score for client 11:
+0.700081499592502
+Accuracy score for client 12:
+0.7720891824938068
+Accuracy score for client 13:
+0.308
+Accuracy score for client 14:
+0.7273476112026359
+Accuracy score for client 15:
+0.7927631578947368
+Accuracy score for client 16:
+0.7110552763819096
+Accuracy score for client 17:
+0.7044534412955465
+Accuracy score for client 18:
+0.6491228070175439
+Accuracy score for client 19:
+0.44385832705350414
+Accuracy score for client 20:
+0.7124289195775793
+Accuracy score for client 21:
+0.676126878130217
+Accuracy score for client 22:
+0.6278026905829597
+Accuracy score for client 23:
+0.25
+Accuracy score for client 24:
+0.76010101010101
+Accuracy score for client 25:
+0.9058031959629941
+Accuracy score for client 26:
+0.7746358183376179
+Accuracy score for client 27:
+0.6423076923076924
+Accuracy score for client 28:
+0.6736842105263158
+Accuracy score for client 29:
+0.35030198446937016
+Accuracy score for client 30:
+0.8433420365535248
+Accuracy score for client 31:
+0.7096774193548387
+Accuracy score for client 32:
+0.8733590733590734
+Accuracy score for client 33:
+0.37480798771121354
+Accuracy score for client 34:
+0.6022201665124884
+Accuracy score for client 35:
+0.7240932642487047
+Accuracy score for client 36:
+0.8045757864632984
+Accuracy score for client 37:
+0.8164291701592624
+Accuracy score for client 38:
+0.6086587436332768
+Accuracy score for client 39:
+0.7513368983957219
+Accuracy score for client 40:
+0.668918918918919
+Accuracy score for client 41:
+0.7632999228989977
+Accuracy score for client 42:
+0.653737658674189
+Accuracy score for client 43:
+0.4239742558326629
+Accuracy score for client 44:
+0.8242027800490597
+Accuracy score for client 45:
+0.4171779141104294
+Accuracy score for client 46:
+0.7360406091370558
+Accuracy score for client 47:
+0.8216417910447761
+Accuracy score for client 48:
+0.611448395490026
+Accuracy score for client 49:
+0.6798975672215108
+Accuracy score for client 0:
+0.576530612244898
+Accuracy score for client 1:
+0.7357894736842105
+Accuracy score for client 2:
+0.8271391529818496
+Accuracy score for client 3:
+0.14604810996563575
+Accuracy score for client 4:
+0.819672131147541
+Accuracy score for client 5:
+0.787085514834206
+Accuracy score for client 6:
+0.7860738255033557
+Accuracy score for client 7:
+0.6963562753036437
+Accuracy score for client 8:
+0.7155688622754491
+Accuracy score for client 9:
+0.39440765268579836
+Accuracy score for client 10:
+0.8432708688245315
+Accuracy score for client 11:
+0.7212713936430318
+Accuracy score for client 12:
+0.7910817506193228
+Accuracy score for client 13:
+0.244
+Accuracy score for client 14:
+0.799835255354201
+Accuracy score for client 15:
+0.7730263157894737
+Accuracy score for client 16:
+0.7462311557788944
+Accuracy score for client 17:
+0.7722672064777328
+Accuracy score for client 18:
+0.7510442773600668
+Accuracy score for client 19:
+0.43180105501130367
+Accuracy score for client 20:
+0.7611697806661251
+Accuracy score for client 21:
+0.7287145242070117
+Accuracy score for client 22:
+0.6584454409566517
+Accuracy score for client 23:
+0.2302867383512545
+Accuracy score for client 24:
+0.7912457912457912
+Accuracy score for client 25:
+0.9007569386038689
+Accuracy score for client 26:
+0.8226221079691517
+Accuracy score for client 27:
+0.7086538461538462
+Accuracy score for client 28:
+0.7052631578947368
+Accuracy score for client 29:
+0.2942191544434858
+Accuracy score for client 30:
+0.8137510879025239
+Accuracy score for client 31:
+0.7050691244239631
+Accuracy score for client 32:
+0.901930501930502
+Accuracy score for client 33:
+0.37327188940092165
+Accuracy score for client 34:
+0.61054579093432
+Accuracy score for client 35:
+0.8147668393782384
+Accuracy score for client 36:
+0.8112488083889419
+Accuracy score for client 37:
+0.8206202849958089
+Accuracy score for client 38:
+0.6417657045840407
+Accuracy score for client 39:
+0.7463712757830405
+Accuracy score for client 40:
+0.7488738738738738
+Accuracy score for client 41:
+0.8164996144949884
+Accuracy score for client 42:
+0.6946403385049366
+Accuracy score for client 43:
+0.34513274336283184
+Accuracy score for client 44:
+0.8536385936222404
+Accuracy score for client 45:
+0.4256134969325153
+Accuracy score for client 46:
+0.7783417935702199
+Accuracy score for client 47:
+0.8022388059701493
+Accuracy score for client 48:
+0.6634865568083261
+Accuracy score for client 49:
+0.6837387964148528
+Accuracy score for client 0:
+0.44387755102040816
+Accuracy score for client 1:
+0.6589473684210526
+Accuracy score for client 2:
+0.662057044079516
+Accuracy score for client 3:
+0.22852233676975944
+Accuracy score for client 4:
+0.6994535519125683
+Accuracy score for client 5:
+0.6605584642233857
+Accuracy score for client 6:
+0.697986577181208
+Accuracy score for client 7:
+0.5724696356275304
+Accuracy score for client 8:
+0.5860778443113772
+Accuracy score for client 9:
+0.609271523178808
+Accuracy score for client 10:
+0.7734241908006815
+Accuracy score for client 11:
+0.48655256723716384
+Accuracy score for client 12:
+0.6845582163501238
+Accuracy score for client 13:
+0.447
+Accuracy score for client 14:
+0.6202635914332785
+Accuracy score for client 15:
+0.5740131578947368
+Accuracy score for client 16:
+0.6507537688442211
+Accuracy score for client 17:
+0.5455465587044535
+Accuracy score for client 18:
+0.5162907268170426
+Accuracy score for client 19:
+0.5410700828937453
+Accuracy score for client 20:
+0.6238830219333875
+Accuracy score for client 21:
+0.5467445742904842
+Accuracy score for client 22:
+0.5059790732436472
+Accuracy score for client 23:
+0.4014336917562724
+Accuracy score for client 24:
+0.5808080808080808
+Accuracy score for client 25:
+0.8292682926829268
+Accuracy score for client 26:
+0.6272493573264781
+Accuracy score for client 27:
+0.4269230769230769
+Accuracy score for client 28:
+0.5828947368421052
+Accuracy score for client 29:
+0.47627264883520276
+Accuracy score for client 30:
+0.6344647519582245
+Accuracy score for client 31:
+0.5679723502304147
+Accuracy score for client 32:
+0.8540540540540541
+Accuracy score for client 33:
+0.554531490015361
+Accuracy score for client 34:
+0.4958371877890842
+Accuracy score for client 35:
+0.5621761658031088
+Accuracy score for client 36:
+0.6367969494756911
+Accuracy score for client 37:
+0.7183570829840737
+Accuracy score for client 38:
+0.5747028862478778
+Accuracy score for client 39:
+0.826585179526356
+Accuracy score for client 40:
+0.6576576576576577
+Accuracy score for client 41:
+0.6376252891287587
+Accuracy score for client 42:
+0.5930888575458392
+Accuracy score for client 43:
+0.6781979082864039
+Accuracy score for client 44:
+0.8070318887980377
+Accuracy score for client 45:
+0.31901840490797545
+Accuracy score for client 46:
+0.6514382402707276
+Accuracy score for client 47:
+0.6440298507462686
+Accuracy score for client 48:
+0.4692107545533391
+Accuracy score for client 49:
+0.471190781049936
+Accuracy score for client 0:
+0.4897959183673469
+Accuracy score for client 1:
+0.6684210526315789
+Accuracy score for client 2:
+0.7242869490060502
+Accuracy score for client 3:
+0.20532646048109965
+Accuracy score for client 4:
+0.7486338797814208
+Accuracy score for client 5:
+0.6963350785340314
+Accuracy score for client 6:
+0.7105704697986577
+Accuracy score for client 7:
+0.5919028340080972
+Accuracy score for client 8:
+0.6362275449101796
+Accuracy score for client 9:
+0.5364238410596026
+Accuracy score for client 10:
+0.7563884156729132
+Accuracy score for client 11:
+0.5704971475142624
+Accuracy score for client 12:
+0.7052023121387283
+Accuracy score for client 13:
+0.382
+Accuracy score for client 14:
+0.671334431630972
+Accuracy score for client 15:
+0.6447368421052632
+Accuracy score for client 16:
+0.6683417085427136
+Accuracy score for client 17:
+0.638663967611336
+Accuracy score for client 18:
+0.5847953216374269
+Accuracy score for client 19:
+0.520723436322532
+Accuracy score for client 20:
+0.6433793663688059
+Accuracy score for client 21:
+0.6018363939899833
+Accuracy score for client 22:
+0.5485799701046338
+Accuracy score for client 23:
+0.3485663082437276
+Accuracy score for client 24:
+0.6666666666666666
+Accuracy score for client 25:
+0.8444070647603028
+Accuracy score for client 26:
+0.6786632390745502
+Accuracy score for client 27:
+0.5403846153846154
+Accuracy score for client 28:
+0.6065789473684211
+Accuracy score for client 29:
+0.4098360655737705
+Accuracy score for client 30:
+0.7075718015665796
+Accuracy score for client 31:
+0.6048387096774194
+Accuracy score for client 32:
+0.8617760617760618
+Accuracy score for client 33:
+0.4915514592933948
+Accuracy score for client 34:
+0.5309898242368177
+Accuracy score for client 35:
+0.677461139896373
+Accuracy score for client 36:
+0.7140133460438512
+Accuracy score for client 37:
+0.7518860016764459
+Accuracy score for client 38:
+0.6027164685908319
+Accuracy score for client 39:
+0.7960275019098548
+Accuracy score for client 40:
+0.6599099099099099
+Accuracy score for client 41:
+0.700077101002313
+Accuracy score for client 42:
+0.6290550070521862
+Accuracy score for client 43:
+0.5695897023330652
+Accuracy score for client 44:
+0.8103025347506132
+Accuracy score for client 45:
+0.3558282208588957
+Accuracy score for client 46:
+0.676818950930626
+Accuracy score for client 47:
+0.6895522388059702
+Accuracy score for client 48:
+0.5065047701647876
+Accuracy score for client 49:
+0.5467349551856594
+Accuracy score for client 0:
+0.45918367346938777
+Accuracy score for client 1:
+0.6410526315789473
+Accuracy score for client 2:
+0.68971477960242
+Accuracy score for client 3:
+0.23024054982817868
+Accuracy score for client 4:
+0.73224043715847
+Accuracy score for client 5:
+0.7006980802792321
+Accuracy score for client 6:
+0.6786912751677853
+Accuracy score for client 7:
+0.5757085020242915
+Accuracy score for client 8:
+0.6294910179640718
+Accuracy score for client 9:
+0.5849889624724062
+Accuracy score for client 10:
+0.7367972742759795
+Accuracy score for client 11:
+0.5354523227383863
+Accuracy score for client 12:
+0.6424442609413707
+Accuracy score for client 13:
+0.43
+Accuracy score for client 14:
+0.6243822075782537
+Accuracy score for client 15:
+0.6266447368421053
+Accuracy score for client 16:
+0.6666666666666666
+Accuracy score for client 17:
+0.5759109311740891
+Accuracy score for client 18:
+0.5363408521303258
+Accuracy score for client 19:
+0.5403165033911078
+Accuracy score for client 20:
+0.6368805848903331
+Accuracy score for client 21:
+0.5409015025041736
+Accuracy score for client 22:
+0.5104633781763827
+Accuracy score for client 23:
+0.37455197132616486
+Accuracy score for client 24:
+0.6043771043771043
+Accuracy score for client 25:
+0.8444070647603028
+Accuracy score for client 26:
+0.6383890317052271
+Accuracy score for client 27:
+0.4576923076923077
+Accuracy score for client 28:
+0.5947368421052631
+Accuracy score for client 29:
+0.4400345125107852
+Accuracy score for client 30:
+0.68059181897302
+Accuracy score for client 31:
+0.5599078341013825
+Accuracy score for client 32:
+0.8810810810810811
+Accuracy score for client 33:
+0.4946236559139785
+Accuracy score for client 34:
+0.5180388529139686
+Accuracy score for client 35:
+0.5660621761658031
+Accuracy score for client 36:
+0.6329837940896091
+Accuracy score for client 37:
+0.7384744341994971
+Accuracy score for client 38:
+0.5925297113752123
+Accuracy score for client 39:
+0.7937356760886173
+Accuracy score for client 40:
+0.6599099099099099
+Accuracy score for client 41:
+0.6376252891287587
+Accuracy score for client 42:
+0.5486600846262342
+Accuracy score for client 43:
+0.6315366049879324
+Accuracy score for client 44:
+0.8250204415372036
+Accuracy score for client 45:
+0.33358895705521474
+Accuracy score for client 46:
+0.6582064297800339
+Accuracy score for client 47:
+0.6664179104477612
+Accuracy score for client 48:
+0.5290546400693842
+Accuracy score for client 49:
+0.5070422535211268
+Accuracy score for client 0:
+0.5242346938775511
+Accuracy score for client 1:
+0.7431578947368421
+Accuracy score for client 2:
+0.8115816767502161
+Accuracy score for client 3:
+0.14432989690721648
+Accuracy score for client 4:
+0.7896174863387978
+Accuracy score for client 5:
+0.7609075043630017
+Accuracy score for client 6:
+0.7978187919463087
+Accuracy score for client 7:
+0.6842105263157895
+Accuracy score for client 8:
+0.717814371257485
+Accuracy score for client 9:
+0.4481236203090508
+Accuracy score for client 10:
+0.8594548551959114
+Accuracy score for client 11:
+0.706601466992665
+Accuracy score for client 12:
+0.8092485549132948
+Accuracy score for client 13:
+0.339
+Accuracy score for client 14:
+0.7125205930807249
+Accuracy score for client 15:
+0.7689144736842105
+Accuracy score for client 16:
+0.7278056951423786
+Accuracy score for client 17:
+0.6821862348178138
+Accuracy score for client 18:
+0.6499582289055973
+Accuracy score for client 19:
+0.44385832705350414
+Accuracy score for client 20:
+0.6896831844029244
+Accuracy score for client 21:
+0.6736227045075125
+Accuracy score for client 22:
+0.617339312406577
+Accuracy score for client 23:
+0.2616487455197133
+Accuracy score for client 24:
+0.7592592592592593
+Accuracy score for client 25:
+0.9032800672834315
+Accuracy score for client 26:
+0.7523564695801199
+Accuracy score for client 27:
+0.6076923076923076
+Accuracy score for client 28:
+0.6894736842105263
+Accuracy score for client 29:
+0.3718723037100949
+Accuracy score for client 30:
+0.834638816362054
+Accuracy score for client 31:
+0.6923963133640553
+Accuracy score for client 32:
+0.9003861003861003
+Accuracy score for client 33:
+0.3901689708141321
+Accuracy score for client 34:
+0.5827937095282146
+Accuracy score for client 35:
+0.6917098445595855
+Accuracy score for client 36:
+0.7893231649189705
+Accuracy score for client 37:
+0.8122380553227159
+Accuracy score for client 38:
+0.6426146010186757
+Accuracy score for client 39:
+0.7421695951107716
+Accuracy score for client 40:
+0.7207207207207207
+Accuracy score for client 41:
+0.7540478026214341
+Accuracy score for client 42:
+0.6748942172073342
+Accuracy score for client 43:
+0.4577634754625905
+Accuracy score for client 44:
+0.8577269010629599
+Accuracy score for client 45:
+0.42024539877300615
+Accuracy score for client 46:
+0.7411167512690355
+Accuracy score for client 47:
+0.7992537313432836
+Accuracy score for client 48:
+0.5819601040763226
+Accuracy score for client 49:
+0.6709346991037132
+Accuracy score for client 0:
+0.43239795918367346
+Accuracy score for client 1:
+0.6063157894736843
+Accuracy score for client 2:
+0.7355229040622299
+Accuracy score for client 3:
+0.2654639175257732
+Accuracy score for client 4:
+0.7349726775956285
+Accuracy score for client 5:
+0.6719022687609075
+Accuracy score for client 6:
+0.639261744966443
+Accuracy score for client 7:
+0.5975708502024292
+Accuracy score for client 8:
+0.6511976047904192
+Accuracy score for client 9:
+0.5312729948491538
+Accuracy score for client 10:
+0.6908006814310051
+Accuracy score for client 11:
+0.6071719641401793
+Accuracy score for client 12:
+0.6614368290668868
+Accuracy score for client 13:
+0.482
+Accuracy score for client 14:
+0.5881383855024712
+Accuracy score for client 15:
+0.734375
+Accuracy score for client 16:
+0.5728643216080402
+Accuracy score for client 17:
+0.590080971659919
+Accuracy score for client 18:
+0.5071010860484545
+Accuracy score for client 19:
+0.549359457422758
+Accuracy score for client 20:
+0.6263200649878148
+Accuracy score for client 21:
+0.5342237061769616
+Accuracy score for client 22:
+0.5089686098654709
+Accuracy score for client 23:
+0.3387096774193548
+Accuracy score for client 24:
+0.6590909090909091
+Accuracy score for client 25:
+0.8023549201009251
+Accuracy score for client 26:
+0.6546700942587832
+Accuracy score for client 27:
+0.48846153846153845
+Accuracy score for client 28:
+0.5723684210526315
+Accuracy score for client 29:
+0.4728213977566868
+Accuracy score for client 30:
+0.7780678851174935
+Accuracy score for client 31:
+0.5898617511520737
+Accuracy score for client 32:
+0.8046332046332046
+Accuracy score for client 33:
+0.44393241167434716
+Accuracy score for client 34:
+0.5282146160962072
+Accuracy score for client 35:
+0.5246113989637305
+Accuracy score for client 36:
+0.7159199237368923
+Accuracy score for client 37:
+0.7485331098072087
+Accuracy score for client 38:
+0.5517826825127334
+Accuracy score for client 39:
+0.7887700534759359
+Accuracy score for client 40:
+0.5675675675675675
+Accuracy score for client 41:
+0.6368542791056284
+Accuracy score for client 42:
+0.5204513399153737
+Accuracy score for client 43:
+0.5374094931617055
+Accuracy score for client 44:
+0.7718724448078496
+Accuracy score for client 45:
+0.34202453987730064
+Accuracy score for client 46:
+0.6353637901861252
+Accuracy score for client 47:
+0.7432835820895523
+Accuracy score for client 48:
+0.5186470078057241
+Accuracy score for client 49:
+0.617157490396927
+Accuracy score for client 0:
+0.5025510204081632
+Accuracy score for client 1:
+0.728421052631579
+Accuracy score for client 2:
+0.7856525496974935
+Accuracy score for client 3:
+0.15034364261168384
+Accuracy score for client 4:
+0.7950819672131147
+Accuracy score for client 5:
+0.774869109947644
+Accuracy score for client 6:
+0.8615771812080537
+Accuracy score for client 7:
+0.6817813765182186
+Accuracy score for client 8:
+0.687874251497006
+Accuracy score for client 9:
+0.4282560706401766
+Accuracy score for client 10:
+0.8109028960817717
+Accuracy score for client 11:
+0.73920130399348
+Accuracy score for client 12:
+0.8034682080924855
+Accuracy score for client 13:
+0.386
+Accuracy score for client 14:
+0.6540362438220758
+Accuracy score for client 15:
+0.7952302631578947
+Accuracy score for client 16:
+0.7202680067001676
+Accuracy score for client 17:
+0.6548582995951417
+Accuracy score for client 18:
+0.6282372598162071
+Accuracy score for client 19:
+0.440844009042954
+Accuracy score for client 20:
+0.652315190901706
+Accuracy score for client 21:
+0.6193656093489148
+Accuracy score for client 22:
+0.5747384155455905
+Accuracy score for client 23:
+0.28763440860215056
+Accuracy score for client 24:
+0.7584175084175084
+Accuracy score for client 25:
+0.8704793944491169
+Accuracy score for client 26:
+0.6923736075407027
+Accuracy score for client 27:
+0.6038461538461538
+Accuracy score for client 28:
+0.7302631578947368
+Accuracy score for client 29:
+0.41501294219154444
+Accuracy score for client 30:
+0.8677110530896431
+Accuracy score for client 31:
+0.6255760368663594
+Accuracy score for client 32:
+0.9142857142857143
+Accuracy score for client 33:
+0.39631336405529954
+Accuracy score for client 34:
+0.5596669750231268
+Accuracy score for client 35:
+0.6321243523316062
+Accuracy score for client 36:
+0.8093422306959008
+Accuracy score for client 37:
+0.815590947191953
+Accuracy score for client 38:
+0.6494057724957555
+Accuracy score for client 39:
+0.7242169595110771
+Accuracy score for client 40:
+0.7398648648648649
+Accuracy score for client 41:
+0.7424826522744795
+Accuracy score for client 42:
+0.6438645980253879
+Accuracy score for client 43:
+0.47385358004827033
+Accuracy score for client 44:
+0.8585445625511039
+Accuracy score for client 45:
+0.4156441717791411
+Accuracy score for client 46:
+0.6971235194585449
+Accuracy score for client 47:
+0.8208955223880597
+Accuracy score for client 48:
+0.5411968777103209
+Accuracy score for client 49:
+0.6914212548015365
+Accuracy score for client 0:
+0.5242346938775511
+Accuracy score for client 1:
+0.6978947368421052
+Accuracy score for client 2:
+0.7337942955920485
+Accuracy score for client 3:
+0.15034364261168384
+Accuracy score for client 4:
+0.7431693989071039
+Accuracy score for client 5:
+0.7242582897033158
+Accuracy score for client 6:
+0.7432885906040269
+Accuracy score for client 7:
+0.620242914979757
+Accuracy score for client 8:
+0.6384730538922155
+Accuracy score for client 9:
+0.5489330389992642
+Accuracy score for client 10:
+0.8466780238500852
+Accuracy score for client 11:
+0.5590872045639772
+Accuracy score for client 12:
+0.7382328654004955
+Accuracy score for client 13:
+0.338
+Accuracy score for client 14:
+0.7339373970345964
+Accuracy score for client 15:
+0.618421052631579
+Accuracy score for client 16:
+0.7303182579564489
+Accuracy score for client 17:
+0.6437246963562753
+Accuracy score for client 18:
+0.6591478696741855
+Accuracy score for client 19:
+0.4905802562170309
+Accuracy score for client 20:
+0.6921202274573518
+Accuracy score for client 21:
+0.6385642737896494
+Accuracy score for client 22:
+0.5852017937219731
+Accuracy score for client 23:
+0.33512544802867383
+Accuracy score for client 24:
+0.6531986531986532
+Accuracy score for client 25:
+0.9074852817493693
+Accuracy score for client 26:
+0.715509854327335
+Accuracy score for client 27:
+0.5298076923076923
+Accuracy score for client 28:
+0.6486842105263158
+Accuracy score for client 29:
+0.38481449525452976
+Accuracy score for client 30:
+0.6657963446475196
+Accuracy score for client 31:
+0.6451612903225806
+Accuracy score for client 32:
+0.9158301158301159
+Accuracy score for client 33:
+0.4869431643625192
+Accuracy score for client 34:
+0.5522664199814986
+Accuracy score for client 35:
+0.6968911917098446
+Accuracy score for client 36:
+0.6873212583412774
+Accuracy score for client 37:
+0.7745180217937971
+Accuracy score for client 38:
+0.6188455008488964
+Accuracy score for client 39:
+0.799083269671505
+Accuracy score for client 40:
+0.7364864864864865
+Accuracy score for client 41:
+0.71781033153431
+Accuracy score for client 42:
+0.6502115655853314
+Accuracy score for client 43:
+0.5607401448109413
+Accuracy score for client 44:
+0.8520032706459526
+Accuracy score for client 45:
+0.3604294478527607
+Accuracy score for client 46:
+0.7267343485617598
+Accuracy score for client 47:
+0.6791044776119403
+Accuracy score for client 48:
+0.5706851691240243
+Accuracy score for client 49:
+0.5313700384122919
+Accuracy score for client 0:
+0.5267857142857143
+Accuracy score for client 1:
+0.6810526315789474
+Accuracy score for client 2:
+0.7761452031114953
+Accuracy score for client 3:
+0.20189003436426117
+Accuracy score for client 4:
+0.7786885245901639
+Accuracy score for client 5:
+0.7347294938917975
+Accuracy score for client 6:
+0.764261744966443
+Accuracy score for client 7:
+0.6396761133603239
+Accuracy score for client 8:
+0.6766467065868264
+Accuracy score for client 9:
+0.47902869757174393
+Accuracy score for client 10:
+0.7802385008517888
+Accuracy score for client 11:
+0.6650366748166259
+Accuracy score for client 12:
+0.6837324525185797
+Accuracy score for client 13:
+0.32
+Accuracy score for client 14:
+0.7578253706754531
+Accuracy score for client 15:
+0.7113486842105263
+Accuracy score for client 16:
+0.7353433835845896
+Accuracy score for client 17:
+0.7358299595141701
+Accuracy score for client 18:
+0.670843776106934
+Accuracy score for client 19:
+0.4581763376036172
+Accuracy score for client 20:
+0.6246953696181966
+Accuracy score for client 21:
+0.6160267111853088
+Accuracy score for client 22:
+0.617339312406577
+Accuracy score for client 23:
+0.32526881720430106
+Accuracy score for client 24:
+0.7407407407407407
+Accuracy score for client 25:
+0.8713204373423045
+Accuracy score for client 26:
+0.7703513281919452
+Accuracy score for client 27:
+0.6432692307692308
+Accuracy score for client 28:
+0.6644736842105263
+Accuracy score for client 29:
+0.35806729939603105
+Accuracy score for client 30:
+0.783289817232376
+Accuracy score for client 31:
+0.6716589861751152
+Accuracy score for client 32:
+0.8810810810810811
+Accuracy score for client 33:
+0.44086021505376344
+Accuracy score for client 34:
+0.572617946345976
+Accuracy score for client 35:
+0.7668393782383419
+Accuracy score for client 36:
+0.7721639656816015
+Accuracy score for client 37:
+0.7787091366303437
+Accuracy score for client 38:
+0.6171477079796265
+Accuracy score for client 39:
+0.7750190985485104
+Accuracy score for client 40:
+0.6711711711711712
+Accuracy score for client 41:
+0.7478797224363917
+Accuracy score for client 42:
+0.6177715091678421
+Accuracy score for client 43:
+0.45374094931617054
+Accuracy score for client 44:
+0.8364677023712184
+Accuracy score for client 45:
+0.375
+Accuracy score for client 46:
+0.6666666666666666
+Accuracy score for client 47:
+0.758955223880597
+Accuracy score for client 48:
+0.5073720728534259
+Accuracy score for client 49:
+0.6248399487836107
+Accuracy score for client 0:
+0.5331632653061225
+Accuracy score for client 1:
+0.7178947368421053
+Accuracy score for client 2:
+0.8063958513396715
+Accuracy score for client 3:
+0.15378006872852235
+Accuracy score for client 4:
+0.8169398907103825
+Accuracy score for client 5:
+0.7958115183246073
+Accuracy score for client 6:
+0.7248322147651006
+Accuracy score for client 7:
+0.7165991902834008
+Accuracy score for client 8:
+0.7387724550898204
+Accuracy score for client 9:
+0.4157468727005151
+Accuracy score for client 10:
+0.8304940374787053
+Accuracy score for client 11:
+0.713121434392828
+Accuracy score for client 12:
+0.8051197357555739
+Accuracy score for client 13:
+0.294
+Accuracy score for client 14:
+0.7100494233937397
+Accuracy score for client 15:
+0.8125
+Accuracy score for client 16:
+0.6850921273031826
+Accuracy score for client 17:
+0.6842105263157895
+Accuracy score for client 18:
+0.7025898078529658
+Accuracy score for client 19:
+0.4529012810851545
+Accuracy score for client 20:
+0.809910641754671
+Accuracy score for client 21:
+0.7629382303839732
+Accuracy score for client 22:
+0.6292974588938715
+Accuracy score for client 23:
+0.2060931899641577
+Accuracy score for client 24:
+0.7735690235690236
+Accuracy score for client 25:
+0.8814129520605551
+Accuracy score for client 26:
+0.7677806341045416
+Accuracy score for client 27:
+0.5951923076923077
+Accuracy score for client 28:
+0.6710526315789473
+Accuracy score for client 29:
+0.3183779119930975
+Accuracy score for client 30:
+0.8302872062663186
+Accuracy score for client 31:
+0.7211981566820277
+Accuracy score for client 32:
+0.8548262548262548
+Accuracy score for client 33:
+0.3333333333333333
+Accuracy score for client 34:
+0.5864939870490287
+Accuracy score for client 35:
+0.6917098445595855
+Accuracy score for client 36:
+0.7616777883698761
+Accuracy score for client 37:
+0.8432523051131601
+Accuracy score for client 38:
+0.6044142614601019
+Accuracy score for client 39:
+0.7299465240641712
+Accuracy score for client 40:
+0.6993243243243243
+Accuracy score for client 41:
+0.7571318427139553
+Accuracy score for client 42:
+0.6283497884344147
+Accuracy score for client 43:
+0.3475462590506838
+Accuracy score for client 44:
+0.856909239574816
+Accuracy score for client 45:
+0.4432515337423313
+Accuracy score for client 46:
+0.8248730964467005
+Accuracy score for client 47:
+0.8171641791044776
+Accuracy score for client 48:
+0.8065915004336514
+Accuracy score for client 49:
+0.6850192061459667
+Accuracy score for client 0:
+0.5267857142857143
+Accuracy score for client 1:
+0.6884210526315789
+Accuracy score for client 2:
+0.8098530682800346
+Accuracy score for client 3:
+0.18556701030927836
+Accuracy score for client 4:
+0.8005464480874317
+Accuracy score for client 5:
+0.7722513089005235
+Accuracy score for client 6:
+0.7558724832214765
+Accuracy score for client 7:
+0.6510121457489878
+Accuracy score for client 8:
+0.6833832335329342
+Accuracy score for client 9:
+0.4282560706401766
+Accuracy score for client 10:
+0.7717206132879046
+Accuracy score for client 11:
+0.7277913610431948
+Accuracy score for client 12:
+0.7341040462427746
+Accuracy score for client 13:
+0.304
+Accuracy score for client 14:
+0.7520593080724877
+Accuracy score for client 15:
+0.7680921052631579
+Accuracy score for client 16:
+0.7236180904522613
+Accuracy score for client 17:
+0.72165991902834
+Accuracy score for client 18:
+0.7117794486215538
+Accuracy score for client 19:
+0.44762622456669177
+Accuracy score for client 20:
+0.7091795288383428
+Accuracy score for client 21:
+0.6919866444073456
+Accuracy score for client 22:
+0.6539611360239163
+Accuracy score for client 23:
+0.246415770609319
+Accuracy score for client 24:
+0.7946127946127947
+Accuracy score for client 25:
+0.8730025231286795
+Accuracy score for client 26:
+0.7772065124250214
+Accuracy score for client 27:
+0.6913461538461538
+Accuracy score for client 28:
+0.6789473684210526
+Accuracy score for client 29:
+0.3252804141501294
+Accuracy score for client 30:
+0.8137510879025239
+Accuracy score for client 31:
+0.6612903225806451
+Accuracy score for client 32:
+0.8772200772200772
+Accuracy score for client 33:
+0.3901689708141321
+Accuracy score for client 34:
+0.5874190564292322
+Accuracy score for client 35:
+0.7642487046632125
+Accuracy score for client 36:
+0.8036224976167778
+Accuracy score for client 37:
+0.8030176026823135
+Accuracy score for client 38:
+0.6307300509337861
+Accuracy score for client 39:
+0.745607333842628
+Accuracy score for client 40:
+0.7004504504504504
+Accuracy score for client 41:
+0.8003084040092521
+Accuracy score for client 42:
+0.6248236953455572
+Accuracy score for client 43:
+0.36524537409493163
+Accuracy score for client 44:
+0.8356500408830744
+Accuracy score for client 45:
+0.39723926380368096
+Accuracy score for client 46:
+0.7072758037225042
+Accuracy score for client 47:
+0.7738805970149254
+Accuracy score for client 48:
+0.6339982653946227
+Accuracy score for client 49:
+0.676056338028169
+Accuracy score for client 0:
+0.4770408163265306
+Accuracy score for client 1:
+0.6347368421052632
+Accuracy score for client 2:
+0.700086430423509
+Accuracy score for client 3:
+0.24484536082474226
+Accuracy score for client 4:
+0.7349726775956285
+Accuracy score for client 5:
+0.6945898778359512
+Accuracy score for client 6:
+0.6795302013422819
+Accuracy score for client 7:
+0.582995951417004
+Accuracy score for client 8:
+0.6167664670658682
+Accuracy score for client 9:
+0.5688005886681383
+Accuracy score for client 10:
+0.6899488926746167
+Accuracy score for client 11:
+0.5664221678891606
+Accuracy score for client 12:
+0.653179190751445
+Accuracy score for client 13:
+0.405
+Accuracy score for client 14:
+0.6416803953871499
+Accuracy score for client 15:
+0.6126644736842105
+Accuracy score for client 16:
+0.6340033500837521
+Accuracy score for client 17:
+0.6052631578947368
+Accuracy score for client 18:
+0.5764411027568922
+Accuracy score for client 19:
+0.5470987189148455
+Accuracy score for client 20:
+0.6230706742485784
+Accuracy score for client 21:
+0.5826377295492488
+Accuracy score for client 22:
+0.5246636771300448
+Accuracy score for client 23:
+0.3611111111111111
+Accuracy score for client 24:
+0.6296296296296297
+Accuracy score for client 25:
+0.80067283431455
+Accuracy score for client 26:
+0.6580976863753213
+Accuracy score for client 27:
+0.5134615384615384
+Accuracy score for client 28:
+0.5736842105263158
+Accuracy score for client 29:
+0.4270923209663503
+Accuracy score for client 30:
+0.6884247171453438
+Accuracy score for client 31:
+0.5725806451612904
+Accuracy score for client 32:
+0.8401544401544402
+Accuracy score for client 33:
+0.5053763440860215
+Accuracy score for client 34:
+0.5143385753931545
+Accuracy score for client 35:
+0.6515544041450777
+Accuracy score for client 36:
+0.669208770257388
+Accuracy score for client 37:
+0.7200335289186923
+Accuracy score for client 38:
+0.5789473684210527
+Accuracy score for client 39:
+0.8032849503437739
+Accuracy score for client 40:
+0.6396396396396397
+Accuracy score for client 41:
+0.6661526599845798
+Accuracy score for client 42:
+0.5578279266572638
+Accuracy score for client 43:
+0.5647626709573612
+Accuracy score for client 44:
+0.794766966475879
+Accuracy score for client 45:
+0.33358895705521474
+Accuracy score for client 46:
+0.6446700507614214
+Accuracy score for client 47:
+0.6485074626865671
+Accuracy score for client 48:
+0.5446660884648742
+Accuracy score for client 49:
+0.5352112676056338
+Accuracy score for client 0:
+0.5459183673469388
+Accuracy score for client 1:
+0.751578947368421
+Accuracy score for client 2:
+0.8297320656871219
+Accuracy score for client 3:
+0.12371134020618557
+Accuracy score for client 4:
+0.819672131147541
+Accuracy score for client 5:
+0.8315881326352531
+Accuracy score for client 6:
+0.8447986577181208
+Accuracy score for client 7:
+0.7246963562753036
+Accuracy score for client 8:
+0.7537425149700598
+Accuracy score for client 9:
+0.3789551140544518
+Accuracy score for client 10:
+0.854344122657581
+Accuracy score for client 11:
+0.7758761206193969
+Accuracy score for client 12:
+0.838150289017341
+Accuracy score for client 13:
+0.274
+Accuracy score for client 14:
+0.7191103789126854
+Accuracy score for client 15:
+0.8264802631578947
+Accuracy score for client 16:
+0.7629815745393634
+Accuracy score for client 17:
+0.7348178137651822
+Accuracy score for client 18:
+0.7368421052631579
+Accuracy score for client 19:
+0.3948756593820648
+Accuracy score for client 20:
+0.7636068237205524
+Accuracy score for client 21:
+0.7470784641068448
+Accuracy score for client 22:
+0.6367713004484304
+Accuracy score for client 23:
+0.224910394265233
+Accuracy score for client 24:
+0.7971380471380471
+Accuracy score for client 25:
+0.8746846089150546
+Accuracy score for client 26:
+0.7789203084832905
+Accuracy score for client 27:
+0.6711538461538461
+Accuracy score for client 28:
+0.7421052631578947
+Accuracy score for client 29:
+0.3157894736842105
+Accuracy score for client 30:
+0.8546562228024369
+Accuracy score for client 31:
+0.7269585253456221
+Accuracy score for client 32:
+0.8911196911196911
+Accuracy score for client 33:
+0.31490015360983103
+Accuracy score for client 34:
+0.599444958371878
+Accuracy score for client 35:
+0.7629533678756477
+Accuracy score for client 36:
+0.8160152526215443
+Accuracy score for client 37:
+0.8692372170997485
+Accuracy score for client 38:
+0.6494057724957555
+Accuracy score for client 39:
+0.7074102368220015
+Accuracy score for client 40:
+0.7725225225225225
+Accuracy score for client 41:
+0.8072474942174248
+Accuracy score for client 42:
+0.6678420310296191
+Accuracy score for client 43:
+0.34352373290426386
+Accuracy score for client 44:
+0.8912510220768601
+Accuracy score for client 45:
+0.4562883435582822
+Accuracy score for client 46:
+0.7766497461928934
+Accuracy score for client 47:
+0.8529850746268657
+Accuracy score for client 48:
+0.7120555073720729
+Accuracy score for client 49:
+0.7093469910371318
+Accuracy score for client 0:
+0.45663265306122447
+Accuracy score for client 1:
+0.6621052631578948
+Accuracy score for client 2:
+0.6214347450302506
+Accuracy score for client 3:
+0.27147766323024053
+Accuracy score for client 4:
+0.6939890710382514
+Accuracy score for client 5:
+0.6640488656195462
+Accuracy score for client 6:
+0.6837248322147651
+Accuracy score for client 7:
+0.5336032388663967
+Accuracy score for client 8:
+0.5538922155688623
+Accuracy score for client 9:
+0.5938189845474614
+Accuracy score for client 10:
+0.6243611584327087
+Accuracy score for client 11:
+0.5403422982885085
+Accuracy score for client 12:
+0.7192402972749794
+Accuracy score for client 13:
+0.434
+Accuracy score for client 14:
+0.6103789126853377
+Accuracy score for client 15:
+0.5748355263157895
+Accuracy score for client 16:
+0.6030150753768844
+Accuracy score for client 17:
+0.5384615384615384
+Accuracy score for client 18:
+0.5664160401002506
+Accuracy score for client 19:
+0.5749811605124341
+Accuracy score for client 20:
+0.6336311941510967
+Accuracy score for client 21:
+0.5943238731218697
+Accuracy score for client 22:
+0.484304932735426
+Accuracy score for client 23:
+0.3951612903225806
+Accuracy score for client 24:
+0.5782828282828283
+Accuracy score for client 25:
+0.6989066442388562
+Accuracy score for client 26:
+0.5766923736075407
+Accuracy score for client 27:
+0.4894230769230769
+Accuracy score for client 28:
+0.6092105263157894
+Accuracy score for client 29:
+0.4719585849870578
+Accuracy score for client 30:
+0.6205395996518712
+Accuracy score for client 31:
+0.49078341013824883
+Accuracy score for client 32:
+0.7938223938223938
+Accuracy score for client 33:
+0.5791090629800307
+Accuracy score for client 34:
+0.4727104532839963
+Accuracy score for client 35:
+0.6139896373056994
+Accuracy score for client 36:
+0.6263107721639657
+Accuracy score for client 37:
+0.6663872590108969
+Accuracy score for client 38:
+0.5500848896434635
+Accuracy score for client 39:
+0.8200916730328495
+Accuracy score for client 40:
+0.6644144144144144
+Accuracy score for client 41:
+0.6815728604471858
+Accuracy score for client 42:
+0.6029619181946403
+Accuracy score for client 43:
+0.6017699115044248
+Accuracy score for client 44:
+0.7808667211774325
+Accuracy score for client 45:
+0.30214723926380366
+Accuracy score for client 46:
+0.6548223350253807
+Accuracy score for client 47:
+0.5798507462686567
+Accuracy score for client 48:
+0.546400693842151
+Accuracy score for client 49:
+0.4737516005121639
+Accuracy score for client 0:
+0.5331632653061225
+Accuracy score for client 1:
+0.7031578947368421
+Accuracy score for client 2:
+0.7986171132238548
+Accuracy score for client 3:
+0.19072164948453607
+Accuracy score for client 4:
+0.8114754098360656
+Accuracy score for client 5:
+0.7504363001745201
+Accuracy score for client 6:
+0.6845637583892618
+Accuracy score for client 7:
+0.6874493927125506
+Accuracy score for client 8:
+0.7208083832335329
+Accuracy score for client 9:
+0.4613686534216336
+Accuracy score for client 10:
+0.8373083475298126
+Accuracy score for client 11:
+0.6454767726161369
+Accuracy score for client 12:
+0.7621800165152767
+Accuracy score for client 13:
+0.31
+Accuracy score for client 14:
+0.7487644151565074
+Accuracy score for client 15:
+0.7261513157894737
+Accuracy score for client 16:
+0.6892797319932998
+Accuracy score for client 17:
+0.6852226720647774
+Accuracy score for client 18:
+0.6925647451963242
+Accuracy score for client 19:
+0.47324792765636775
+Accuracy score for client 20:
+0.7944760357432982
+Accuracy score for client 21:
+0.7462437395659433
+Accuracy score for client 22:
+0.6337817638266069
+Accuracy score for client 23:
+0.23118279569892472
+Accuracy score for client 24:
+0.7146464646464646
+Accuracy score for client 25:
+0.8772077375946173
+Accuracy score for client 26:
+0.7694944301628106
+Accuracy score for client 27:
+0.6057692307692307
+Accuracy score for client 28:
+0.6526315789473685
+Accuracy score for client 29:
+0.3157894736842105
+Accuracy score for client 30:
+0.7597911227154047
+Accuracy score for client 31:
+0.7027649769585254
+Accuracy score for client 32:
+0.8501930501930502
+Accuracy score for client 33:
+0.38095238095238093
+Accuracy score for client 34:
+0.5948196114708603
+Accuracy score for client 35:
+0.7474093264248705
+Accuracy score for client 36:
+0.7511916110581506
+Accuracy score for client 37:
+0.7887678122380554
+Accuracy score for client 38:
+0.5908319185059423
+Accuracy score for client 39:
+0.7486631016042781
+Accuracy score for client 40:
+0.6722972972972973
+Accuracy score for client 41:
+0.7787201233616037
+Accuracy score for client 42:
+0.6311706629055007
+Accuracy score for client 43:
+0.4094931617055511
+Accuracy score for client 44:
+0.8520032706459526
+Accuracy score for client 45:
+0.4179447852760736
+Accuracy score for client 46:
+0.8071065989847716
+Accuracy score for client 47:
+0.7559701492537313
+Accuracy score for client 48:
+0.766695576756288
+Accuracy score for client 49:
+0.6299615877080665
+Accuracy score for client 0:
+0.5573979591836735
+Accuracy score for client 1:
+0.7578947368421053
+Accuracy score for client 2:
+0.8305963699222126
+Accuracy score for client 3:
+0.1331615120274914
+Accuracy score for client 4:
+0.8005464480874317
+Accuracy score for client 5:
+0.7993019197207679
+Accuracy score for client 6:
+0.8489932885906041
+Accuracy score for client 7:
+0.7174089068825911
+Accuracy score for client 8:
+0.7088323353293413
+Accuracy score for client 9:
+0.40176600441501104
+Accuracy score for client 10:
+0.889267461669506
+Accuracy score for client 11:
+0.7636511817440913
+Accuracy score for client 12:
+0.815028901734104
+Accuracy score for client 13:
+0.274
+Accuracy score for client 14:
+0.7792421746293245
+Accuracy score for client 15:
+0.7689144736842105
+Accuracy score for client 16:
+0.7964824120603015
+Accuracy score for client 17:
+0.7317813765182186
+Accuracy score for client 18:
+0.7510442773600668
+Accuracy score for client 19:
+0.39035418236623964
+Accuracy score for client 20:
+0.7335499593826158
+Accuracy score for client 21:
+0.7345575959933222
+Accuracy score for client 22:
+0.6733931240657698
+Accuracy score for client 23:
+0.25268817204301075
+Accuracy score for client 24:
+0.7971380471380471
+Accuracy score for client 25:
+0.8864592094196804
+Accuracy score for client 26:
+0.778063410454156
+Accuracy score for client 27:
+0.7009615384615384
+Accuracy score for client 28:
+0.7460526315789474
+Accuracy score for client 29:
+0.32182916307161347
+Accuracy score for client 30:
+0.8276762402088773
+Accuracy score for client 31:
+0.7361751152073732
+Accuracy score for client 32:
+0.9081081081081082
+Accuracy score for client 33:
+0.3794162826420891
+Accuracy score for client 34:
+0.6077705827937095
+Accuracy score for client 35:
+0.8095854922279793
+Accuracy score for client 36:
+0.8026692087702574
+Accuracy score for client 37:
+0.8021793797150042
+Accuracy score for client 38:
+0.6587436332767402
+Accuracy score for client 39:
+0.7249809014514896
+Accuracy score for client 40:
+0.7736486486486487
+Accuracy score for client 41:
+0.810331534309946
+Accuracy score for client 42:
+0.6932299012693935
+Accuracy score for client 43:
+0.35559131134352373
+Accuracy score for client 44:
+0.8904333605887162
+Accuracy score for client 45:
+0.45245398773006135
+Accuracy score for client 46:
+0.754653130287648
+Accuracy score for client 47:
+0.8253731343283582
+Accuracy score for client 48:
+0.6678230702515178
+Accuracy score for client 49:
+0.6734955185659411
+Accuracy score for client 0:
+0.5255102040816326
+Accuracy score for client 1:
+0.6936842105263158
+Accuracy score for client 2:
+0.7510803802938635
+Accuracy score for client 3:
+0.22164948453608246
+Accuracy score for client 4:
+0.7868852459016393
+Accuracy score for client 5:
+0.7626527050610821
+Accuracy score for client 6:
+0.761744966442953
+Accuracy score for client 7:
+0.6469635627530365
+Accuracy score for client 8:
+0.6841317365269461
+Accuracy score for client 9:
+0.4370860927152318
+Accuracy score for client 10:
+0.7103918228279387
+Accuracy score for client 11:
+0.7171964140179299
+Accuracy score for client 12:
+0.7547481420313791
+Accuracy score for client 13:
+0.341
+Accuracy score for client 14:
+0.7084019769357496
+Accuracy score for client 15:
+0.7483552631578947
+Accuracy score for client 16:
+0.6876046901172529
+Accuracy score for client 17:
+0.7004048582995951
+Accuracy score for client 18:
+0.7076023391812866
+Accuracy score for client 19:
+0.4589299171062547
+Accuracy score for client 20:
+0.7303005686433793
+Accuracy score for client 21:
+0.6702838063439065
+Accuracy score for client 22:
+0.5964125560538116
+Accuracy score for client 23:
+0.28225806451612906
+Accuracy score for client 24:
+0.7525252525252525
+Accuracy score for client 25:
+0.7678721614802355
+Accuracy score for client 26:
+0.7300771208226221
+Accuracy score for client 27:
+0.6471153846153846
+Accuracy score for client 28:
+0.6855263157894737
+Accuracy score for client 29:
+0.34167385677308026
+Accuracy score for client 30:
+0.7824194952132288
+Accuracy score for client 31:
+0.6232718894009217
+Accuracy score for client 32:
+0.8308880308880309
+Accuracy score for client 33:
+0.39477726574500765
+Accuracy score for client 34:
+0.5587419056429233
+Accuracy score for client 35:
+0.7344559585492227
+Accuracy score for client 36:
+0.7683508102955195
+Accuracy score for client 37:
+0.7829002514668902
+Accuracy score for client 38:
+0.6103565365025467
+Accuracy score for client 39:
+0.7242169595110771
+Accuracy score for client 40:
+0.7117117117117117
+Accuracy score for client 41:
+0.7532767925983038
+Accuracy score for client 42:
+0.6262341325811002
+Accuracy score for client 43:
+0.3580048270313757
+Accuracy score for client 44:
+0.8340147179067866
+Accuracy score for client 45:
+0.4102760736196319
+Accuracy score for client 46:
+0.7140439932318104
+Accuracy score for client 47:
+0.7626865671641792
+Accuracy score for client 48:
+0.6478751084128361
+Accuracy score for client 49:
+0.6658130601792573
+Accuracy score for client 0:
+0.4298469387755102
+Accuracy score for client 1:
+0.5684210526315789
+Accuracy score for client 2:
+0.6456352636127917
+Accuracy score for client 3:
+0.30584192439862545
+Accuracy score for client 4:
+0.6830601092896175
+Accuracy score for client 5:
+0.6151832460732984
+Accuracy score for client 6:
+0.5687919463087249
+Accuracy score for client 7:
+0.5368421052631579
+Accuracy score for client 8:
+0.5845808383233533
+Accuracy score for client 9:
+0.6100073583517293
+Accuracy score for client 10:
+0.7044293015332198
+Accuracy score for client 11:
+0.4841075794621027
+Accuracy score for client 12:
+0.5862923203963666
+Accuracy score for client 13:
+0.442
+Accuracy score for client 14:
+0.6317957166392092
+Accuracy score for client 15:
+0.5641447368421053
+Accuracy score for client 16:
+0.5946398659966499
+Accuracy score for client 17:
+0.5809716599190283
+Accuracy score for client 18:
+0.5421888053467001
+Accuracy score for client 19:
+0.5644310474755087
+Accuracy score for client 20:
+0.6133225020308692
+Accuracy score for client 21:
+0.5383973288814691
+Accuracy score for client 22:
+0.5082212257100149
+Accuracy score for client 23:
+0.3942652329749104
+Accuracy score for client 24:
+0.5622895622895623
+Accuracy score for client 25:
+0.7678721614802355
+Accuracy score for client 26:
+0.622107969151671
+Accuracy score for client 27:
+0.4653846153846154
+Accuracy score for client 28:
+0.5355263157894737
+Accuracy score for client 29:
+0.4633304572907679
+Accuracy score for client 30:
+0.6170583115752829
+Accuracy score for client 31:
+0.5633640552995391
+Accuracy score for client 32:
+0.7791505791505792
+Accuracy score for client 33:
+0.533026113671275
+Accuracy score for client 34:
+0.49306197964847365
+Accuracy score for client 35:
+0.5880829015544041
+Accuracy score for client 36:
+0.5977121067683508
+Accuracy score for client 37:
+0.6789606035205364
+Accuracy score for client 38:
+0.5212224108658744
+Accuracy score for client 39:
+0.8311688311688312
+Accuracy score for client 40:
+0.5664414414414415
+Accuracy score for client 41:
+0.6314572089437163
+Accuracy score for client 42:
+0.5169252468265162
+Accuracy score for client 43:
+0.6090104585679806
+Accuracy score for client 44:
+0.7489779231398201
+Accuracy score for client 45:
+0.30828220858895705
+Accuracy score for client 46:
+0.5972927241962775
+Accuracy score for client 47:
+0.6126865671641791
+Accuracy score for client 48:
+0.5134431916738942
+Accuracy score for client 49:
+0.49551856594110116
+Accuracy score for client 0:
+0.5344387755102041
+Accuracy score for client 1:
+0.7105263157894737
+Accuracy score for client 2:
+0.8228176318063959
+Accuracy score for client 3:
+0.16924398625429554
+Accuracy score for client 4:
+0.8278688524590164
+Accuracy score for client 5:
+0.7923211169284468
+Accuracy score for client 6:
+0.7390939597315436
+Accuracy score for client 7:
+0.7036437246963563
+Accuracy score for client 8:
+0.7305389221556886
+Accuracy score for client 9:
+0.4157468727005151
+Accuracy score for client 10:
+0.8287904599659285
+Accuracy score for client 11:
+0.7229013854930725
+Accuracy score for client 12:
+0.8001651527663088
+Accuracy score for client 13:
+0.298
+Accuracy score for client 14:
+0.7158154859967051
+Accuracy score for client 15:
+0.8174342105263158
+Accuracy score for client 16:
+0.6817420435510888
+Accuracy score for client 17:
+0.6973684210526315
+Accuracy score for client 18:
+0.6842105263157895
+Accuracy score for client 19:
+0.45214770158251694
+Accuracy score for client 20:
+0.7839155158407799
+Accuracy score for client 21:
+0.7353923205342237
+Accuracy score for client 22:
+0.6382660687593423
+Accuracy score for client 23:
+0.21774193548387097
+Accuracy score for client 24:
+0.7693602693602694
+Accuracy score for client 25:
+0.8839360807401178
+Accuracy score for client 26:
+0.7712082262210797
+Accuracy score for client 27:
+0.6384615384615384
+Accuracy score for client 28:
+0.6881578947368421
+Accuracy score for client 29:
+0.3201035375323555
+Accuracy score for client 30:
+0.8389904264577894
+Accuracy score for client 31:
+0.7016129032258065
+Accuracy score for client 32:
+0.850965250965251
+Accuracy score for client 33:
+0.3241167434715822
+Accuracy score for client 34:
+0.5929694727104533
+Accuracy score for client 35:
+0.7227979274611399
+Accuracy score for client 36:
+0.8017159199237369
+Accuracy score for client 37:
+0.8440905280804694
+Accuracy score for client 38:
+0.6213921901528013
+Accuracy score for client 39:
+0.7261268143621085
+Accuracy score for client 40:
+0.6835585585585585
+Accuracy score for client 41:
+0.7717810331534309
+Accuracy score for client 42:
+0.6318758815232722
+Accuracy score for client 43:
+0.3580048270313757
+Accuracy score for client 44:
+0.8470973017170891
+Accuracy score for client 45:
+0.43941717791411045
+Accuracy score for client 46:
+0.7808798646362098
+Accuracy score for client 47:
+0.8194029850746268
+Accuracy score for client 48:
+0.751084128360798
+Accuracy score for client 49:
+0.704225352112676
+Accuracy score for client 0:
+0.5318877551020408
+Accuracy score for client 1:
+0.6947368421052632
+Accuracy score for client 2:
+0.7882454624027658
+Accuracy score for client 3:
+0.22164948453608246
+Accuracy score for client 4:
+0.7978142076502732
+Accuracy score for client 5:
+0.725130890052356
+Accuracy score for client 6:
+0.6585570469798657
+Accuracy score for client 7:
+0.6421052631578947
+Accuracy score for client 8:
+0.6848802395209581
+Accuracy score for client 9:
+0.4841795437821928
+Accuracy score for client 10:
+0.7563884156729132
+Accuracy score for client 11:
+0.6495517522412388
+Accuracy score for client 12:
+0.7539223781998349
+Accuracy score for client 13:
+0.355
+Accuracy score for client 14:
+0.7306425041186162
+Accuracy score for client 15:
+0.7286184210526315
+Accuracy score for client 16:
+0.6423785594639866
+Accuracy score for client 17:
+0.6811740890688259
+Accuracy score for client 18:
+0.6357560568086884
+Accuracy score for client 19:
+0.5011303692539563
+Accuracy score for client 20:
+0.7376116978066612
+Accuracy score for client 21:
+0.6769616026711185
+Accuracy score for client 22:
+0.5979073243647235
+Accuracy score for client 23:
+0.26971326164874554
+Accuracy score for client 24:
+0.7070707070707071
+Accuracy score for client 25:
+0.8368376787216149
+Accuracy score for client 26:
+0.7540702656383891
+Accuracy score for client 27:
+0.6105769230769231
+Accuracy score for client 28:
+0.6539473684210526
+Accuracy score for client 29:
+0.3364969801553063
+Accuracy score for client 30:
+0.7641427328111401
+Accuracy score for client 31:
+0.6578341013824884
+Accuracy score for client 32:
+0.8108108108108109
+Accuracy score for client 33:
+0.3978494623655914
+Accuracy score for client 34:
+0.5837187789084182
+Accuracy score for client 35:
+0.7370466321243523
+Accuracy score for client 36:
+0.7550047664442326
+Accuracy score for client 37:
+0.7644593461860855
+Accuracy score for client 38:
+0.5831918505942275
+Accuracy score for client 39:
+0.7410236822001528
+Accuracy score for client 40:
+0.6238738738738738
+Accuracy score for client 41:
+0.7517347725520431
+Accuracy score for client 42:
+0.6205923836389281
+Accuracy score for client 43:
+0.43121480289621883
+Accuracy score for client 44:
+0.8143908421913328
+Accuracy score for client 45:
+0.3834355828220859
+Accuracy score for client 46:
+0.7241962774957699
+Accuracy score for client 47:
+0.7611940298507462
+Accuracy score for client 48:
+0.6548135299219427
+Accuracy score for client 49:
+0.6389244558258643
+Accuracy score for client 0:
+0.48214285714285715
+Accuracy score for client 1:
+0.6831578947368421
+Accuracy score for client 2:
+0.7312013828867762
+Accuracy score for client 3:
+0.23625429553264604
+Accuracy score for client 4:
+0.7240437158469946
+Accuracy score for client 5:
+0.6832460732984293
+Accuracy score for client 6:
+0.7080536912751678
+Accuracy score for client 7:
+0.6348178137651822
+Accuracy score for client 8:
+0.6414670658682635
+Accuracy score for client 9:
+0.5217071376011774
+Accuracy score for client 10:
+0.7776831345826235
+Accuracy score for client 11:
+0.5998370008149959
+Accuracy score for client 12:
+0.7464905037159373
+Accuracy score for client 13:
+0.364
+Accuracy score for client 14:
+0.6943986820428336
+Accuracy score for client 15:
+0.649671052631579
+Accuracy score for client 16:
+0.6633165829145728
+Accuracy score for client 17:
+0.631578947368421
+Accuracy score for client 18:
+0.6340852130325815
+Accuracy score for client 19:
+0.49133383571966843
+Accuracy score for client 20:
+0.669374492282697
+Accuracy score for client 21:
+0.6327212020033389
+Accuracy score for client 22:
+0.5732436472346786
+Accuracy score for client 23:
+0.34408602150537637
+Accuracy score for client 24:
+0.6531986531986532
+Accuracy score for client 25:
+0.7981497056349874
+Accuracy score for client 26:
+0.6940874035989717
+Accuracy score for client 27:
+0.5432692307692307
+Accuracy score for client 28:
+0.6236842105263158
+Accuracy score for client 29:
+0.41501294219154444
+Accuracy score for client 30:
+0.7023498694516971
+Accuracy score for client 31:
+0.6624423963133641
+Accuracy score for client 32:
+0.8154440154440155
+Accuracy score for client 33:
+0.4946236559139785
+Accuracy score for client 34:
+0.5143385753931545
+Accuracy score for client 35:
+0.6878238341968912
+Accuracy score for client 36:
+0.6901811248808389
+Accuracy score for client 37:
+0.7133277451802179
+Accuracy score for client 38:
+0.5755517826825127
+Accuracy score for client 39:
+0.7815126050420168
+Accuracy score for client 40:
+0.6554054054054054
+Accuracy score for client 41:
+0.7139552814186585
+Accuracy score for client 42:
+0.607898448519041
+Accuracy score for client 43:
+0.5221238938053098
+Accuracy score for client 44:
+0.7735077677841373
+Accuracy score for client 45:
+0.370398773006135
+Accuracy score for client 46:
+0.6818950930626058
+Accuracy score for client 47:
+0.7201492537313433
+Accuracy score for client 48:
+0.572419774501301
+Accuracy score for client 49:
+0.5825864276568502
+Accuracy score for client 0:
+0.5522959183673469
+Accuracy score for client 1:
+0.708421052631579
+Accuracy score for client 2:
+0.8643042350907519
+Accuracy score for client 3:
+0.18986254295532645
+Accuracy score for client 4:
+0.819672131147541
+Accuracy score for client 5:
+0.7835951134380453
+Accuracy score for client 6:
+0.7466442953020134
+Accuracy score for client 7:
+0.697165991902834
+Accuracy score for client 8:
+0.7395209580838323
+Accuracy score for client 9:
+0.38631346578366443
+Accuracy score for client 10:
+0.7989778534923339
+Accuracy score for client 11:
+0.7620211898940505
+Accuracy score for client 12:
+0.7630057803468208
+Accuracy score for client 13:
+0.288
+Accuracy score for client 14:
+0.7784184514003295
+Accuracy score for client 15:
+0.8199013157894737
+Accuracy score for client 16:
+0.7135678391959799
+Accuracy score for client 17:
+0.7661943319838057
+Accuracy score for client 18:
+0.7034252297410192
+Accuracy score for client 19:
+0.43180105501130367
+Accuracy score for client 20:
+0.7213647441104792
+Accuracy score for client 21:
+0.7003338898163606
+Accuracy score for client 22:
+0.6771300448430493
+Accuracy score for client 23:
+0.21505376344086022
+Accuracy score for client 24:
+0.82996632996633
+Accuracy score for client 25:
+0.8839360807401178
+Accuracy score for client 26:
+0.8277634961439588
+Accuracy score for client 27:
+0.7461538461538462
+Accuracy score for client 28:
+0.6842105263157895
+Accuracy score for client 29:
+0.29767040552200175
+Accuracy score for client 30:
+0.8755439512619669
+Accuracy score for client 31:
+0.7407834101382489
+Accuracy score for client 32:
+0.8463320463320463
+Accuracy score for client 33:
+0.32565284178187404
+Accuracy score for client 34:
+0.6299722479185939
+Accuracy score for client 35:
+0.7979274611398963
+Accuracy score for client 36:
+0.8436606291706387
+Accuracy score for client 37:
+0.8088851634534786
+Accuracy score for client 38:
+0.6273344651952462
+Accuracy score for client 39:
+0.7226890756302521
+Accuracy score for client 40:
+0.6295045045045045
+Accuracy score for client 41:
+0.8072474942174248
+Accuracy score for client 42:
+0.6318758815232722
+Accuracy score for client 43:
+0.3185840707964602
+Accuracy score for client 44:
+0.8381030253475061
+Accuracy score for client 45:
+0.4363496932515337
+Accuracy score for client 46:
+0.7182741116751269
+Accuracy score for client 47:
+0.844776119402985
+Accuracy score for client 48:
+0.6374674761491761
+Accuracy score for client 49:
+0.7272727272727273
+Accuracy score for client 0:
+0.4732142857142857
+Accuracy score for client 1:
+0.6031578947368421
+Accuracy score for client 2:
+0.7018150388936906
+Accuracy score for client 3:
+0.313573883161512
+Accuracy score for client 4:
+0.7459016393442623
+Accuracy score for client 5:
+0.693717277486911
+Accuracy score for client 6:
+0.6308724832214765
+Accuracy score for client 7:
+0.6089068825910932
+Accuracy score for client 8:
+0.6384730538922155
+Accuracy score for client 9:
+0.49374540103016923
+Accuracy score for client 10:
+0.6090289608177172
+Accuracy score for client 11:
+0.6560717196414018
+Accuracy score for client 12:
+0.6366639141205616
+Accuracy score for client 13:
+0.412
+Accuracy score for client 14:
+0.6252059308072487
+Accuracy score for client 15:
+0.740953947368421
+Accuracy score for client 16:
+0.5770519262981575
+Accuracy score for client 17:
+0.6690283400809717
+Accuracy score for client 18:
+0.5889724310776943
+Accuracy score for client 19:
+0.5440844009042954
+Accuracy score for client 20:
+0.6547522339561332
+Accuracy score for client 21:
+0.5843071786310517
+Accuracy score for client 22:
+0.5478325859491778
+Accuracy score for client 23:
+0.32526881720430106
+Accuracy score for client 24:
+0.7146464646464646
+Accuracy score for client 25:
+0.6904962153069807
+Accuracy score for client 26:
+0.7086546700942588
+Accuracy score for client 27:
+0.5855769230769231
+Accuracy score for client 28:
+0.5868421052631579
+Accuracy score for client 29:
+0.40207075064710956
+Accuracy score for client 30:
+0.7510879025239339
+Accuracy score for client 31:
+0.576036866359447
+Accuracy score for client 32:
+0.7212355212355213
+Accuracy score for client 33:
+0.43164362519201227
+Accuracy score for client 34:
+0.5217391304347826
+Accuracy score for client 35:
+0.6606217616580311
+Accuracy score for client 36:
+0.7159199237368923
+Accuracy score for client 37:
+0.7133277451802179
+Accuracy score for client 38:
+0.5373514431239389
+Accuracy score for client 39:
+0.7738731856378915
+Accuracy score for client 40:
+0.5484234234234234
+Accuracy score for client 41:
+0.6885119506553585
+Accuracy score for client 42:
+0.5197461212976022
+Accuracy score for client 43:
+0.414320193081255
+Accuracy score for client 44:
+0.7367130008176614
+Accuracy score for client 45:
+0.34049079754601225
+Accuracy score for client 46:
+0.6243654822335025
+Accuracy score for client 47:
+0.7276119402985075
+Accuracy score for client 48:
+0.5975715524718127
+Accuracy score for client 49:
+0.6427656850192062
+Accuracy score for client 0:
+0.475765306122449
+Accuracy score for client 1:
+0.6484210526315789
+Accuracy score for client 2:
+0.7657735522904062
+Accuracy score for client 3:
+0.24828178694158076
+Accuracy score for client 4:
+0.76775956284153
+Accuracy score for client 5:
+0.6963350785340314
+Accuracy score for client 6:
+0.5981543624161074
+Accuracy score for client 7:
+0.6331983805668017
+Accuracy score for client 8:
+0.6803892215568862
+Accuracy score for client 9:
+0.5172921265636498
+Accuracy score for client 10:
+0.7606473594548552
+Accuracy score for client 11:
+0.5737571312143439
+Accuracy score for client 12:
+0.6639141205615194
+Accuracy score for client 13:
+0.406
+Accuracy score for client 14:
+0.6663920922570017
+Accuracy score for client 15:
+0.7179276315789473
+Accuracy score for client 16:
+0.6147403685092128
+Accuracy score for client 17:
+0.6346153846153846
+Accuracy score for client 18:
+0.5680868838763575
+Accuracy score for client 19:
+0.5026375282592314
+Accuracy score for client 20:
+0.6839967506092608
+Accuracy score for client 21:
+0.6151919866444073
+Accuracy score for client 22:
+0.5665171898355755
+Accuracy score for client 23:
+0.3118279569892473
+Accuracy score for client 24:
+0.6658249158249159
+Accuracy score for client 25:
+0.8494533221194281
+Accuracy score for client 26:
+0.7377892030848329
+Accuracy score for client 27:
+0.5375
+Accuracy score for client 28:
+0.5828947368421052
+Accuracy score for client 29:
+0.39344262295081966
+Accuracy score for client 30:
+0.7684943429068756
+Accuracy score for client 31:
+0.6543778801843319
+Accuracy score for client 32:
+0.8146718146718147
+Accuracy score for client 33:
+0.41321044546851
+Accuracy score for client 34:
+0.5522664199814986
+Accuracy score for client 35:
+0.6269430051813472
+Accuracy score for client 36:
+0.7187797902764538
+Accuracy score for client 37:
+0.7510477787091366
+Accuracy score for client 38:
+0.5560271646859083
+Accuracy score for client 39:
+0.7750190985485104
+Accuracy score for client 40:
+0.5608108108108109
+Accuracy score for client 41:
+0.6877409406322282
+Accuracy score for client 42:
+0.5451339915373766
+Accuracy score for client 43:
+0.5092518101367659
+Accuracy score for client 44:
+0.7898609975470156
+Accuracy score for client 45:
+0.37346625766871167
+Accuracy score for client 46:
+0.682741116751269
+Accuracy score for client 47:
+0.7611940298507462
+Accuracy score for client 48:
+0.6001734605377277
+Accuracy score for client 49:
+0.6248399487836107
+Accuracy score for client 0:
+0.5051020408163265
+Accuracy score for client 1:
+0.6863157894736842
+Accuracy score for client 2:
+0.749351771823682
+Accuracy score for client 3:
+0.18213058419243985
+Accuracy score for client 4:
+0.8005464480874317
+Accuracy score for client 5:
+0.756544502617801
+Accuracy score for client 6:
+0.6820469798657718
+Accuracy score for client 7:
+0.631578947368421
+Accuracy score for client 8:
+0.6788922155688623
+Accuracy score for client 9:
+0.5217071376011774
+Accuracy score for client 10:
+0.8407155025553663
+Accuracy score for client 11:
+0.5745721271393643
+Accuracy score for client 12:
+0.7043765483071841
+Accuracy score for client 13:
+0.317
+Accuracy score for client 14:
+0.7108731466227347
+Accuracy score for client 15:
+0.6620065789473685
+Accuracy score for client 16:
+0.7051926298157454
+Accuracy score for client 17:
+0.6224696356275303
+Accuracy score for client 18:
+0.670843776106934
+Accuracy score for client 19:
+0.48379804069329313
+Accuracy score for client 20:
+0.7936636880584891
+Accuracy score for client 21:
+0.7186978297161937
+Accuracy score for client 22:
+0.57847533632287
+Accuracy score for client 23:
+0.28584229390681004
+Accuracy score for client 24:
+0.6405723905723906
+Accuracy score for client 25:
+0.9091673675357443
+Accuracy score for client 26:
+0.7326478149100257
+Accuracy score for client 27:
+0.5028846153846154
+Accuracy score for client 28:
+0.6276315789473684
+Accuracy score for client 29:
+0.35202761000862814
+Accuracy score for client 30:
+0.6832027850304613
+Accuracy score for client 31:
+0.6705069124423964
+Accuracy score for client 32:
+0.888030888030888
+Accuracy score for client 33:
+0.42242703533026116
+Accuracy score for client 34:
+0.5670675300647549
+Accuracy score for client 35:
+0.6580310880829016
+Accuracy score for client 36:
+0.6911344137273594
+Accuracy score for client 37:
+0.7862531433361274
+Accuracy score for client 38:
+0.6027164685908319
+Accuracy score for client 39:
+0.786096256684492
+Accuracy score for client 40:
+0.7162162162162162
+Accuracy score for client 41:
+0.7093292212798766
+Accuracy score for client 42:
+0.576163610719323
+Accuracy score for client 43:
+0.5084473049074819
+Accuracy score for client 44:
+0.8609975470155355
+Accuracy score for client 45:
+0.37576687116564417
+Accuracy score for client 46:
+0.7944162436548223
+Accuracy score for client 47:
+0.691044776119403
+Accuracy score for client 48:
+0.7259323503902863
+Accuracy score for client 49:
+0.528809218950064
+Accuracy score for client 0:
+0.5395408163265306
+Accuracy score for client 1:
+0.7157894736842105
+Accuracy score for client 2:
+0.8210890233362144
+Accuracy score for client 3:
+0.18642611683848798
+Accuracy score for client 4:
+0.7978142076502732
+Accuracy score for client 5:
+0.7757417102966842
+Accuracy score for client 6:
+0.7927852348993288
+Accuracy score for client 7:
+0.6793522267206478
+Accuracy score for client 8:
+0.6998502994011976
+Accuracy score for client 9:
+0.38631346578366443
+Accuracy score for client 10:
+0.772572402044293
+Accuracy score for client 11:
+0.7644661776691116
+Accuracy score for client 12:
+0.7679603633360859
+Accuracy score for client 13:
+0.293
+Accuracy score for client 14:
+0.7331136738056013
+Accuracy score for client 15:
+0.8083881578947368
+Accuracy score for client 16:
+0.7185929648241206
+Accuracy score for client 17:
+0.7530364372469636
+Accuracy score for client 18:
+0.697577276524645
+Accuracy score for client 19:
+0.440844009042954
+Accuracy score for client 20:
+0.6945572705117791
+Accuracy score for client 21:
+0.6886477462437396
+Accuracy score for client 22:
+0.6532137518684604
+Accuracy score for client 23:
+0.23118279569892472
+Accuracy score for client 24:
+0.8047138047138047
+Accuracy score for client 25:
+0.8435660218671153
+Accuracy score for client 26:
+0.7969151670951157
+Accuracy score for client 27:
+0.7201923076923077
+Accuracy score for client 28:
+0.7065789473684211
+Accuracy score for client 29:
+0.33045729076790337
+Accuracy score for client 30:
+0.8581375108790252
+Accuracy score for client 31:
+0.6900921658986175
+Accuracy score for client 32:
+0.8563706563706563
+Accuracy score for client 33:
+0.3686635944700461
+Accuracy score for client 34:
+0.5929694727104533
+Accuracy score for client 35:
+0.7759067357512953
+Accuracy score for client 36:
+0.8284080076263107
+Accuracy score for client 37:
+0.8038558256496228
+Accuracy score for client 38:
+0.629881154499151
+Accuracy score for client 39:
+0.7165775401069518
+Accuracy score for client 40:
+0.6880630630630631
+Accuracy score for client 41:
+0.7956823438704703
+Accuracy score for client 42:
+0.6269393511988717
+Accuracy score for client 43:
+0.33789219629927597
+Accuracy score for client 44:
+0.8201144726083401
+Accuracy score for client 45:
+0.4378834355828221
+Accuracy score for client 46:
+0.6971235194585449
+Accuracy score for client 47:
+0.8276119402985075
+Accuracy score for client 48:
+0.6079791847354726
+Accuracy score for client 49:
+0.7144686299615877
+Accuracy score for client 0:
+0.5025510204081632
+Accuracy score for client 1:
+0.6736842105263158
+Accuracy score for client 2:
+0.749351771823682
+Accuracy score for client 3:
+0.21993127147766323
+Accuracy score for client 4:
+0.7486338797814208
+Accuracy score for client 5:
+0.7164048865619547
+Accuracy score for client 6:
+0.764261744966443
+Accuracy score for client 7:
+0.6582995951417004
+Accuracy score for client 8:
+0.6609281437125748
+Accuracy score for client 9:
+0.4481236203090508
+Accuracy score for client 10:
+0.7887563884156729
+Accuracy score for client 11:
+0.6764466177669112
+Accuracy score for client 12:
+0.7093311312964492
+Accuracy score for client 13:
+0.346
+Accuracy score for client 14:
+0.7174629324546952
+Accuracy score for client 15:
+0.7138157894736842
+Accuracy score for client 16:
+0.7077051926298158
+Accuracy score for client 17:
+0.7044534412955465
+Accuracy score for client 18:
+0.6800334168755221
+Accuracy score for client 19:
+0.44159758854559156
+Accuracy score for client 20:
+0.669374492282697
+Accuracy score for client 21:
+0.6318864774624374
+Accuracy score for client 22:
+0.6203288490284006
+Accuracy score for client 23:
+0.30286738351254483
+Accuracy score for client 24:
+0.7348484848484849
+Accuracy score for client 25:
+0.8250630782169891
+Accuracy score for client 26:
+0.7523564695801199
+Accuracy score for client 27:
+0.6442307692307693
+Accuracy score for client 28:
+0.6789473684210526
+Accuracy score for client 29:
+0.35030198446937016
+Accuracy score for client 30:
+0.7589208006962577
+Accuracy score for client 31:
+0.6877880184331797
+Accuracy score for client 32:
+0.8293436293436294
+Accuracy score for client 33:
+0.43164362519201227
+Accuracy score for client 34:
+0.5189639222941721
+Accuracy score for client 35:
+0.7396373056994818
+Accuracy score for client 36:
+0.7273593898951383
+Accuracy score for client 37:
+0.7745180217937971
+Accuracy score for client 38:
+0.5857385398981324
+Accuracy score for client 39:
+0.7467532467532467
+Accuracy score for client 40:
+0.6542792792792793
+Accuracy score for client 41:
+0.7494217424826523
+Accuracy score for client 42:
+0.5712270803949224
+Accuracy score for client 43:
+0.3998390989541432
+Accuracy score for client 44:
+0.7849550286181521
+Accuracy score for client 45:
+0.3941717791411043
+Accuracy score for client 46:
+0.6573604060913706
+Accuracy score for client 47:
+0.7776119402985074
+Accuracy score for client 48:
+0.5689505637467476
+Accuracy score for client 49:
+0.6824583866837388
+Accuracy score for client 0:
+0.45790816326530615
+Accuracy score for client 1:
+0.6252631578947369
+Accuracy score for client 2:
+0.7165082108902333
+Accuracy score for client 3:
+0.2800687285223368
+Accuracy score for client 4:
+0.7295081967213115
+Accuracy score for client 5:
+0.6849912739965096
+Accuracy score for client 6:
+0.6610738255033557
+Accuracy score for client 7:
+0.6210526315789474
+Accuracy score for client 8:
+0.6526946107784432
+Accuracy score for client 9:
+0.5187637969094923
+Accuracy score for client 10:
+0.7265758091993185
+Accuracy score for client 11:
+0.6226568867155664
+Accuracy score for client 12:
+0.6374896779521056
+Accuracy score for client 13:
+0.41
+Accuracy score for client 14:
+0.6037891268533773
+Accuracy score for client 15:
+0.6949013157894737
+Accuracy score for client 16:
+0.6306532663316583
+Accuracy score for client 17:
+0.6244939271255061
+Accuracy score for client 18:
+0.5730994152046783
+Accuracy score for client 19:
+0.5162019593067069
+Accuracy score for client 20:
+0.6620633631194152
+Accuracy score for client 21:
+0.6035058430717863
+Accuracy score for client 22:
+0.5433482810164425
+Accuracy score for client 23:
+0.3431899641577061
+Accuracy score for client 24:
+0.6666666666666666
+Accuracy score for client 25:
+0.7771236333052985
+Accuracy score for client 26:
+0.676949443016281
+Accuracy score for client 27:
+0.5278846153846154
+Accuracy score for client 28:
+0.5973684210526315
+Accuracy score for client 29:
+0.41501294219154444
+Accuracy score for client 30:
+0.7432550043516101
+Accuracy score for client 31:
+0.6094470046082949
+Accuracy score for client 32:
+0.78996138996139
+Accuracy score for client 33:
+0.45622119815668205
+Accuracy score for client 34:
+0.517113783533765
+Accuracy score for client 35:
+0.5971502590673575
+Accuracy score for client 36:
+0.6854146806482364
+Accuracy score for client 37:
+0.7544006705783739
+Accuracy score for client 38:
+0.5645161290322581
+Accuracy score for client 39:
+0.7692895339954163
+Accuracy score for client 40:
+0.5878378378378378
+Accuracy score for client 41:
+0.6553585196607556
+Accuracy score for client 42:
+0.49506346967559944
+Accuracy score for client 43:
+0.48753016894609813
+Accuracy score for client 44:
+0.7841373671300081
+Accuracy score for client 45:
+0.3581288343558282
+Accuracy score for client 46:
+0.6514382402707276
+Accuracy score for client 47:
+0.7455223880597015
+Accuracy score for client 48:
+0.6366001734605378
+Accuracy score for client 49:
+0.6299615877080665
+Accuracy score for client 0:
+0.413265306122449
+Accuracy score for client 1:
+0.5610526315789474
+Accuracy score for client 2:
+0.5808124459809854
+Accuracy score for client 3:
+0.37800687285223367
+Accuracy score for client 4:
+0.6475409836065574
+Accuracy score for client 5:
+0.618673647469459
+Accuracy score for client 6:
+0.5788590604026845
+Accuracy score for client 7:
+0.48502024291497975
+Accuracy score for client 8:
+0.5561377245508982
+Accuracy score for client 9:
+0.5945548197203826
+Accuracy score for client 10:
+0.524701873935264
+Accuracy score for client 11:
+0.5215973920130399
+Accuracy score for client 12:
+0.564822460776218
+Accuracy score for client 13:
+0.503
+Accuracy score for client 14:
+0.5543657331136738
+Accuracy score for client 15:
+0.5912828947368421
+Accuracy score for client 16:
+0.535175879396985
+Accuracy score for client 17:
+0.5840080971659919
+Accuracy score for client 18:
+0.5112781954887218
+Accuracy score for client 19:
+0.5983421250941975
+Accuracy score for client 20:
+0.5426482534524777
+Accuracy score for client 21:
+0.48664440734557596
+Accuracy score for client 22:
+0.4701046337817638
+Accuracy score for client 23:
+0.4444444444444444
+Accuracy score for client 24:
+0.6026936026936027
+Accuracy score for client 25:
+0.6274179983179142
+Accuracy score for client 26:
+0.6341045415595544
+Accuracy score for client 27:
+0.5038461538461538
+Accuracy score for client 28:
+0.5171052631578947
+Accuracy score for client 29:
+0.4702329594477998
+Accuracy score for client 30:
+0.6170583115752829
+Accuracy score for client 31:
+0.4804147465437788
+Accuracy score for client 32:
+0.6988416988416989
+Accuracy score for client 33:
+0.576036866359447
+Accuracy score for client 34:
+0.4246068455134135
+Accuracy score for client 35:
+0.5790155440414507
+Accuracy score for client 36:
+0.5958055290753098
+Accuracy score for client 37:
+0.6613579212070411
+Accuracy score for client 38:
+0.4872665534804754
+Accuracy score for client 39:
+0.8074866310160428
+Accuracy score for client 40:
+0.5202702702702703
+Accuracy score for client 41:
+0.6067848882035466
+Accuracy score for client 42:
+0.4605077574047955
+Accuracy score for client 43:
+0.5703942075623492
+Accuracy score for client 44:
+0.6557645134914145
+Accuracy score for client 45:
+0.2776073619631902
+Accuracy score for client 46:
+0.5067681895093062
+Accuracy score for client 47:
+0.6305970149253731
+Accuracy score for client 48:
+0.4562012142237641
+Accuracy score for client 49:
+0.5608194622279129
+Accuracy score for client 0:
+0.4630102040816326
+Accuracy score for client 1:
+0.5768421052631579
+Accuracy score for client 2:
+0.658599827139153
+Accuracy score for client 3:
+0.3230240549828179
+Accuracy score for client 4:
+0.6857923497267759
+Accuracy score for client 5:
+0.606457242582897
+Accuracy score for client 6:
+0.613255033557047
+Accuracy score for client 7:
+0.5214574898785425
+Accuracy score for client 8:
+0.5733532934131736
+Accuracy score for client 9:
+0.5798381162619574
+Accuracy score for client 10:
+0.6115843270868825
+Accuracy score for client 11:
+0.5256723716381418
+Accuracy score for client 12:
+0.5763831544178365
+Accuracy score for client 13:
+0.442
+Accuracy score for client 14:
+0.6515650741350906
+Accuracy score for client 15:
+0.5863486842105263
+Accuracy score for client 16:
+0.5921273031825796
+Accuracy score for client 17:
+0.6224696356275303
+Accuracy score for client 18:
+0.5421888053467001
+Accuracy score for client 19:
+0.5802562170308968
+Accuracy score for client 20:
+0.554021121039805
+Accuracy score for client 21:
+0.503338898163606
+Accuracy score for client 22:
+0.5164424514200299
+Accuracy score for client 23:
+0.4032258064516129
+Accuracy score for client 24:
+0.6102693602693603
+Accuracy score for client 25:
+0.7375946173254836
+Accuracy score for client 26:
+0.68808911739503
+Accuracy score for client 27:
+0.5423076923076923
+Accuracy score for client 28:
+0.5473684210526316
+Accuracy score for client 29:
+0.4262295081967213
+Accuracy score for client 30:
+0.6431679721496953
+Accuracy score for client 31:
+0.532258064516129
+Accuracy score for client 32:
+0.752895752895753
+Accuracy score for client 33:
+0.5637480798771122
+Accuracy score for client 34:
+0.47641073080481033
+Accuracy score for client 35:
+0.6424870466321243
+Accuracy score for client 36:
+0.6377502383222117
+Accuracy score for client 37:
+0.6789606035205364
+Accuracy score for client 38:
+0.5314091680814941
+Accuracy score for client 39:
+0.819327731092437
+Accuracy score for client 40:
+0.5259009009009009
+Accuracy score for client 41:
+0.638396299151889
+Accuracy score for client 42:
+0.5098730606488011
+Accuracy score for client 43:
+0.5639581657280772
+Accuracy score for client 44:
+0.6868356500408831
+Accuracy score for client 45:
+0.2898773006134969
+Accuracy score for client 46:
+0.5414551607445008
+Accuracy score for client 47:
+0.6373134328358209
+Accuracy score for client 48:
+0.4388551604509974
+Accuracy score for client 49:
+0.5531370038412292
+Accuracy score for client 0:
+0.49489795918367346
+Accuracy score for client 1:
+0.6673684210526316
+Accuracy score for client 2:
+0.7113223854796888
+Accuracy score for client 3:
+0.18556701030927836
+Accuracy score for client 4:
+0.7650273224043715
+Accuracy score for client 5:
+0.7460732984293194
+Accuracy score for client 6:
+0.74748322147651
+Accuracy score for client 7:
+0.6340080971659919
+Accuracy score for client 8:
+0.656437125748503
+Accuracy score for client 9:
+0.5091979396615158
+Accuracy score for client 10:
+0.8040885860306644
+Accuracy score for client 11:
+0.6210268948655256
+Accuracy score for client 12:
+0.7060280759702725
+Accuracy score for client 13:
+0.376
+Accuracy score for client 14:
+0.642504118616145
+Accuracy score for client 15:
+0.6817434210526315
+Accuracy score for client 16:
+0.6909547738693468
+Accuracy score for client 17:
+0.5850202429149798
+Accuracy score for client 18:
+0.6416040100250626
+Accuracy score for client 19:
+0.4694800301431801
+Accuracy score for client 20:
+0.7644191714053615
+Accuracy score for client 21:
+0.664440734557596
+Accuracy score for client 22:
+0.5426008968609866
+Accuracy score for client 23:
+0.30197132616487454
+Accuracy score for client 24:
+0.6372053872053872
+Accuracy score for client 25:
+0.8662741799831791
+Accuracy score for client 26:
+0.6735218508997429
+Accuracy score for client 27:
+0.49615384615384617
+Accuracy score for client 28:
+0.6473684210526316
+Accuracy score for client 29:
+0.3943054357204487
+Accuracy score for client 30:
+0.6979982593559617
+Accuracy score for client 31:
+0.619815668202765
+Accuracy score for client 32:
+0.888030888030888
+Accuracy score for client 33:
+0.43164362519201227
+Accuracy score for client 34:
+0.5356151711378353
+Accuracy score for client 35:
+0.5790155440414507
+Accuracy score for client 36:
+0.6825548141086749
+Accuracy score for client 37:
+0.7787091366303437
+Accuracy score for client 38:
+0.6069609507640068
+Accuracy score for client 39:
+0.7689075630252101
+Accuracy score for client 40:
+0.7364864864864865
+Accuracy score for client 41:
+0.6792598303777949
+Accuracy score for client 42:
+0.5655853314527504
+Accuracy score for client 43:
+0.5205148833467418
+Accuracy score for client 44:
+0.8356500408830744
+Accuracy score for client 45:
+0.37653374233128833
+Accuracy score for client 46:
+0.7588832487309645
+Accuracy score for client 47:
+0.7037313432835821
+Accuracy score for client 48:
+0.6947094535993061
+Accuracy score for client 49:
+0.5723431498079385
+Accuracy score for client 0:
+0.5204081632653061
+Accuracy score for client 1:
+0.6936842105263158
+Accuracy score for client 2:
+0.7761452031114953
+Accuracy score for client 3:
+0.15979381443298968
+Accuracy score for client 4:
+0.7923497267759563
+Accuracy score for client 5:
+0.7722513089005235
+Accuracy score for client 6:
+0.7718120805369127
+Accuracy score for client 7:
+0.654251012145749
+Accuracy score for client 8:
+0.6826347305389222
+Accuracy score for client 9:
+0.4540103016924209
+Accuracy score for client 10:
+0.7904599659284497
+Accuracy score for client 11:
+0.6788916055419723
+Accuracy score for client 12:
+0.7481420313790256
+Accuracy score for client 13:
+0.342
+Accuracy score for client 14:
+0.6919275123558485
+Accuracy score for client 15:
+0.7384868421052632
+Accuracy score for client 16:
+0.6993299832495813
+Accuracy score for client 17:
+0.6548582995951417
+Accuracy score for client 18:
+0.6616541353383458
+Accuracy score for client 19:
+0.4619442351168048
+Accuracy score for client 20:
+0.7254264825345248
+Accuracy score for client 21:
+0.679465776293823
+Accuracy score for client 22:
+0.594170403587444
+Accuracy score for client 23:
+0.25806451612903225
+Accuracy score for client 24:
+0.7365319865319865
+Accuracy score for client 25:
+0.8730025231286795
+Accuracy score for client 26:
+0.726649528706084
+Accuracy score for client 27:
+0.5942307692307692
+Accuracy score for client 28:
+0.6710526315789473
+Accuracy score for client 29:
+0.365832614322692
+Accuracy score for client 30:
+0.7841601392515231
+Accuracy score for client 31:
+0.6532258064516129
+Accuracy score for client 32:
+0.888030888030888
+Accuracy score for client 33:
+0.4009216589861751
+Accuracy score for client 34:
+0.5827937095282146
+Accuracy score for client 35:
+0.6709844559585493
+Accuracy score for client 36:
+0.7673975214489991
+Accuracy score for client 37:
+0.8005029337803856
+Accuracy score for client 38:
+0.6307300509337861
+Accuracy score for client 39:
+0.7360580595874714
+Accuracy score for client 40:
+0.7105855855855856
+Accuracy score for client 41:
+0.7494217424826523
+Accuracy score for client 42:
+0.6170662905500706
+Accuracy score for client 43:
+0.43925985518905875
+Accuracy score for client 44:
+0.8299264104660671
+Accuracy score for client 45:
+0.3934049079754601
+Accuracy score for client 46:
+0.7622673434856176
+Accuracy score for client 47:
+0.7619402985074627
+Accuracy score for client 48:
+0.6530789245446661
+Accuracy score for client 49:
+0.645326504481434
+Accuracy score for client 0:
+0.45790816326530615
+Accuracy score for client 1:
+0.6231578947368421
+Accuracy score for client 2:
+0.7208297320656871
+Accuracy score for client 3:
+0.25859106529209624
+Accuracy score for client 4:
+0.73224043715847
+Accuracy score for client 5:
+0.7024432809773123
+Accuracy score for client 6:
+0.6417785234899329
+Accuracy score for client 7:
+0.611336032388664
+Accuracy score for client 8:
+0.6519461077844312
+Accuracy score for client 9:
+0.5298013245033113
+Accuracy score for client 10:
+0.747870528109029
+Accuracy score for client 11:
+0.582722086389568
+Accuracy score for client 12:
+0.6251032204789431
+Accuracy score for client 13:
+0.42
+Accuracy score for client 14:
+0.6087314662273476
+Accuracy score for client 15:
+0.6842105263157895
+Accuracy score for client 16:
+0.628140703517588
+Accuracy score for client 17:
+0.590080971659919
+Accuracy score for client 18:
+0.5831244778613199
+Accuracy score for client 19:
+0.5071590052750565
+Accuracy score for client 20:
+0.6766856214459789
+Accuracy score for client 21:
+0.5884808013355592
+Accuracy score for client 22:
+0.5590433482810164
+Accuracy score for client 23:
+0.32974910394265233
+Accuracy score for client 24:
+0.6355218855218855
+Accuracy score for client 25:
+0.8242220353238016
+Accuracy score for client 26:
+0.6889460154241646
+Accuracy score for client 27:
+0.5096153846153846
+Accuracy score for client 28:
+0.6302631578947369
+Accuracy score for client 29:
+0.4158757549611734
+Accuracy score for client 30:
+0.731940818102698
+Accuracy score for client 31:
+0.6278801843317973
+Accuracy score for client 32:
+0.8301158301158301
+Accuracy score for client 33:
+0.41935483870967744
+Accuracy score for client 34:
+0.5411655874190564
+Accuracy score for client 35:
+0.5803108808290155
+Accuracy score for client 36:
+0.6625357483317446
+Accuracy score for client 37:
+0.757753562447611
+Accuracy score for client 38:
+0.566213921901528
+Accuracy score for client 39:
+0.7784568372803667
+Accuracy score for client 40:
+0.6114864864864865
+Accuracy score for client 41:
+0.661526599845798
+Accuracy score for client 42:
+0.5098730606488011
+Accuracy score for client 43:
+0.5076427996781979
+Accuracy score for client 44:
+0.7972199509403107
+Accuracy score for client 45:
+0.348159509202454
+Accuracy score for client 46:
+0.6844331641285956
+Accuracy score for client 47:
+0.7231343283582089
+Accuracy score for client 48:
+0.6253252385082394
+Accuracy score for client 49:
+0.6005121638924455
+Accuracy score for client 0:
+0.4387755102040816
+Accuracy score for client 1:
+0.58
+Accuracy score for client 2:
+0.6698357821953328
+Accuracy score for client 3:
+0.3470790378006873
+Accuracy score for client 4:
+0.7131147540983607
+Accuracy score for client 5:
+0.6212914485165794
+Accuracy score for client 6:
+0.5620805369127517
+Accuracy score for client 7:
+0.5789473684210527
+Accuracy score for client 8:
+0.6309880239520959
+Accuracy score for client 9:
+0.5312729948491538
+Accuracy score for client 10:
+0.6507666098807495
+Accuracy score for client 11:
+0.5493072534637327
+Accuracy score for client 12:
+0.5953757225433526
+Accuracy score for client 13:
+0.462
+Accuracy score for client 14:
+0.5988467874794069
+Accuracy score for client 15:
+0.6644736842105263
+Accuracy score for client 16:
+0.5494137353433836
+Accuracy score for client 17:
+0.6093117408906883
+Accuracy score for client 18:
+0.5079365079365079
+Accuracy score for client 19:
+0.5523737754333082
+Accuracy score for client 20:
+0.6076360682372055
+Accuracy score for client 21:
+0.5434056761268782
+Accuracy score for client 22:
+0.5321375186846039
+Accuracy score for client 23:
+0.37007168458781364
+Accuracy score for client 24:
+0.6481481481481481
+Accuracy score for client 25:
+0.7106812447434819
+Accuracy score for client 26:
+0.675235646958012
+Accuracy score for client 27:
+0.510576923076923
+Accuracy score for client 28:
+0.5407894736842105
+Accuracy score for client 29:
+0.4426229508196721
+Accuracy score for client 30:
+0.7258485639686684
+Accuracy score for client 31:
+0.5806451612903226
+Accuracy score for client 32:
+0.6918918918918919
+Accuracy score for client 33:
+0.4838709677419355
+Accuracy score for client 34:
+0.4727104532839963
+Accuracy score for client 35:
+0.5984455958549223
+Accuracy score for client 36:
+0.6358436606291706
+Accuracy score for client 37:
+0.6906957250628667
+Accuracy score for client 38:
+0.48132427843803055
+Accuracy score for client 39:
+0.787624140565317
+Accuracy score for client 40:
+0.49099099099099097
+Accuracy score for client 41:
+0.6399383191981496
+Accuracy score for client 42:
+0.48166431593794073
+Accuracy score for client 43:
+0.5205148833467418
+Accuracy score for client 44:
+0.7072771872444807
+Accuracy score for client 45:
+0.3351226993865031
+Accuracy score for client 46:
+0.5854483925549916
+Accuracy score for client 47:
+0.7216417910447761
+Accuracy score for client 48:
+0.5654813529921943
+Accuracy score for client 49:
+0.6094750320102432
+Accuracy score for client 0:
+0.49744897959183676
+Accuracy score for client 1:
+0.608421052631579
+Accuracy score for client 2:
+0.7778738115816768
+Accuracy score for client 3:
+0.30412371134020616
+Accuracy score for client 4:
+0.7786885245901639
+Accuracy score for client 5:
+0.7155322862129145
+Accuracy score for client 6:
+0.697986577181208
+Accuracy score for client 7:
+0.6145748987854251
+Accuracy score for client 8:
+0.6609281437125748
+Accuracy score for client 9:
+0.4304635761589404
+Accuracy score for client 10:
+0.6328790459965928
+Accuracy score for client 11:
+0.7196414017929911
+Accuracy score for client 12:
+0.639141205615194
+Accuracy score for client 13:
+0.365
+Accuracy score for client 14:
+0.6985172981878089
+Accuracy score for client 15:
+0.7532894736842105
+Accuracy score for client 16:
+0.6490787269681743
+Accuracy score for client 17:
+0.7449392712550608
+Accuracy score for client 18:
+0.6382623224728488
+Accuracy score for client 19:
+0.47927656367746796
+Accuracy score for client 20:
+0.602761982128351
+Accuracy score for client 21:
+0.5818030050083473
+Accuracy score for client 22:
+0.6165919282511211
+Accuracy score for client 23:
+0.2974910394265233
+Accuracy score for client 24:
+0.7710437710437711
+Accuracy score for client 25:
+0.7636669470142977
+Accuracy score for client 26:
+0.7737789203084833
+Accuracy score for client 27:
+0.7201923076923077
+Accuracy score for client 28:
+0.6381578947368421
+Accuracy score for client 29:
+0.359792924935289
+Accuracy score for client 30:
+0.8128807658833769
+Accuracy score for client 31:
+0.6175115207373272
+Accuracy score for client 32:
+0.783011583011583
+Accuracy score for client 33:
+0.4039938556067588
+Accuracy score for client 34:
+0.5837187789084182
+Accuracy score for client 35:
+0.7266839378238342
+Accuracy score for client 36:
+0.7816968541468065
+Accuracy score for client 37:
+0.7451802179379715
+Accuracy score for client 38:
+0.5916808149405772
+Accuracy score for client 39:
+0.7085561497326203
+Accuracy score for client 40:
+0.5788288288288288
+Accuracy score for client 41:
+0.748650732459522
+Accuracy score for client 42:
+0.5416078984485191
+Accuracy score for client 43:
+0.336283185840708
+Accuracy score for client 44:
+0.7391659852820932
+Accuracy score for client 45:
+0.39723926380368096
+Accuracy score for client 46:
+0.5939086294416244
+Accuracy score for client 47:
+0.7626865671641792
+Accuracy score for client 48:
+0.5437987857762359
+Accuracy score for client 49:
+0.6850192061459667
+Accuracy score for client 0:
+0.5204081632653061
+Accuracy score for client 1:
+0.68
+Accuracy score for client 2:
+0.749351771823682
+Accuracy score for client 3:
+0.24914089347079038
+Accuracy score for client 4:
+0.7540983606557377
+Accuracy score for client 5:
+0.7155322862129145
+Accuracy score for client 6:
+0.7088926174496645
+Accuracy score for client 7:
+0.6526315789473685
+Accuracy score for client 8:
+0.6676646706586826
+Accuracy score for client 9:
+0.47240618101545256
+Accuracy score for client 10:
+0.762350936967632
+Accuracy score for client 11:
+0.6454767726161369
+Accuracy score for client 12:
+0.7101568951279934
+Accuracy score for client 13:
+0.357
+Accuracy score for client 14:
+0.6894563426688632
+Accuracy score for client 15:
+0.6924342105263158
+Accuracy score for client 16:
+0.6591289782244556
+Accuracy score for client 17:
+0.6953441295546559
+Accuracy score for client 18:
+0.656641604010025
+Accuracy score for client 19:
+0.4604370761115298
+Accuracy score for client 20:
+0.6653127538586515
+Accuracy score for client 21:
+0.6419031719532554
+Accuracy score for client 22:
+0.5994020926756353
+Accuracy score for client 23:
+0.31272401433691754
+Accuracy score for client 24:
+0.7171717171717171
+Accuracy score for client 25:
+0.7964676198486123
+Accuracy score for client 26:
+0.7514995715509855
+Accuracy score for client 27:
+0.6259615384615385
+Accuracy score for client 28:
+0.6618421052631579
+Accuracy score for client 29:
+0.36755823986194996
+Accuracy score for client 30:
+0.7476066144473456
+Accuracy score for client 31:
+0.6658986175115207
+Accuracy score for client 32:
+0.7976833976833977
+Accuracy score for client 33:
+0.43317972350230416
+Accuracy score for client 34:
+0.5309898242368177
+Accuracy score for client 35:
+0.7033678756476683
+Accuracy score for client 36:
+0.7273593898951383
+Accuracy score for client 37:
+0.7644593461860855
+Accuracy score for client 38:
+0.5823429541595926
+Accuracy score for client 39:
+0.7509549274255156
+Accuracy score for client 40:
+0.6261261261261262
+Accuracy score for client 41:
+0.7286044718581342
+Accuracy score for client 42:
+0.576163610719323
+Accuracy score for client 43:
+0.4231697506033789
+Accuracy score for client 44:
+0.7906786590351594
+Accuracy score for client 45:
+0.37576687116564417
+Accuracy score for client 46:
+0.6844331641285956
+Accuracy score for client 47:
+0.7604477611940299
+Accuracy score for client 48:
+0.6201214223764093
+Accuracy score for client 49:
+0.6568501920614597
+Accuracy score for client 0:
+0.45790816326530615
+Accuracy score for client 1:
+0.6073684210526316
+Accuracy score for client 2:
+0.7251512532411409
+Accuracy score for client 3:
+0.2981099656357388
+Accuracy score for client 4:
+0.7240437158469946
+Accuracy score for client 5:
+0.6518324607329843
+Accuracy score for client 6:
+0.5679530201342282
+Accuracy score for client 7:
+0.594331983805668
+Accuracy score for client 8:
+0.6339820359281437
+Accuracy score for client 9:
+0.5614422369389257
+Accuracy score for client 10:
+0.7163543441226575
+Accuracy score for client 11:
+0.5338223308883455
+Accuracy score for client 12:
+0.6094137076796037
+Accuracy score for client 13:
+0.429
+Accuracy score for client 14:
+0.642504118616145
+Accuracy score for client 15:
+0.6529605263157895
+Accuracy score for client 16:
+0.5871021775544388
+Accuracy score for client 17:
+0.5931174089068826
+Accuracy score for client 18:
+0.5271512113617377
+Accuracy score for client 19:
+0.5395629238884703
+Accuracy score for client 20:
+0.6409423233143785
+Accuracy score for client 21:
+0.5601001669449082
+Accuracy score for client 22:
+0.5620328849028401
+Accuracy score for client 23:
+0.35304659498207885
+Accuracy score for client 24:
+0.6313131313131313
+Accuracy score for client 25:
+0.8351555929352397
+Accuracy score for client 26:
+0.699228791773779
+Accuracy score for client 27:
+0.5067307692307692
+Accuracy score for client 28:
+0.5407894736842105
+Accuracy score for client 29:
+0.4098360655737705
+Accuracy score for client 30:
+0.6892950391644909
+Accuracy score for client 31:
+0.6209677419354839
+Accuracy score for client 32:
+0.7822393822393823
+Accuracy score for client 33:
+0.46543778801843316
+Accuracy score for client 34:
+0.5328399629972248
+Accuracy score for client 35:
+0.5997409326424871
+Accuracy score for client 36:
+0.6596758817921831
+Accuracy score for client 37:
+0.7284157585917854
+Accuracy score for client 38:
+0.5271646859083192
+Accuracy score for client 39:
+0.7998472116119175
+Accuracy score for client 40:
+0.5259009009009009
+Accuracy score for client 41:
+0.6360832690824981
+Accuracy score for client 42:
+0.5098730606488011
+Accuracy score for client 43:
+0.5526950925181013
+Accuracy score for client 44:
+0.7489779231398201
+Accuracy score for client 45:
+0.3343558282208589
+Accuracy score for client 46:
+0.6531302876480541
+Accuracy score for client 47:
+0.7119402985074627
+Accuracy score for client 48:
+0.5784908933217693
+Accuracy score for client 49:
+0.558258642765685
+Accuracy score for client 0:
+0.5127551020408163
+Accuracy score for client 1:
+0.6336842105263157
+Accuracy score for client 2:
+0.7009507346585998
+Accuracy score for client 3:
+0.18814432989690721
+Accuracy score for client 4:
+0.7377049180327869
+Accuracy score for client 5:
+0.7094240837696335
+Accuracy score for client 6:
+0.7516778523489933
+Accuracy score for client 7:
+0.6121457489878542
+Accuracy score for client 8:
+0.6212574850299402
+Accuracy score for client 9:
+0.47387785136129507
+Accuracy score for client 10:
+0.7742759795570698
+Accuracy score for client 11:
+0.6047269763651182
+Accuracy score for client 12:
+0.7109826589595376
+Accuracy score for client 13:
+0.357
+Accuracy score for client 14:
+0.6721581548599671
+Accuracy score for client 15:
+0.6521381578947368
+Accuracy score for client 16:
+0.6708542713567839
+Accuracy score for client 17:
+0.6417004048582996
+Accuracy score for client 18:
+0.656641604010025
+Accuracy score for client 19:
+0.47098718914845517
+Accuracy score for client 20:
+0.6945572705117791
+Accuracy score for client 21:
+0.6410684474123539
+Accuracy score for client 22:
+0.5680119581464873
+Accuracy score for client 23:
+0.289426523297491
+Accuracy score for client 24:
+0.7045454545454546
+Accuracy score for client 25:
+0.8435660218671153
+Accuracy score for client 26:
+0.726649528706084
+Accuracy score for client 27:
+0.5932692307692308
+Accuracy score for client 28:
+0.6421052631578947
+Accuracy score for client 29:
+0.37618636755823986
+Accuracy score for client 30:
+0.6692776327241079
+Accuracy score for client 31:
+0.6221198156682027
+Accuracy score for client 32:
+0.833976833976834
+Accuracy score for client 33:
+0.44393241167434716
+Accuracy score for client 34:
+0.5448658649398704
+Accuracy score for client 35:
+0.6735751295336787
+Accuracy score for client 36:
+0.7006673021925643
+Accuracy score for client 37:
+0.8013411567476949
+Accuracy score for client 38:
+0.5942275042444821
+Accuracy score for client 39:
+0.7570664629488159
+Accuracy score for client 40:
+0.6914414414414415
+Accuracy score for client 41:
+0.7023901310717039
+Accuracy score for client 42:
+0.6142454160789845
+Accuracy score for client 43:
+0.4666130329847144
+Accuracy score for client 44:
+0.7375306623058054
+Accuracy score for client 45:
+0.37116564417177916
+Accuracy score for client 46:
+0.6903553299492385
+Accuracy score for client 47:
+0.676865671641791
+Accuracy score for client 48:
+0.5828274067649609
+Accuracy score for client 49:
+0.5941101152368758
+Accuracy score for client 0:
+0.4451530612244898
+Accuracy score for client 1:
+0.6168421052631579
+Accuracy score for client 2:
+0.756266205704408
+Accuracy score for client 3:
+0.2706185567010309
+Accuracy score for client 4:
+0.7786885245901639
+Accuracy score for client 5:
+0.650087260034904
+Accuracy score for client 6:
+0.5763422818791947
+Accuracy score for client 7:
+0.6307692307692307
+Accuracy score for client 8:
+0.6676646706586826
+Accuracy score for client 9:
+0.5283296541574687
+Accuracy score for client 10:
+0.7120954003407155
+Accuracy score for client 11:
+0.5843520782396088
+Accuracy score for client 12:
+0.6705202312138728
+Accuracy score for client 13:
+0.438
+Accuracy score for client 14:
+0.6326194398682042
+Accuracy score for client 15:
+0.7294407894736842
+Accuracy score for client 16:
+0.5711892797319933
+Accuracy score for client 17:
+0.6275303643724697
+Accuracy score for client 18:
+0.504594820384294
+Accuracy score for client 19:
+0.5275056518462697
+Accuracy score for client 20:
+0.6230706742485784
+Accuracy score for client 21:
+0.5801335559265443
+Accuracy score for client 22:
+0.5553064275037369
+Accuracy score for client 23:
+0.3207885304659498
+Accuracy score for client 24:
+0.6632996632996633
+Accuracy score for client 25:
+0.8410428931875525
+Accuracy score for client 26:
+0.7103684661525278
+Accuracy score for client 27:
+0.5394230769230769
+Accuracy score for client 28:
+0.5605263157894737
+Accuracy score for client 29:
+0.42191544434857636
+Accuracy score for client 30:
+0.7789382071366405
+Accuracy score for client 31:
+0.6417050691244239
+Accuracy score for client 32:
+0.7698841698841699
+Accuracy score for client 33:
+0.43010752688172044
+Accuracy score for client 34:
+0.5578168362627197
+Accuracy score for client 35:
+0.6049222797927462
+Accuracy score for client 36:
+0.7283126787416587
+Accuracy score for client 37:
+0.7384744341994971
+Accuracy score for client 38:
+0.5483870967741935
+Accuracy score for client 39:
+0.7815126050420168
+Accuracy score for client 40:
+0.5045045045045045
+Accuracy score for client 41:
+0.6468774094063223
+Accuracy score for client 42:
+0.5183356840620592
+Accuracy score for client 43:
+0.502815768302494
+Accuracy score for client 44:
+0.7489779231398201
+Accuracy score for client 45:
+0.36273006134969327
+Accuracy score for client 46:
+0.6489001692047377
+Accuracy score for client 47:
+0.7731343283582089
+Accuracy score for client 48:
+0.5490026019080659
+Accuracy score for client 49:
+0.6504481434058899
+Accuracy score for client 0:
+0.5714285714285714
+Accuracy score for client 1:
+0.7578947368421053
+Accuracy score for client 2:
+0.7796024200518582
+Accuracy score for client 3:
+0.1640893470790378
+Accuracy score for client 4:
+0.8005464480874317
+Accuracy score for client 5:
+0.8019197207678883
+Accuracy score for client 6:
+0.8095637583892618
+Accuracy score for client 7:
+0.7020242914979757
+Accuracy score for client 8:
+0.7080838323353293
+Accuracy score for client 9:
+0.38631346578366443
+Accuracy score for client 10:
+0.7989778534923339
+Accuracy score for client 11:
+0.7603911980440098
+Accuracy score for client 12:
+0.8018166804293972
+Accuracy score for client 13:
+0.272
+Accuracy score for client 14:
+0.7553542009884678
+Accuracy score for client 15:
+0.7672697368421053
+Accuracy score for client 16:
+0.7512562814070352
+Accuracy score for client 17:
+0.7580971659919028
+Accuracy score for client 18:
+0.7393483709273183
+Accuracy score for client 19:
+0.3933685003767898
+Accuracy score for client 20:
+0.7465475223395613
+Accuracy score for client 21:
+0.7278797996661102
+Accuracy score for client 22:
+0.6666666666666666
+Accuracy score for client 23:
+0.22580645161290322
+Accuracy score for client 24:
+0.8114478114478114
+Accuracy score for client 25:
+0.8259041211101766
+Accuracy score for client 26:
+0.8200514138817481
+Accuracy score for client 27:
+0.7182692307692308
+Accuracy score for client 28:
+0.7289473684210527
+Accuracy score for client 29:
+0.2907679033649698
+Accuracy score for client 30:
+0.8085291557876414
+Accuracy score for client 31:
+0.7085253456221198
+Accuracy score for client 32:
+0.8501930501930502
+Accuracy score for client 33:
+0.36251920122887865
+Accuracy score for client 34:
+0.5753931544865865
+Accuracy score for client 35:
+0.8069948186528497
+Accuracy score for client 36:
+0.7893231649189705
+Accuracy score for client 37:
+0.8231349538977368
+Accuracy score for client 38:
+0.6383701188455009
+Accuracy score for client 39:
+0.6810542398777693
+Accuracy score for client 40:
+0.7297297297297297
+Accuracy score for client 41:
+0.8218966846569006
+Accuracy score for client 42:
+0.6572637517630465
+Accuracy score for client 43:
+0.2936444086886565
+Accuracy score for client 44:
+0.8282910874897792
+Accuracy score for client 45:
+0.4493865030674847
+Accuracy score for client 46:
+0.7301184433164128
+Accuracy score for client 47:
+0.8216417910447761
+Accuracy score for client 48:
+0.6721595836947094
+Accuracy score for client 49:
+0.7426376440460948
+Accuracy score for client 0:
+0.5255102040816326
+Accuracy score for client 1:
+0.6747368421052632
+Accuracy score for client 2:
+0.7510803802938635
+Accuracy score for client 3:
+0.22079037800687284
+Accuracy score for client 4:
+0.7540983606557377
+Accuracy score for client 5:
+0.7068062827225131
+Accuracy score for client 6:
+0.6610738255033557
+Accuracy score for client 7:
+0.6493927125506073
+Accuracy score for client 8:
+0.6744011976047904
+Accuracy score for client 9:
+0.4863870493009566
+Accuracy score for client 10:
+0.737649063032368
+Accuracy score for client 11:
+0.6193969030154849
+Accuracy score for client 12:
+0.7291494632535095
+Accuracy score for client 13:
+0.344
+Accuracy score for client 14:
+0.6812191103789127
+Accuracy score for client 15:
+0.7138157894736842
+Accuracy score for client 16:
+0.6239530988274706
+Accuracy score for client 17:
+0.667004048582996
+Accuracy score for client 18:
+0.6056808688387636
+Accuracy score for client 19:
+0.4958553127354936
+Accuracy score for client 20:
+0.7254264825345248
+Accuracy score for client 21:
+0.6652754590984975
+Accuracy score for client 22:
+0.585949177877429
+Accuracy score for client 23:
+0.28046594982078854
+Accuracy score for client 24:
+0.7146464646464646
+Accuracy score for client 25:
+0.8107653490328006
+Accuracy score for client 26:
+0.7412167952013711
+Accuracy score for client 27:
+0.5942307692307692
+Accuracy score for client 28:
+0.6171052631578947
+Accuracy score for client 29:
+0.359792924935289
+Accuracy score for client 30:
+0.7676240208877284
+Accuracy score for client 31:
+0.6682027649769585
+Accuracy score for client 32:
+0.7845559845559845
+Accuracy score for client 33:
+0.42089093701996927
+Accuracy score for client 34:
+0.5615171137835338
+Accuracy score for client 35:
+0.6904145077720207
+Accuracy score for client 36:
+0.7387988560533841
+Accuracy score for client 37:
+0.7669740150880134
+Accuracy score for client 38:
+0.5738539898132428
+Accuracy score for client 39:
+0.7559205500381971
+Accuracy score for client 40:
+0.6114864864864865
+Accuracy score for client 41:
+0.71781033153431
+Accuracy score for client 42:
+0.5825105782792666
+Accuracy score for client 43:
+0.4223652453740949
+Accuracy score for client 44:
+0.7726901062959934
+Accuracy score for client 45:
+0.37806748466257667
+Accuracy score for client 46:
+0.7030456852791879
+Accuracy score for client 47:
+0.7686567164179104
+Accuracy score for client 48:
+0.6522116218560278
+Accuracy score for client 49:
+0.6530089628681178
+Accuracy score for client 0:
+0.4770408163265306
+Accuracy score for client 1:
+0.6642105263157895
+Accuracy score for client 2:
+0.7044079515989629
+Accuracy score for client 3:
+0.20704467353951891
+Accuracy score for client 4:
+0.7595628415300546
+Accuracy score for client 5:
+0.7085514834205934
+Accuracy score for client 6:
+0.7063758389261745
+Accuracy score for client 7:
+0.6089068825910932
+Accuracy score for client 8:
+0.6467065868263473
+Accuracy score for client 9:
+0.5364238410596026
+Accuracy score for client 10:
+0.7853492333901193
+Accuracy score for client 11:
+0.5762021189894051
+Accuracy score for client 12:
+0.6919900908340215
+Accuracy score for client 13:
+0.393
+Accuracy score for client 14:
+0.6499176276771005
+Accuracy score for client 15:
+0.6554276315789473
+Accuracy score for client 16:
+0.6641541038525963
+Accuracy score for client 17:
+0.5991902834008097
+Accuracy score for client 18:
+0.5998329156223893
+Accuracy score for client 19:
+0.4958553127354936
+Accuracy score for client 20:
+0.7294882209585702
+Accuracy score for client 21:
+0.654424040066778
+Accuracy score for client 22:
+0.5478325859491778
+Accuracy score for client 23:
+0.3100358422939068
+Accuracy score for client 24:
+0.6397306397306397
+Accuracy score for client 25:
+0.8536585365853658
+Accuracy score for client 26:
+0.6829477292202228
+Accuracy score for client 27:
+0.5009615384615385
+Accuracy score for client 28:
+0.631578947368421
+Accuracy score for client 29:
+0.3917169974115617
+Accuracy score for client 30:
+0.6901653611836379
+Accuracy score for client 31:
+0.619815668202765
+Accuracy score for client 32:
+0.8563706563706563
+Accuracy score for client 33:
+0.44086021505376344
+Accuracy score for client 34:
+0.5494912118408881
+Accuracy score for client 35:
+0.6049222797927462
+Accuracy score for client 36:
+0.6816015252621545
+Accuracy score for client 37:
+0.7678122380553227
+Accuracy score for client 38:
+0.6018675721561969
+Accuracy score for client 39:
+0.7708174178762414
+Accuracy score for client 40:
+0.6644144144144144
+Accuracy score for client 41:
+0.6784888203546646
+Accuracy score for client 42:
+0.5613540197461213
+Accuracy score for client 43:
+0.5341914722445696
+Accuracy score for client 44:
+0.8258381030253475
+Accuracy score for client 45:
+0.36809815950920244
+Accuracy score for client 46:
+0.7225042301184433
+Accuracy score for client 47:
+0.7029850746268657
+Accuracy score for client 48:
+0.6461405030355594
+Accuracy score for client 49:
+0.5787451984635084
+Accuracy score for client 0:
+0.5025510204081632
+Accuracy score for client 1:
+0.64
+Accuracy score for client 2:
+0.7156439066551427
+Accuracy score for client 3:
+0.2534364261168385
+Accuracy score for client 4:
+0.7459016393442623
+Accuracy score for client 5:
+0.699825479930192
+Accuracy score for client 6:
+0.6971476510067114
+Accuracy score for client 7:
+0.6251012145748988
+Accuracy score for client 8:
+0.6511976047904192
+Accuracy score for client 9:
+0.5136129506990434
+Accuracy score for client 10:
+0.7367972742759795
+Accuracy score for client 11:
+0.615321923390383
+Accuracy score for client 12:
+0.6573080099091659
+Accuracy score for client 13:
+0.396
+Accuracy score for client 14:
+0.6523887973640856
+Accuracy score for client 15:
+0.6833881578947368
+Accuracy score for client 16:
+0.6582914572864321
+Accuracy score for client 17:
+0.6680161943319838
+Accuracy score for client 18:
+0.5873015873015873
+Accuracy score for client 19:
+0.4958553127354936
+Accuracy score for client 20:
+0.6393176279447603
+Accuracy score for client 21:
+0.6043405676126878
+Accuracy score for client 22:
+0.5500747384155455
+Accuracy score for client 23:
+0.31810035842293904
+Accuracy score for client 24:
+0.6877104377104377
+Accuracy score for client 25:
+0.8174936921783011
+Accuracy score for client 26:
+0.7197943444730077
+Accuracy score for client 27:
+0.5788461538461539
+Accuracy score for client 28:
+0.6157894736842106
+Accuracy score for client 29:
+0.4012079378774806
+Accuracy score for client 30:
+0.7302001740644039
+Accuracy score for client 31:
+0.6105990783410138
+Accuracy score for client 32:
+0.8239382239382239
+Accuracy score for client 33:
+0.4577572964669739
+Accuracy score for client 34:
+0.5337650323774283
+Accuracy score for client 35:
+0.6606217616580311
+Accuracy score for client 36:
+0.7168732125834127
+Accuracy score for client 37:
+0.7468566638725901
+Accuracy score for client 38:
+0.5797962648556876
+Accuracy score for client 39:
+0.767379679144385
+Accuracy score for client 40:
+0.6193693693693694
+Accuracy score for client 41:
+0.6931380107941403
+Accuracy score for client 42:
+0.5479548660084627
+Accuracy score for client 43:
+0.4835076427996782
+Accuracy score for client 44:
+0.7972199509403107
+Accuracy score for client 45:
+0.3565950920245399
+Accuracy score for client 46:
+0.626057529610829
+Accuracy score for client 47:
+0.7425373134328358
+Accuracy score for client 48:
+0.559410234171726
+Accuracy score for client 49:
+0.6274007682458387
+Accuracy score for client 0:
+0.49362244897959184
+Accuracy score for client 1:
+0.6905263157894737
+Accuracy score for client 2:
+0.6784788245462403
+Accuracy score for client 3:
+0.22852233676975944
+Accuracy score for client 4:
+0.73224043715847
+Accuracy score for client 5:
+0.7033158813263525
+Accuracy score for client 6:
+0.7374161073825504
+Accuracy score for client 7:
+0.6340080971659919
+Accuracy score for client 8:
+0.6422155688622755
+Accuracy score for client 9:
+0.4576894775570272
+Accuracy score for client 10:
+0.7137989778534923
+Accuracy score for client 11:
+0.6666666666666666
+Accuracy score for client 12:
+0.7547481420313791
+Accuracy score for client 13:
+0.4
+Accuracy score for client 14:
+0.6301482701812191
+Accuracy score for client 15:
+0.7171052631578947
+Accuracy score for client 16:
+0.6415410385259631
+Accuracy score for client 17:
+0.659919028340081
+Accuracy score for client 18:
+0.6198830409356725
+Accuracy score for client 19:
+0.4747550866616428
+Accuracy score for client 20:
+0.6563769293257514
+Accuracy score for client 21:
+0.6210350584307178
+Accuracy score for client 22:
+0.5433482810164425
+Accuracy score for client 23:
+0.32526881720430106
+Accuracy score for client 24:
+0.7163299663299664
+Accuracy score for client 25:
+0.7283431455004206
+Accuracy score for client 26:
+0.7249357326478149
+Accuracy score for client 27:
+0.5951923076923077
+Accuracy score for client 28:
+0.6671052631578948
+Accuracy score for client 29:
+0.4081104400345125
+Accuracy score for client 30:
+0.7502175805047868
+Accuracy score for client 31:
+0.6232718894009217
+Accuracy score for client 32:
+0.7606177606177607
+Accuracy score for client 33:
+0.4592933947772657
+Accuracy score for client 34:
+0.4939870490286771
+Accuracy score for client 35:
+0.6800518134715026
+Accuracy score for client 36:
+0.7063870352716873
+Accuracy score for client 37:
+0.7594300083822296
+Accuracy score for client 38:
+0.567062818336163
+Accuracy score for client 39:
+0.741405653170359
+Accuracy score for client 40:
+0.6261261261261262
+Accuracy score for client 41:
+0.7324595219737856
+Accuracy score for client 42:
+0.5980253878702397
+Accuracy score for client 43:
+0.43765084473049076
+Accuracy score for client 44:
+0.7367130008176614
+Accuracy score for client 45:
+0.37423312883435583
+Accuracy score for client 46:
+0.6404399323181049
+Accuracy score for client 47:
+0.7634328358208955
+Accuracy score for client 48:
+0.5628794449262793
+Accuracy score for client 49:
+0.6811779769526248
+Accuracy score for client 0:
+0.38392857142857145
+Accuracy score for client 1:
+0.5547368421052632
+Accuracy score for client 2:
+0.6352636127917026
+Accuracy score for client 3:
+0.4518900343642612
+Accuracy score for client 4:
+0.6229508196721312
+Accuracy score for client 5:
+0.543630017452007
+Accuracy score for client 6:
+0.48825503355704697
+Accuracy score for client 7:
+0.5530364372469636
+Accuracy score for client 8:
+0.5733532934131736
+Accuracy score for client 9:
+0.5356880058866814
+Accuracy score for client 10:
+0.5374787052810903
+Accuracy score for client 11:
+0.560717196414018
+Accuracy score for client 12:
+0.5309661436829067
+Accuracy score for client 13:
+0.502
+Accuracy score for client 14:
+0.5757825370675453
+Accuracy score for client 15:
+0.6480263157894737
+Accuracy score for client 16:
+0.5100502512562815
+Accuracy score for client 17:
+0.6052631578947368
+Accuracy score for client 18:
+0.46950710108604843
+Accuracy score for client 19:
+0.573474001507159
+Accuracy score for client 20:
+0.5093419983753046
+Accuracy score for client 21:
+0.49248747913188645
+Accuracy score for client 22:
+0.5127055306427504
+Accuracy score for client 23:
+0.45698924731182794
+Accuracy score for client 24:
+0.601010101010101
+Accuracy score for client 25:
+0.6047098402018503
+Accuracy score for client 26:
+0.6186803770351328
+Accuracy score for client 27:
+0.5423076923076923
+Accuracy score for client 28:
+0.5210526315789473
+Accuracy score for client 29:
+0.5038826574633305
+Accuracy score for client 30:
+0.6866840731070496
+Accuracy score for client 31:
+0.5622119815668203
+Accuracy score for client 32:
+0.5822393822393822
+Accuracy score for client 33:
+0.5192012288786483
+Accuracy score for client 34:
+0.4412580943570768
+Accuracy score for client 35:
+0.5906735751295337
+Accuracy score for client 36:
+0.6177311725452812
+Accuracy score for client 37:
+0.5624476110645432
+Accuracy score for client 38:
+0.4303904923599321
+Accuracy score for client 39:
+0.7868601986249045
+Accuracy score for client 40:
+0.39414414414414417
+Accuracy score for client 41:
+0.6152659984579799
+Accuracy score for client 42:
+0.4322990126939351
+Accuracy score for client 43:
+0.46178600160901045
+Accuracy score for client 44:
+0.6287816843826656
+Accuracy score for client 45:
+0.3052147239263804
+Accuracy score for client 46:
+0.4983079526226734
+Accuracy score for client 47:
+0.7171641791044776
+Accuracy score for client 48:
+0.4986990459670425
+Accuracy score for client 49:
+0.6030729833546735
+Relearn Round = 0 Avg Forget Acc = 0.8003265468237447, Avg Remember Acc = 0.0291865387317608
+Relearn Round = 1 Avg Forget Acc = 0.8291883638935429, Avg Remember Acc = 0.01676157269854125
+Relearn Round = 2 Avg Forget Acc = 0.8357169782141171, Avg Remember Acc = 0.012744849962272865
+Relearn Round = 3 Avg Forget Acc = 0.8336661936955252, Avg Remember Acc = 0.011772326961793757
+Relearn Round = 4 Avg Forget Acc = 0.8352363340191151, Avg Remember Acc = 0.011798760833181585
+Relearn Round = 5 Avg Forget Acc = 0.8317382373465947, Avg Remember Acc = 0.009844085622929644
+Relearn Round = 6 Avg Forget Acc = 0.8340884986297595, Avg Remember Acc = 0.008164085711278685
+Relearn Round = 7 Avg Forget Acc = 0.8477243099406034, Avg Remember Acc = 0.00796784962586956
+Relearn Round = 8 Avg Forget Acc = 0.835836822965496, Avg Remember Acc = 0.008034113525069522
+Relearn Round = 9 Avg Forget Acc = 0.8363074411504198, Avg Remember Acc = 0.007781124236999719
+Relearn Round = 10 Avg Forget Acc = 0.8448237446072071, Avg Remember Acc = 0.007938842461872238
+Relearn Round = 11 Avg Forget Acc = 0.8400264663414216, Avg Remember Acc = 0.007727928818961707
+Relearn Round = 12 Avg Forget Acc = 0.8447414233596955, Avg Remember Acc = 0.008187603210732078
+Relearn Round = 13 Avg Forget Acc = 0.8464983782927296, Avg Remember Acc = 0.007200259056687126
+Relearn Round = 14 Avg Forget Acc = 0.8468502059303143, Avg Remember Acc = 0.007537374489902436
+Relearn Round = 15 Avg Forget Acc = 0.8440415328267356, Avg Remember Acc = 0.008073935413424375
+Relearn Round = 16 Avg Forget Acc = 0.84532345601102, Avg Remember Acc = 0.007223116963416472
+Relearn Round = 17 Avg Forget Acc = 0.8420800656886903, Avg Remember Acc = 0.007425960917572859
+Relearn Round = 18 Avg Forget Acc = 0.849819458968193, Avg Remember Acc = 0.007432581300129953
+Relearn Round = 19 Avg Forget Acc = 0.8516132971272985, Avg Remember Acc = 0.006784815245148767
+Relearn Round = 20 Avg Forget Acc = 0.8439241258228682, Avg Remember Acc = 0.0076731659027894725
+Relearn Round = 21 Avg Forget Acc = 0.8479573150082229, Avg Remember Acc = 0.006696488696348126
+Relearn Round = 22 Avg Forget Acc = 0.8475431405515055, Avg Remember Acc = 0.006369816309669753
+Relearn Round = 23 Avg Forget Acc = 0.8531480084384976, Avg Remember Acc = 0.0062676735728625765
+Relearn Round = 24 Avg Forget Acc = 0.8477318923321918, Avg Remember Acc = 0.007145790989925395
+Relearn Round = 25 Avg Forget Acc = 0.8521256843699462, Avg Remember Acc = 0.006286310115507086
+Relearn Round = 26 Avg Forget Acc = 0.8459255557351746, Avg Remember Acc = 0.007102858653143401
+Relearn Round = 27 Avg Forget Acc = 0.8460937147605628, Avg Remember Acc = 0.006014514497721287
+Relearn Round = 28 Avg Forget Acc = 0.8503330055533344, Avg Remember Acc = 0.006980238032088116
+Relearn Round = 29 Avg Forget Acc = 0.8518825245469369, Avg Remember Acc = 0.0065327172119573505
+Relearn Round = 30 Avg Forget Acc = 0.8503691813193589, Avg Remember Acc = 0.00690412657457625
+Relearn Round = 31 Avg Forget Acc = 0.8507249049361153, Avg Remember Acc = 0.006329981817464582
+Relearn Round = 32 Avg Forget Acc = 0.8508153813908592, Avg Remember Acc = 0.006376854120379165
+Relearn Round = 33 Avg Forget Acc = 0.8510262510129958, Avg Remember Acc = 0.0067119667981727785
+Relearn Round = 34 Avg Forget Acc = 0.859359333149707, Avg Remember Acc = 0.0064067187681793565
+Relearn Round = 35 Avg Forget Acc = 0.8510211364740137, Avg Remember Acc = 0.006386754399948164
+Relearn Round = 36 Avg Forget Acc = 0.8593960688197417, Avg Remember Acc = 0.006831951284841687
+Relearn Round = 37 Avg Forget Acc = 0.8484886190950478, Avg Remember Acc = 0.006673150393949838
+Relearn Round = 38 Avg Forget Acc = 0.8616308607113476, Avg Remember Acc = 0.0059227787102035115
+Relearn Round = 39 Avg Forget Acc = 0.8580891913019485, Avg Remember Acc = 0.007089644709041009
+Relearn Round = 40 Avg Forget Acc = 0.8512617621715259, Avg Remember Acc = 0.006193231151388633
+Relearn Round = 41 Avg Forget Acc = 0.8587344894136918, Avg Remember Acc = 0.006646402725518115
+Relearn Round = 42 Avg Forget Acc = 0.8549037013787352, Avg Remember Acc = 0.006484312068298695
+Relearn Round = 43 Avg Forget Acc = 0.8469583065251921, Avg Remember Acc = 0.0062750629711835915
+Relearn Round = 44 Avg Forget Acc = 0.8604303877163066, Avg Remember Acc = 0.006180368710677508
+Relearn Round = 45 Avg Forget Acc = 0.8582088092713601, Avg Remember Acc = 0.007097002522720063
+Relearn Round = 46 Avg Forget Acc = 0.8593113983825194, Avg Remember Acc = 0.006354224190528037
+Relearn Round = 47 Avg Forget Acc = 0.8604570411123376, Avg Remember Acc = 0.006373503868008176
+Relearn Round = 48 Avg Forget Acc = 0.8616801980053196, Avg Remember Acc = 0.006385018806349342
+Relearn Round = 49 Avg Forget Acc = 0.8464145103904449, Avg Remember Acc = 0.005651183034926554
+
+==================================================
+VERIFYING RESTORED PHASE 1 MODEL
+==================================================
+INITIAL RESTORED STATE -> Avg Forget Acc: 0.0074, Avg Remember Acc: 0.8587
+
+Starting Continual FL Training on Restored Model...
+Restored Model - Epoch 1, Avg_r_acc: 0.7096, Avg_f_acc: 0.1510
+Restored Model - Epoch 2, Avg_r_acc: 0.8581, Avg_f_acc: 0.0084
+Restored Model - Epoch 3, Avg_r_acc: 0.6830, Avg_f_acc: 0.1775
+Restored Model - Epoch 4, Avg_r_acc: 0.8610, Avg_f_acc: 0.0068
+Restored Model - Epoch 5, Avg_r_acc: 0.7022, Avg_f_acc: 0.1581
+Restored Model - Epoch 6, Avg_r_acc: 0.8613, Avg_f_acc: 0.0065
+Restored Model - Epoch 7, Avg_r_acc: 0.7122, Avg_f_acc: 0.1436
+Restored Model - Epoch 8, Avg_r_acc: 0.8670, Avg_f_acc: 0.0067
+Restored Model - Epoch 9, Avg_r_acc: 0.7184, Avg_f_acc: 0.1440
+Restored Model - Epoch 10, Avg_r_acc: 0.8661, Avg_f_acc: 0.0066
+Restored Model - Epoch 11, Avg_r_acc: 0.7362, Avg_f_acc: 0.1185
+Restored Model - Epoch 12, Avg_r_acc: 0.8674, Avg_f_acc: 0.0074
+Restored Model - Epoch 13, Avg_r_acc: 0.7275, Avg_f_acc: 0.1369
+Restored Model - Epoch 14, Avg_r_acc: 0.8680, Avg_f_acc: 0.0077
+Restored Model - Epoch 15, Avg_r_acc: 0.6981, Avg_f_acc: 0.1654
+Restored Model - Epoch 16, Avg_r_acc: 0.8663, Avg_f_acc: 0.0067
+Restored Model - Epoch 17, Avg_r_acc: 0.7215, Avg_f_acc: 0.1379
+Restored Model - Epoch 18, Avg_r_acc: 0.8708, Avg_f_acc: 0.0083
+Restored Model - Epoch 19, Avg_r_acc: 0.7161, Avg_f_acc: 0.1501
+Restored Model - Epoch 20, Avg_r_acc: 0.8703, Avg_f_acc: 0.0076
+Restored Model - Epoch 21, Avg_r_acc: 0.7394, Avg_f_acc: 0.1424
+Restored Model - Epoch 22, Avg_r_acc: 0.8698, Avg_f_acc: 0.0082
+Restored Model - Epoch 23, Avg_r_acc: 0.7010, Avg_f_acc: 0.1808
+Restored Model - Epoch 24, Avg_r_acc: 0.8684, Avg_f_acc: 0.0078
+Restored Model - Epoch 25, Avg_r_acc: 0.7196, Avg_f_acc: 0.1605
+Restored Model - Epoch 26, Avg_r_acc: 0.8701, Avg_f_acc: 0.0083
+Restored Model - Epoch 27, Avg_r_acc: 0.7244, Avg_f_acc: 0.1548
+Restored Model - Epoch 28, Avg_r_acc: 0.8714, Avg_f_acc: 0.0080
+Restored Model - Epoch 29, Avg_r_acc: 0.6989, Avg_f_acc: 0.1759
+Restored Model - Epoch 30, Avg_r_acc: 0.8708, Avg_f_acc: 0.0064
+Restored Model - Epoch 31, Avg_r_acc: 0.7165, Avg_f_acc: 0.1610
+Restored Model - Epoch 32, Avg_r_acc: 0.8714, Avg_f_acc: 0.0071
+Restored Model - Epoch 33, Avg_r_acc: 0.6887, Avg_f_acc: 0.1887
+Restored Model - Epoch 34, Avg_r_acc: 0.8705, Avg_f_acc: 0.0074
+Restored Model - Epoch 35, Avg_r_acc: 0.7027, Avg_f_acc: 0.1776
+Restored Model - Epoch 36, Avg_r_acc: 0.8735, Avg_f_acc: 0.0050
+Restored Model - Epoch 37, Avg_r_acc: 0.6970, Avg_f_acc: 0.1800
+Restored Model - Epoch 38, Avg_r_acc: 0.8725, Avg_f_acc: 0.0069
+Restored Model - Epoch 39, Avg_r_acc: 0.7204, Avg_f_acc: 0.1683
+Restored Model - Epoch 40, Avg_r_acc: 0.8728, Avg_f_acc: 0.0066
+Restored Model - Epoch 41, Avg_r_acc: 0.7183, Avg_f_acc: 0.1585
+Restored Model - Epoch 42, Avg_r_acc: 0.8727, Avg_f_acc: 0.0069
+Restored Model - Epoch 43, Avg_r_acc: 0.7335, Avg_f_acc: 0.1479
+Restored Model - Epoch 44, Avg_r_acc: 0.8725, Avg_f_acc: 0.0060
+Restored Model - Epoch 45, Avg_r_acc: 0.6784, Avg_f_acc: 0.1956
+Restored Model - Epoch 46, Avg_r_acc: 0.8723, Avg_f_acc: 0.0088
+Restored Model - Epoch 47, Avg_r_acc: 0.6984, Avg_f_acc: 0.1829
+Restored Model - Epoch 48, Avg_r_acc: 0.8753, Avg_f_acc: 0.0070
+Restored Model - Epoch 49, Avg_r_acc: 0.7249, Avg_f_acc: 0.1538
+Restored Model - Epoch 50, Avg_r_acc: 0.8728, Avg_f_acc: 0.0086
