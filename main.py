@@ -103,16 +103,6 @@ if __name__ == '__main__':
     print(test_loaders[0])
     # client_all_loaders, test_loaders, proxy_loader = cross_data_init(args)
 
-    # =====================================================================
-    # PHASE 0 — Dataset Distillation via Feature Distribution Matching
-    # =====================================================================
-    if args.distill_data:
-        distill_all_clients(
-            client_all_loaders=client_all_loaders,
-            base_model=copy.deepcopy(model),
-            args=args,
-            save_dir='distilled_data',
-        )
 
     args.if_unlearning = False
     case = fused_unlearning.FUSED(args)
@@ -123,6 +113,18 @@ if __name__ == '__main__':
         proxy_client_loaders_process, proxy_test_loaders_process = baizhanting_attack(args, copy.deepcopy(
             proxy_client_loaders), copy.deepcopy(proxy_test_loaders))
         model, all_client_models = case.train_normal(model, client_all_loaders_process, test_loaders_process)
+
+        # =================================================================
+        # PHASE 1.5 — Dataset Distillation (uses TRAINED global model)
+        # =================================================================
+        if args.distill_data:
+            distill_all_clients(
+                client_all_loaders=client_all_loaders_process,
+                base_model=copy.deepcopy(model),
+                args=args,
+                save_dir='distilled_data',
+            )
+
         args.if_unlearning = True
         unlearning_model = case.forget_client_train(copy.deepcopy(model), copy.deepcopy(client_all_loaders),
                                                     test_loaders_process)

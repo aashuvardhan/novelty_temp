@@ -14,8 +14,10 @@ Key Components:
     - distill_client_data: The main optimisation loop (optimises pixels, not weights).
 
 Usage:
-    Called once *before* Phase 1 federated training.  The resulting
-    tensors are saved as .pt files and loaded during Phase 2 unlearning.
+    Called once *after* Phase 1 federated training (Phase 1.5), using the
+    fully trained global model so that the feature extractor produces
+    meaningful embeddings.  The resulting tensors are saved as .pt files
+    and loaded during Phase 2 unlearning.
 """
 
 import os
@@ -128,7 +130,7 @@ def _collect_images_by_class(data_loader, num_classes, device):
 @torch.enable_grad()
 def distill_client_data(real_loader, base_model, num_classes=10,
                         ipc=5, num_channels=1, img_size=28,
-                        dm_iterations=500, lr=0.1, device='cuda'):
+                        dm_iterations=500, lr=0.01, device='cuda'):
     """
     Run Feature Distribution Matching on one client's data.
 
@@ -188,7 +190,10 @@ def distill_client_data(real_loader, base_model, num_classes=10,
         total_loss = 0.0
 
         for c in present_classes:
-            syn_feat = extractor(syn_per_class[c])
+            # Clamp synthetic pixels to [0, 1] via sigmoid to prevent
+            # pixel explosion and ensure valid input to the extractor
+            valid_syn = torch.sigmoid(syn_per_class[c])
+            syn_feat = extractor(valid_syn)
             mean_syn = torch.mean(syn_feat, dim=0)
             loss_c = torch.sum((real_means[c] - mean_syn) ** 2)
             total_loss = total_loss + loss_c
@@ -203,7 +208,8 @@ def distill_client_data(real_loader, base_model, num_classes=10,
     all_imgs = []
     all_lbls = []
     for c in present_classes:
-        all_imgs.append(syn_per_class[c].detach().cpu())
+        # Save the sigmoid-clamped version so pixels are in [0, 1]
+        all_imgs.append(torch.sigmoid(syn_per_class[c]).detach().cpu())
         all_lbls.append(torch.full((ipc,), c, dtype=torch.long))
 
     syn_images = torch.cat(all_imgs, dim=0)
@@ -221,7 +227,7 @@ def distill_all_clients(client_all_loaders, base_model, args,
 
     Args:
         client_all_loaders: list of DataLoaders, one per client.
-        base_model:         The initial global model (before Phase 1 training).
+        base_model:         The fully trained global model (after Phase 1 FedAvg).
         args:               Parsed CLI args (num_user, num_classes, data_name,
                             device, ipc, dm_iterations).
         save_dir:           Folder to write .pt files into.
@@ -242,7 +248,7 @@ def distill_all_clients(client_all_loaders, base_model, args,
     dm_iterations = getattr(args, 'dm_iterations', 500)
 
     print("=" * 60)
-    print("PHASE 0 — FEATURE DISTRIBUTION MATCHING (DATASET DISTILLATION)")
+    print("PHASE 1.5 — FEATURE DISTRIBUTION MATCHING (DATASET DISTILLATION)")
     print(f"  Clients: {args.num_user}")
     print(f"  Images Per Class (IPC): {ipc}")
     print(f"  Image Shape: ({num_channels}, {img_size}, {img_size})")
