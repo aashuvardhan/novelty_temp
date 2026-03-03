@@ -72,7 +72,10 @@ class Model(MyModel):
     def __init__(self, config):
         super(Model, self).__init__()
         self.num_classes = config.num_classes
-        self.model = torchvision.models.resnet18(pretrained=True)
+        self.model = torchvision.models.resnet18(weights=torchvision.models.ResNet18_Weights.IMAGENET1K_V1)
+        # Adapt for 32x32 CIFAR-10 inputs: use 3x3 conv1 with stride 1 and remove maxpool
+        self.model.conv1 = nn.Conv2d(3, 64, kernel_size=3, stride=1, padding=1, bias=False)
+        self.model.maxpool = nn.Identity()
         num_ftrs = self.model.fc.in_features
         self.model.fc = nn.Linear(num_ftrs, self.num_classes)
 

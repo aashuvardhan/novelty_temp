@@ -92,23 +92,49 @@ class FUSED(Base):
         # FIM-GUIDED DYNAMIC LORA PLACEMENT
         # =====================================================================
         # Step 1: Build small clean and poison loaders for FIM analysis
-        clean_data_list = []
-        poison_data_list = []
-        for idx in range(self.args.num_user):
-            loader = client_all_loaders[idx]
-            for data, target in loader:
-                if idx in self.args.forget_client_idx:
-                    poison_data_list.append((data, target))
-                else:
-                    clean_data_list.append((data, target))
-        
-        # Flatten into single loaders (take a subset for efficiency)
-        clean_x = torch.cat([d[0] for d in clean_data_list[:20]], dim=0)
-        clean_y = torch.cat([d[1] for d in clean_data_list[:20]], dim=0)
-        poison_x = torch.cat([d[0] for d in poison_data_list[:20]], dim=0)
-        poison_y = torch.cat([d[1] for d in poison_data_list[:20]], dim=0)
-        
         from torch.utils.data import TensorDataset, DataLoader as DL
+
+        use_distilled = getattr(self.args, 'distill_data', False)
+
+        if use_distilled:
+            # ---- DISTILLED PATH: load pre-computed DM tensors ----
+            import os
+            print("[Phase 2] Loading DISTILLED data for FIM analysis ...")
+            clean_x_parts, clean_y_parts = [], []
+            poison_x_parts, poison_y_parts = [], []
+            for client_id in range(self.args.num_user):
+                pt_path = os.path.join('distilled_data', f'client_{client_id}.pt')
+                if not os.path.exists(pt_path):
+                    print(f"  WARNING: {pt_path} not found, skipping client {client_id}")
+                    continue
+                syn_img, syn_lbl = torch.load(pt_path, map_location=self.args.device)
+                if client_id in self.args.forget_client_idx:
+                    poison_x_parts.append(syn_img)
+                    poison_y_parts.append(syn_lbl)
+                else:
+                    clean_x_parts.append(syn_img)
+                    clean_y_parts.append(syn_lbl)
+            clean_x = torch.cat(clean_x_parts, dim=0)
+            clean_y = torch.cat(clean_y_parts, dim=0)
+            poison_x = torch.cat(poison_x_parts, dim=0)
+            poison_y = torch.cat(poison_y_parts, dim=0)
+            print(f"  Distilled clean samples: {clean_x.shape[0]}, poison samples: {poison_x.shape[0]}")
+        else:
+            # ---- ORIGINAL PATH: aggregate raw client batches ----
+            clean_data_list = []
+            poison_data_list = []
+            for idx in range(self.args.num_user):
+                loader = client_all_loaders[idx]
+                for data, target in loader:
+                    if idx in self.args.forget_client_idx:
+                        poison_data_list.append((data, target))
+                    else:
+                        clean_data_list.append((data, target))
+            clean_x = torch.cat([d[0] for d in clean_data_list[:20]], dim=0)
+            clean_y = torch.cat([d[1] for d in clean_data_list[:20]], dim=0)
+            poison_x = torch.cat([d[0] for d in poison_data_list[:20]], dim=0)
+            poison_y = torch.cat([d[1] for d in poison_data_list[:20]], dim=0)
+
         clean_loader_fim = DL(TensorDataset(clean_x, clean_y), batch_size=64, shuffle=False)
         poison_loader_fim = DL(TensorDataset(poison_x, poison_y), batch_size=64, shuffle=False)
         

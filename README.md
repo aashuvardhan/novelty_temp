@@ -33,3 +33,12 @@ python main.py --data_name='cifar100' --model='CNN_Cifar100' --forget_paradigm='
 ```angular2html
 python main.py --data_name='fashionmnist' --forget_paradigm='client' --paradigm='fused'  --global_epoch=100 --local_epoch=5 --alpha=1.0 --forget_client_idx 3 9 13 19 23 29 33 39 43
 ```
+
+```angular2html
+python main.py --data_name='fashionmnist' --forget_paradigm='client' --paradigm='fused' --global_epoch=50 --local_epoch=5 --alpha=1.0 --forget_client_idx 4 9 13 17 23 28 34 39 47 --fim_percentile=70
+```
+
+```angular2html
+python main.py --data_name='fashionmnist' --forget_paradigm='client' --paradigm='fused' --global_epoch=50 --local_epoch=5 --alpha=1.0 --forget_client_idx 4 9 13 17 23 28 34 39 47 --fim_percentile=70 --distill_data --ipc=5 --dm_iterations=500
+```
+

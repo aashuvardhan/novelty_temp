@@ -249,7 +249,7 @@ def split_data(X, y, args, client_at=None):
 
         train_data = [(x, y) for x, y in zip(X_train, y_train)]
         test_data = [(x, y) for x, y in zip(X_test, y_test)]
-        client_loaders.append(DataLoader(train_data, batch_size=args.local_batch_size, shuffle=True, num_workers=0,))
+        client_loaders.append(DataLoader(train_data, batch_size=args.local_batch_size, shuffle=True, num_workers=0, drop_last=True))
         test_loaders.append(DataLoader(test_data, batch_size=args.test_batch_size, shuffle=True))
 
     del X, y

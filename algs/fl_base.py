@@ -220,6 +220,8 @@ class Base(object):
                     optimizer.step()
             else:
                 for batch_idx, (data, target) in enumerate(data_loader):
+                    if data.size(0) == 1:
+                        continue  # Skip single-sample batches (BatchNorm requires >1)
                     optimizer.zero_grad()
                     data = data.to(FL_params.device)
                     target = target.to(FL_params.device)

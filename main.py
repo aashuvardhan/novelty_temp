@@ -7,6 +7,7 @@ import torch
 
 from algs import fused_unlearning, fl_base
 from utils import *
+from distillation_utils import distill_all_clients
 import random
 import numpy as np
 
@@ -66,6 +67,11 @@ def get_args():
     parser.add_argument('--alpha_fim', default=1.0, type=float, help='Scaling factor for clean FIM in sensitivity formula')
     parser.add_argument('--fim_max_batches', default=10, type=int, help='Number of batches to use for FIM computation')
 
+    # ======================Distribution Matching========================
+    parser.add_argument('--distill_data', action='store_true', default=False, help='Enable Phase 0 DM distillation and use distilled data in Phase 2')
+    parser.add_argument('--ipc', default=5, type=int, help='Images Per Class for distribution matching distillation')
+    parser.add_argument('--dm_iterations', default=500, type=int, help='Pixel optimisation iterations for distribution matching')
+
     # ======================eraseclient========================
     parser.add_argument('--epoch_unlearn', default=20, type=int, help='')
     parser.add_argument('--num_iterations', default=50, type=int, help='')
@@ -96,6 +102,17 @@ if __name__ == '__main__':
     client_all_loaders, test_loaders, proxy_client_loaders, proxy_test_loaders = data_init(args)
     print(test_loaders[0])
     # client_all_loaders, test_loaders, proxy_loader = cross_data_init(args)
+
+    # =====================================================================
+    # PHASE 0 — Dataset Distillation via Feature Distribution Matching
+    # =====================================================================
+    if args.distill_data:
+        distill_all_clients(
+            client_all_loaders=client_all_loaders,
+            base_model=copy.deepcopy(model),
+            args=args,
+            save_dir='distilled_data',
+        )
 
     args.if_unlearning = False
     case = fused_unlearning.FUSED(args)
