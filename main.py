@@ -117,6 +117,11 @@ if __name__ == '__main__':
         # =================================================================
         # PHASE 1.5 — Dataset Distillation (uses TRAINED global model)
         # =================================================================
+
+        import time
+
+        start = time.perf_counter()
+
         if args.distill_data:
             distill_all_clients(
                 client_all_loaders=client_all_loaders_process,
@@ -124,6 +129,8 @@ if __name__ == '__main__':
                 args=args,
                 save_dir='distilled_data',
             )
+        end = time.perf_counter()
+        print(f"Dataset distillation completed in {end - start:.6f} seconds.")
 
         args.if_unlearning = True
         unlearning_model = case.forget_client_train(copy.deepcopy(model), copy.deepcopy(client_all_loaders),

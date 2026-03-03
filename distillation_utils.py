@@ -290,5 +290,5 @@ def distill_all_clients(client_all_loaders, base_model, args,
         print(f"  → Saved {syn_images.shape[0]} synthetic images to {save_path}")
 
     print("\n" + "=" * 60)
-    print("PHASE 0 COMPLETE — All clients distilled successfully.")
+    print("PHASE 1.1 COMPLETE — All clients distilled successfully.")
     print("=" * 60 + "\n")
