@@ -1,6 +1,7 @@
 
 import argparse
 import copy
+from tracemalloc import start
 
 from dataset.generate_data import data_init, cross_data_init
 import torch
@@ -121,7 +122,7 @@ if __name__ == '__main__':
         import time
 
         start = time.perf_counter()
-
+    
         if args.distill_data:
             distill_all_clients(
                 client_all_loaders=client_all_loaders_process,
@@ -129,18 +130,29 @@ if __name__ == '__main__':
                 args=args,
                 save_dir='distilled_data',
             )
+
         end = time.perf_counter()
         print(f"Dataset distillation completed in {end - start:.6f} seconds.")
+        
 
+        start = time.perf_counter()
+        
         args.if_unlearning = True
         unlearning_model = case.forget_client_train(copy.deepcopy(model), copy.deepcopy(client_all_loaders),
                                                     test_loaders_process)
+        
+
+        end= time.perf_counter()
+        print(f"Unlearning completed in {end - start:.6f} seconds.")
+
         if args.MIT:
             args.save_normal_result = False
             membership_inference_attack(args, unlearning_model, case, copy.deepcopy(model), client_all_loaders_process,
                                         test_loaders, proxy_client_loaders_process, proxy_client_loaders,
                                         proxy_test_loaders_process)
             args.save_normal_result = True
+        
+        
         if args.relearn:
             case.relearn_unlearning_knowledge(unlearning_model, client_all_loaders_process, test_loaders_process)
         case.verify_restored_model(copy.deepcopy(model), client_all_loaders_process, test_loaders_process)
