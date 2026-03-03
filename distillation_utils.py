@@ -23,6 +23,7 @@ Usage:
 import os
 import torch
 import torch.nn as nn
+import torch.nn.functional as F
 import torch.optim as optim
 import copy
 
@@ -86,6 +87,9 @@ def distribution_matching_loss(real_features, syn_features):
 
     L = || mean(Φ(x_real)) - mean(Φ(x_syn)) ||^2
 
+    Features are L2-normalised before computing means so that the loss
+    is bounded and comparable across different feature magnitudes.
+
     Args:
         real_features: (N_real, D)  — detached, no grad needed
         syn_features:  (N_syn, D)   — requires grad (flows to pixels)
@@ -93,6 +97,8 @@ def distribution_matching_loss(real_features, syn_features):
     Returns:
         Scalar loss tensor.
     """
+    real_features = F.normalize(real_features, p=2, dim=1)
+    syn_features  = F.normalize(syn_features,  p=2, dim=1)
     mean_real = torch.mean(real_features, dim=0)
     mean_syn  = torch.mean(syn_features,  dim=0)
     return torch.sum((mean_real - mean_syn) ** 2)
@@ -130,7 +136,7 @@ def _collect_images_by_class(data_loader, num_classes, device):
 @torch.enable_grad()
 def distill_client_data(real_loader, base_model, num_classes=10,
                         ipc=5, num_channels=1, img_size=28,
-                        dm_iterations=500, lr=0.01, device='cuda'):
+                        dm_iterations=500, lr=0.1, device='cuda'):
     """
     Run Feature Distribution Matching on one client's data.
 
@@ -168,10 +174,13 @@ def distill_client_data(real_loader, base_model, num_classes=10,
         return empty_imgs, empty_lbls
 
     # --- Pre-compute real feature means (constant, no grad) ---
+    # L2-normalise embeddings before computing means so the MMD loss
+    # is bounded and converges reliably.
     real_means = {}
     with torch.no_grad():
         for c in present_classes:
             real_feat = extractor(class_images[c])
+            real_feat = F.normalize(real_feat, p=2, dim=1)
             real_means[c] = torch.mean(real_feat, dim=0)  # (D,)
 
     # --- Initialise synthetic images as learnable parameters ---
@@ -194,9 +203,14 @@ def distill_client_data(real_loader, base_model, num_classes=10,
             # pixel explosion and ensure valid input to the extractor
             valid_syn = torch.sigmoid(syn_per_class[c])
             syn_feat = extractor(valid_syn)
+            syn_feat = F.normalize(syn_feat, p=2, dim=1)
             mean_syn = torch.mean(syn_feat, dim=0)
             loss_c = torch.sum((real_means[c] - mean_syn) ** 2)
             total_loss = total_loss + loss_c
+
+        # Average across classes so loss is comparable regardless of
+        # how many classes a client has
+        total_loss = total_loss / len(present_classes)
 
         total_loss.backward()
         optimizer_img.step()

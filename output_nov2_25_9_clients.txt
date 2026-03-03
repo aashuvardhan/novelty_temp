@@ -1,0 +1,641 @@
+device: cuda
+Tesla T4
+Client 0	 Size of data: 1409	 Labels:  [0 1 2 3 4 5 6 7]
+		 Samples of labels:  [(0, 111), (1, 16), (2, 57), (3, 524), (4, 49), (5, 157), (6, 365), (7, 130)]
+--------------------------------------------------
+Client 1	 Size of data: 1048	 Labels:  [0 1 2 3 4 5 6 7 8 9]
+		 Samples of labels:  [(0, 144), (1, 166), (2, 222), (3, 135), (4, 14), (5, 128), (6, 108), (7, 13), (8, 36), (9, 82)]
+--------------------------------------------------
+Client 2	 Size of data: 1522	 Labels:  [0 1 2 3 4 5 6 7 8]
+		 Samples of labels:  [(0, 141), (1, 38), (2, 258), (3, 34), (4, 235), (5, 26), (6, 127), (7, 132), (8, 531)]
+--------------------------------------------------
+Client 3	 Size of data: 1415	 Labels:  [0 1 2 3 4 5 6 7]
+		 Samples of labels:  [(0, 228), (1, 121), (2, 158), (3, 50), (4, 465), (5, 210), (6, 154), (7, 29)]
+--------------------------------------------------
+Client 4	 Size of data: 1413	 Labels:  [0 1 2 3 4 5 6 7]
+		 Samples of labels:  [(0, 263), (1, 2), (2, 297), (3, 39), (4, 61), (5, 240), (6, 279), (7, 232)]
+--------------------------------------------------
+Client 5	 Size of data: 719	 Labels:  [0 1 2 3 4 5 6 7 8 9]
+		 Samples of labels:  [(0, 15), (1, 92), (2, 42), (3, 3), (4, 230), (5, 21), (6, 59), (7, 78), (8, 156), (9, 23)]
+--------------------------------------------------
+Client 6	 Size of data: 1154	 Labels:  [0 1 2 3 4 5 6 7 8 9]
+		 Samples of labels:  [(0, 355), (1, 49), (2, 71), (3, 25), (4, 265), (5, 146), (6, 1), (7, 4), (8, 113), (9, 125)]
+--------------------------------------------------
+Client 7	 Size of data: 1256	 Labels:  [0 1 2 3 4 5 6 7 8 9]
+		 Samples of labels:  [(0, 84), (1, 25), (2, 224), (3, 45), (4, 10), (5, 24), (6, 64), (7, 240), (8, 123), (9, 417)]
+--------------------------------------------------
+Client 8	 Size of data: 1671	 Labels:  [0 1 2 3 4 5 6 7 8 9]
+		 Samples of labels:  [(0, 35), (1, 140), (2, 308), (3, 86), (4, 266), (5, 85), (6, 14), (7, 256), (8, 41), (9, 440)]
+--------------------------------------------------
+Client 9	 Size of data: 1558	 Labels:  [0 1 2 3 4 5]
+		 Samples of labels:  [(0, 38), (1, 258), (2, 220), (3, 467), (4, 227), (5, 348)]
+--------------------------------------------------
+Client 10	 Size of data: 1377	 Labels:  [0 1 2 3 4 5 6 7 8 9]
+		 Samples of labels:  [(0, 218), (1, 269), (2, 158), (3, 91), (4, 4), (5, 112), (6, 80), (7, 1), (8, 287), (9, 157)]
+--------------------------------------------------
+Client 11	 Size of data: 1424	 Labels:  [0 1 2 3 4 5]
+		 Samples of labels:  [(0, 135), (1, 249), (2, 29), (3, 631), (4, 122), (5, 258)]
+--------------------------------------------------
+Client 12	 Size of data: 1238	 Labels:  [0 1 2 3 4 5 6 7 8 9]
+		 Samples of labels:  [(0, 303), (1, 45), (2, 49), (3, 23), (4, 81), (5, 425), (6, 8), (7, 55), (8, 106), (9, 143)]
+--------------------------------------------------
+Client 13	 Size of data: 1402	 Labels:  [0 1 2 3 4 5 6 7 8]
+		 Samples of labels:  [(0, 163), (1, 21), (2, 51), (3, 359), (4, 11), (5, 158), (6, 193), (7, 211), (8, 235)]
+--------------------------------------------------
+Client 14	 Size of data: 1515	 Labels:  [0 1 2 3 4 5 6 7]
+		 Samples of labels:  [(0, 80), (1, 120), (2, 244), (3, 53), (4, 160), (5, 309), (6, 390), (7, 159)]
+--------------------------------------------------
+Client 15	 Size of data: 1154	 Labels:  [0 1 2 3 4 5 6 7 8 9]
+		 Samples of labels:  [(0, 203), (1, 248), (2, 16), (3, 25), (4, 220), (5, 4), (6, 30), (7, 40), (8, 245), (9, 123)]
+--------------------------------------------------
+Client 16	 Size of data: 1469	 Labels:  [0 1 2 3 4 5 6]
+		 Samples of labels:  [(0, 230), (1, 73), (2, 49), (3, 612), (4, 212), (5, 40), (6, 253)]
+--------------------------------------------------
+Client 17	 Size of data: 1525	 Labels:  [0 1 2 3 4 5 6 7]
+		 Samples of labels:  [(0, 197), (1, 54), (2, 173), (3, 120), (4, 64), (5, 203), (6, 224), (7, 490)]
+--------------------------------------------------
+Client 18	 Size of data: 1253	 Labels:  [0 1 2 3 4 5 6 7 8 9]
+		 Samples of labels:  [(0, 4), (1, 16), (2, 1), (3, 11), (4, 372), (5, 96), (6, 53), (7, 447), (8, 71), (9, 182)]
+--------------------------------------------------
+Client 19	 Size of data: 1221	 Labels:  [0 1 2 3 4 5 6 7 8 9]
+		 Samples of labels:  [(0, 113), (1, 292), (2, 270), (3, 93), (4, 10), (5, 134), (6, 163), (7, 16), (8, 98), (9, 32)]
+--------------------------------------------------
+Client 20	 Size of data: 1293	 Labels:  [0 1 2 3 4 5 6 7 8 9]
+		 Samples of labels:  [(0, 453), (1, 38), (2, 75), (3, 98), (4, 40), (5, 191), (6, 150), (7, 116), (8, 109), (9, 23)]
+--------------------------------------------------
+Client 21	 Size of data: 1872	 Labels:  [0 1 2 3 4 5 6 7 8 9]
+		 Samples of labels:  [(0, 21), (1, 457), (2, 31), (3, 77), (4, 95), (5, 41), (6, 254), (7, 109), (8, 249), (9, 538)]
+--------------------------------------------------
+Client 22	 Size of data: 1756	 Labels:  [0 1 2 3 4 5 6 7 8]
+		 Samples of labels:  [(0, 262), (1, 127), (2, 87), (3, 160), (4, 206), (5, 322), (6, 7), (7, 185), (8, 400)]
+--------------------------------------------------
+Client 23	 Size of data: 848	 Labels:  [0 1 2 3 4 5 6 7 8 9]
+		 Samples of labels:  [(0, 35), (1, 200), (2, 11), (3, 51), (4, 139), (5, 78), (6, 45), (7, 190), (8, 76), (9, 23)]
+--------------------------------------------------
+Client 24	 Size of data: 1453	 Labels:  [0 1 2 3 4 5 6 7]
+		 Samples of labels:  [(0, 9), (1, 192), (2, 472), (3, 239), (4, 54), (5, 148), (6, 8), (7, 331)]
+--------------------------------------------------
+Client 25	 Size of data: 730	 Labels:  [0 1 2 3 4 5 6 7 8 9]
+		 Samples of labels:  [(0, 23), (1, 66), (2, 40), (3, 31), (4, 131), (5, 75), (6, 286), (7, 9), (8, 40), (9, 29)]
+--------------------------------------------------
+Client 26	 Size of data: 1484	 Labels:  [0 1 2 3 4 5 6 7 8]
+		 Samples of labels:  [(0, 16), (1, 129), (2, 35), (3, 345), (4, 36), (5, 23), (6, 404), (7, 247), (8, 249)]
+--------------------------------------------------
+Client 27	 Size of data: 1365	 Labels:  [0 1 2 3 4 5 6 7 8 9]
+		 Samples of labels:  [(0, 109), (1, 160), (2, 40), (3, 58), (4, 124), (5, 26), (6, 126), (7, 266), (8, 3), (9, 453)]
+--------------------------------------------------
+Client 28	 Size of data: 1060	 Labels:  [0 1 2 3 4 5 6 7 8 9]
+		 Samples of labels:  [(0, 149), (1, 75), (2, 40), (3, 184), (4, 37), (5, 148), (6, 146), (7, 46), (8, 120), (9, 115)]
+--------------------------------------------------
+Client 29	 Size of data: 1531	 Labels:  [0 1 2 3 4 5 6 7 8 9]
+		 Samples of labels:  [(0, 87), (1, 31), (2, 289), (3, 14), (4, 19), (5, 55), (6, 100), (7, 16), (8, 152), (9, 768)]
+--------------------------------------------------
+Client 30	 Size of data: 1477	 Labels:  [0 1 2 3 4 5 6 7 8 9]
+		 Samples of labels:  [(0, 103), (1, 7), (2, 48), (3, 71), (4, 37), (5, 8), (6, 260), (7, 352), (8, 450), (9, 141)]
+--------------------------------------------------
+Client 31	 Size of data: 1562	 Labels:  [0 1 2 3 4 5 6 7]
+		 Samples of labels:  [(0, 156), (1, 83), (2, 32), (3, 80), (4, 539), (5, 381), (6, 88), (7, 203)]
+--------------------------------------------------
+Client 32	 Size of data: 2418	 Labels:  [0 1 2 3 4 5 6 7 8 9]
+		 Samples of labels:  [(0, 118), (1, 8), (2, 200), (3, 37), (4, 261), (5, 12), (6, 215), (7, 75), (8, 421), (9, 1071)]
+--------------------------------------------------
+Client 33	 Size of data: 1548	 Labels:  [0 1 2 3 4 5 6]
+		 Samples of labels:  [(0, 564), (1, 340), (2, 98), (3, 155), (4, 95), (5, 98), (6, 198)]
+--------------------------------------------------
+Client 34	 Size of data: 1573	 Labels:  [0 1 2 3 4 5 6 7 8]
+		 Samples of labels:  [(0, 12), (1, 190), (2, 325), (3, 2), (4, 389), (5, 220), (6, 215), (7, 40), (8, 180)]
+--------------------------------------------------
+Client 35	 Size of data: 1432	 Labels:  [0 1 2 3 4 5 6 7 8 9]
+		 Samples of labels:  [(0, 351), (1, 83), (2, 45), (3, 132), (4, 103), (5, 314), (6, 13), (7, 109), (8, 26), (9, 256)]
+--------------------------------------------------
+Client 36	 Size of data: 884	 Labels:  [0 1 2 3 4 5 6 7 8 9]
+		 Samples of labels:  [(0, 17), (1, 207), (2, 168), (3, 18), (4, 7), (5, 190), (6, 119), (7, 101), (8, 53), (9, 4)]
+--------------------------------------------------
+Client 37	 Size of data: 1669	 Labels:  [0 1 2 3 4 5 6 7 8]
+		 Samples of labels:  [(0, 11), (1, 140), (2, 103), (3, 464), (4, 5), (5, 151), (6, 105), (7, 273), (8, 417)]
+--------------------------------------------------
+Client 38	 Size of data: 1270	 Labels:  [0 1 2 3 4 5 6 7 8 9]
+		 Samples of labels:  [(0, 105), (1, 21), (2, 29), (3, 13), (4, 108), (5, 271), (6, 427), (7, 132), (8, 9), (9, 155)]
+--------------------------------------------------
+Client 39	 Size of data: 1564	 Labels:  [0 1 2 3 4 5 6]
+		 Samples of labels:  [(0, 143), (1, 325), (2, 426), (3, 262), (4, 47), (5, 6), (6, 355)]
+--------------------------------------------------
+Client 40	 Size of data: 1472	 Labels:  [0 1 2 3 4 5 6 7 8]
+		 Samples of labels:  [(0, 7), (1, 24), (2, 41), (3, 365), (4, 107), (5, 37), (6, 71), (7, 255), (8, 565)]
+--------------------------------------------------
+Client 41	 Size of data: 1403	 Labels:  [0 1 2 3 4 5 6 7 8 9]
+		 Samples of labels:  [(0, 93), (1, 268), (2, 67), (3, 101), (4, 254), (5, 53), (6, 26), (7, 106), (8, 202), (9, 233)]
+--------------------------------------------------
+Client 42	 Size of data: 1470	 Labels:  [0 1 2 3 4 5 6 7]
+		 Samples of labels:  [(0, 443), (1, 170), (2, 32), (3, 56), (4, 399), (5, 144), (6, 155), (7, 71)]
+--------------------------------------------------
+Client 43	 Size of data: 1254	 Labels:  [0 1 2 3 4 5 6 7 8 9]
+		 Samples of labels:  [(0, 182), (1, 82), (2, 194), (3, 177), (4, 17), (5, 25), (6, 1), (7, 147), (8, 340), (9, 89)]
+--------------------------------------------------
+Client 44	 Size of data: 1521	 Labels:  [0 1 2 3 4 5 6 7 8]
+		 Samples of labels:  [(0, 17), (1, 355), (2, 437), (3, 78), (4, 146), (5, 20), (6, 287), (7, 5), (8, 176)]
+--------------------------------------------------
+Client 45	 Size of data: 1483	 Labels:  [0 1 2 3 4 5 6 7 8]
+		 Samples of labels:  [(0, 82), (1, 165), (2, 14), (3, 11), (4, 99), (5, 649), (6, 130), (7, 216), (8, 117)]
+--------------------------------------------------
+Client 46	 Size of data: 1543	 Labels:  [0 1 2 3 4 5 6 7]
+		 Samples of labels:  [(0, 42), (1, 407), (2, 310), (3, 183), (4, 188), (5, 83), (6, 85), (7, 245)]
+--------------------------------------------------
+Client 47	 Size of data: 1559	 Labels:  [0 1 2 3 4 5 6 7 8]
+		 Samples of labels:  [(0, 136), (1, 130), (2, 248), (3, 33), (4, 110), (5, 64), (6, 1), (7, 260), (8, 577)]
+--------------------------------------------------
+Client 48	 Size of data: 2098	 Labels:  [0 1 2 3 4 5 6 7 8 9]
+		 Samples of labels:  [(0, 80), (1, 219), (2, 149), (3, 47), (4, 9), (5, 12), (6, 88), (7, 316), (8, 25), (9, 1153)]
+--------------------------------------------------
+Client 49	 Size of data: 665	 Labels:  [0 1 2 3 4 5 6 7 8 9]
+		 Samples of labels:  [(0, 114), (1, 7), (2, 17), (3, 32), (4, 121), (5, 31), (6, 70), (7, 46), (8, 2), (9, 225)]
+--------------------------------------------------
+<torch.utils.data.dataloader.DataLoader object at 0x7b3c83143fb0>
+Epoch=0, avg_f_acc=0.03404200219985857, avg_r_acc=0.6254607139285655
+Epoch=1, avg_f_acc=0.037335209614989893, avg_r_acc=0.7215273398995776
+Epoch=2, avg_f_acc=0.030022511323473302, avg_r_acc=0.7429796645321036
+Epoch=3, avg_f_acc=0.03332854892176833, avg_r_acc=0.7453577050054446
+Epoch=4, avg_f_acc=0.034141199463401856, avg_r_acc=0.7552552747445307
+Epoch=5, avg_f_acc=0.03837715767885721, avg_r_acc=0.7563672218475465
+Epoch=6, avg_f_acc=0.0365195028662028, avg_r_acc=0.7661385254942026
+Epoch=7, avg_f_acc=0.04432467606607109, avg_r_acc=0.7681397166632776
+Epoch=8, avg_f_acc=0.04264444206429044, avg_r_acc=0.778407142267399
+Epoch=9, avg_f_acc=0.043964699492716995, avg_r_acc=0.7782122579114212
+Epoch=10, avg_f_acc=0.03468659621467012, avg_r_acc=0.7895389448672497
+Epoch=11, avg_f_acc=0.043984683424029614, avg_r_acc=0.7775347699470423
+Epoch=12, avg_f_acc=0.026825775487563756, avg_r_acc=0.8021838378810884
+Epoch=13, avg_f_acc=0.05363546603577742, avg_r_acc=0.7782431154392231
+Epoch=14, avg_f_acc=0.02589352444805537, avg_r_acc=0.8132228296776726
+Epoch=15, avg_f_acc=0.06021343622745321, avg_r_acc=0.7721650013243162
+Epoch=16, avg_f_acc=0.024362535706662226, avg_r_acc=0.8203088087680644
+Epoch=17, avg_f_acc=0.08400553747800084, avg_r_acc=0.7533183053520681
+Epoch=18, avg_f_acc=0.021360735014685907, avg_r_acc=0.8235448092087037
+Epoch=19, avg_f_acc=0.12708269425790863, avg_r_acc=0.7215705672664584
+Epoch=20, avg_f_acc=0.025545052057391972, avg_r_acc=0.8357534990729156
+Epoch=21, avg_f_acc=0.17902287455417235, avg_r_acc=0.6726363604379046
+Epoch=22, avg_f_acc=0.016240079927283553, avg_r_acc=0.8435304593801001
+Epoch=23, avg_f_acc=0.2283709780104771, avg_r_acc=0.6138172681947313
+Epoch=24, avg_f_acc=0.022054768866111563, avg_r_acc=0.8435992928738633
+============================================================
+PHASE 1.5 — FEATURE DISTRIBUTION MATCHING (DATASET DISTILLATION)
+  Clients: 50
+  Images Per Class (IPC): 5
+  Image Shape: (1, 28, 28)
+  Optimisation Iterations: 500
+  Save directory: distilled_data/
+============================================================
+
+[Client 0] Distilling local data ...
+  [DM] Iteration 100/500, Loss: 528.643494
+  [DM] Iteration 200/500, Loss: 337.255249
+  [DM] Iteration 300/500, Loss: 262.814392
+  [DM] Iteration 400/500, Loss: 221.469299
+  [DM] Iteration 500/500, Loss: 194.021545
+  → Saved 40 synthetic images to distilled_data/client_0.pt
+
+[Client 1] Distilling local data ...
+  [DM] Iteration 100/500, Loss: 822.455750
+  [DM] Iteration 200/500, Loss: 542.813110
+  [DM] Iteration 300/500, Loss: 424.113098
+  [DM] Iteration 400/500, Loss: 354.869202
+  [DM] Iteration 500/500, Loss: 310.358337
+  → Saved 50 synthetic images to distilled_data/client_1.pt
+
+[Client 2] Distilling local data ...
+  [DM] Iteration 100/500, Loss: 517.731140
+  [DM] Iteration 200/500, Loss: 319.864105
+  [DM] Iteration 300/500, Loss: 236.111374
+  [DM] Iteration 400/500, Loss: 191.643173
+  [DM] Iteration 500/500, Loss: 165.136627
+  → Saved 45 synthetic images to distilled_data/client_2.pt
+
+[Client 3] Distilling local data ...
+  [DM] Iteration 100/500, Loss: 566.458252
+  [DM] Iteration 200/500, Loss: 359.045624
+  [DM] Iteration 300/500, Loss: 271.418396
+  [DM] Iteration 400/500, Loss: 224.056122
+  [DM] Iteration 500/500, Loss: 194.022156
+  → Saved 40 synthetic images to distilled_data/client_3.pt
+
+[Client 4] Distilling local data ...
+  [DM] Iteration 100/500, Loss: 573.525330
+  [DM] Iteration 200/500, Loss: 376.776611
+  [DM] Iteration 300/500, Loss: 294.141479
+  [DM] Iteration 400/500, Loss: 251.259247
+  [DM] Iteration 500/500, Loss: 220.746155
+  → Saved 40 synthetic images to distilled_data/client_4.pt
+
+[Client 5] Distilling local data ...
+  [DM] Iteration 100/500, Loss: 824.657654
+  [DM] Iteration 200/500, Loss: 526.051331
+  [DM] Iteration 300/500, Loss: 399.387695
+  [DM] Iteration 400/500, Loss: 328.488586
+  [DM] Iteration 500/500, Loss: 282.691254
+  → Saved 50 synthetic images to distilled_data/client_5.pt
+
+[Client 6] Distilling local data ...
+  [DM] Iteration 100/500, Loss: 753.707336
+  [DM] Iteration 200/500, Loss: 478.551514
+  [DM] Iteration 300/500, Loss: 361.961914
+  [DM] Iteration 400/500, Loss: 298.640717
+  [DM] Iteration 500/500, Loss: 256.565613
+  → Saved 45 synthetic images to distilled_data/client_6.pt
+
+[Client 7] Distilling local data ...
+  [DM] Iteration 100/500, Loss: 816.689575
+  [DM] Iteration 200/500, Loss: 519.882874
+  [DM] Iteration 300/500, Loss: 398.212341
+  [DM] Iteration 400/500, Loss: 330.740570
+  [DM] Iteration 500/500, Loss: 287.322693
+  → Saved 50 synthetic images to distilled_data/client_7.pt
+
+[Client 8] Distilling local data ...
+  [DM] Iteration 100/500, Loss: 765.828979
+  [DM] Iteration 200/500, Loss: 490.979858
+  [DM] Iteration 300/500, Loss: 377.497498
+  [DM] Iteration 400/500, Loss: 310.030029
+  [DM] Iteration 500/500, Loss: 266.113434
+  → Saved 50 synthetic images to distilled_data/client_8.pt
+
+[Client 9] Distilling local data ...
+  [DM] Iteration 100/500, Loss: 397.257904
+  [DM] Iteration 200/500, Loss: 233.193497
+  [DM] Iteration 300/500, Loss: 170.225006
+  [DM] Iteration 400/500, Loss: 135.272980
+  [DM] Iteration 500/500, Loss: 114.545967
+  → Saved 30 synthetic images to distilled_data/client_9.pt
+
+[Client 10] Distilling local data ...
+  [DM] Iteration 100/500, Loss: 584.780762
+  [DM] Iteration 200/500, Loss: 353.906311
+  [DM] Iteration 300/500, Loss: 264.499573
+  [DM] Iteration 400/500, Loss: 211.839874
+  [DM] Iteration 500/500, Loss: 177.709808
+  → Saved 45 synthetic images to distilled_data/client_10.pt
+
+[Client 11] Distilling local data ...
+  [DM] Iteration 100/500, Loss: 422.345947
+  [DM] Iteration 200/500, Loss: 251.214890
+  [DM] Iteration 300/500, Loss: 183.725006
+  [DM] Iteration 400/500, Loss: 147.937973
+  [DM] Iteration 500/500, Loss: 124.847733
+  → Saved 30 synthetic images to distilled_data/client_11.pt
+
+[Client 12] Distilling local data ...
+  [DM] Iteration 100/500, Loss: 871.490723
+  [DM] Iteration 200/500, Loss: 564.975525
+  [DM] Iteration 300/500, Loss: 422.067749
+  [DM] Iteration 400/500, Loss: 346.249512
+  [DM] Iteration 500/500, Loss: 300.402283
+  → Saved 50 synthetic images to distilled_data/client_12.pt
+
+[Client 13] Distilling local data ...
+  [DM] Iteration 100/500, Loss: 632.463257
+  [DM] Iteration 200/500, Loss: 403.017700
+  [DM] Iteration 300/500, Loss: 307.397461
+  [DM] Iteration 400/500, Loss: 254.199081
+  [DM] Iteration 500/500, Loss: 215.824478
+  → Saved 45 synthetic images to distilled_data/client_13.pt
+
+[Client 14] Distilling local data ...
+  [DM] Iteration 100/500, Loss: 612.923340
+  [DM] Iteration 200/500, Loss: 391.300415
+  [DM] Iteration 300/500, Loss: 298.229034
+  [DM] Iteration 400/500, Loss: 244.698959
+  [DM] Iteration 500/500, Loss: 208.540039
+  → Saved 40 synthetic images to distilled_data/client_14.pt
+
+[Client 15] Distilling local data ...
+  [DM] Iteration 100/500, Loss: 763.662048
+  [DM] Iteration 200/500, Loss: 482.612976
+  [DM] Iteration 300/500, Loss: 367.450989
+  [DM] Iteration 400/500, Loss: 304.776611
+  [DM] Iteration 500/500, Loss: 263.724731
+  → Saved 50 synthetic images to distilled_data/client_15.pt
+
+[Client 16] Distilling local data ...
+  [DM] Iteration 100/500, Loss: 428.790497
+  [DM] Iteration 200/500, Loss: 241.572754
+  [DM] Iteration 300/500, Loss: 169.820938
+  [DM] Iteration 400/500, Loss: 133.703125
+  [DM] Iteration 500/500, Loss: 110.782722
+  → Saved 35 synthetic images to distilled_data/client_16.pt
+
+[Client 17] Distilling local data ...
+  [DM] Iteration 100/500, Loss: 561.158936
+  [DM] Iteration 200/500, Loss: 361.611145
+  [DM] Iteration 300/500, Loss: 274.673950
+  [DM] Iteration 400/500, Loss: 228.016037
+  [DM] Iteration 500/500, Loss: 200.105606
+  → Saved 40 synthetic images to distilled_data/client_17.pt
+
+[Client 18] Distilling local data ...
+  [DM] Iteration 100/500, Loss: 689.356873
+  [DM] Iteration 200/500, Loss: 433.786987
+  [DM] Iteration 300/500, Loss: 329.868347
+  [DM] Iteration 400/500, Loss: 273.212189
+  [DM] Iteration 500/500, Loss: 236.282883
+  → Saved 45 synthetic images to distilled_data/client_18.pt
+
+[Client 19] Distilling local data ...
+  [DM] Iteration 100/500, Loss: 775.687744
+  [DM] Iteration 200/500, Loss: 505.218872
+  [DM] Iteration 300/500, Loss: 393.876740
+  [DM] Iteration 400/500, Loss: 325.430542
+  [DM] Iteration 500/500, Loss: 283.099609
+  → Saved 50 synthetic images to distilled_data/client_19.pt
+
+[Client 20] Distilling local data ...
+  [DM] Iteration 100/500, Loss: 784.007812
+  [DM] Iteration 200/500, Loss: 493.408569
+  [DM] Iteration 300/500, Loss: 374.905731
+  [DM] Iteration 400/500, Loss: 304.229187
+  [DM] Iteration 500/500, Loss: 259.310974
+  → Saved 50 synthetic images to distilled_data/client_20.pt
+
+[Client 21] Distilling local data ...
+  [DM] Iteration 100/500, Loss: 790.759827
+  [DM] Iteration 200/500, Loss: 502.077148
+  [DM] Iteration 300/500, Loss: 380.101990
+  [DM] Iteration 400/500, Loss: 312.307434
+  [DM] Iteration 500/500, Loss: 266.031647
+  → Saved 50 synthetic images to distilled_data/client_21.pt
+
+[Client 22] Distilling local data ...
+  [DM] Iteration 100/500, Loss: 633.608093
+  [DM] Iteration 200/500, Loss: 397.471008
+  [DM] Iteration 300/500, Loss: 301.131012
+  [DM] Iteration 400/500, Loss: 249.677933
+  [DM] Iteration 500/500, Loss: 216.533920
+  → Saved 45 synthetic images to distilled_data/client_22.pt
+
+[Client 23] Distilling local data ...
+  [DM] Iteration 100/500, Loss: 766.292053
+  [DM] Iteration 200/500, Loss: 497.168640
+  [DM] Iteration 300/500, Loss: 388.004456
+  [DM] Iteration 400/500, Loss: 326.302490
+  [DM] Iteration 500/500, Loss: 283.396820
+  → Saved 50 synthetic images to distilled_data/client_23.pt
+
+[Client 24] Distilling local data ...
+  [DM] Iteration 100/500, Loss: 583.416687
+  [DM] Iteration 200/500, Loss: 374.877747
+  [DM] Iteration 300/500, Loss: 281.777954
+  [DM] Iteration 400/500, Loss: 228.847046
+  [DM] Iteration 500/500, Loss: 193.170380
+  → Saved 40 synthetic images to distilled_data/client_24.pt
+
+[Client 25] Distilling local data ...
+  [DM] Iteration 100/500, Loss: 836.563843
+  [DM] Iteration 200/500, Loss: 533.558960
+  [DM] Iteration 300/500, Loss: 409.890015
+  [DM] Iteration 400/500, Loss: 340.503967
+  [DM] Iteration 500/500, Loss: 294.848602
+  → Saved 50 synthetic images to distilled_data/client_25.pt
+
+[Client 26] Distilling local data ...
+  [DM] Iteration 100/500, Loss: 619.866272
+  [DM] Iteration 200/500, Loss: 392.941498
+  [DM] Iteration 300/500, Loss: 297.318817
+  [DM] Iteration 400/500, Loss: 246.161133
+  [DM] Iteration 500/500, Loss: 214.826447
+  → Saved 45 synthetic images to distilled_data/client_26.pt
+
+[Client 27] Distilling local data ...
+  [DM] Iteration 100/500, Loss: 842.736511
+  [DM] Iteration 200/500, Loss: 541.942871
+  [DM] Iteration 300/500, Loss: 409.678253
+  [DM] Iteration 400/500, Loss: 336.265076
+  [DM] Iteration 500/500, Loss: 285.065613
+  → Saved 50 synthetic images to distilled_data/client_27.pt
+
+[Client 28] Distilling local data ...
+  [DM] Iteration 100/500, Loss: 812.168945
+  [DM] Iteration 200/500, Loss: 522.042725
+  [DM] Iteration 300/500, Loss: 405.551941
+  [DM] Iteration 400/500, Loss: 340.356110
+  [DM] Iteration 500/500, Loss: 298.728607
+  → Saved 50 synthetic images to distilled_data/client_28.pt
+
+[Client 29] Distilling local data ...
+  [DM] Iteration 100/500, Loss: 815.322266
+  [DM] Iteration 200/500, Loss: 523.081299
+  [DM] Iteration 300/500, Loss: 406.642914
+  [DM] Iteration 400/500, Loss: 339.471832
+  [DM] Iteration 500/500, Loss: 293.049133
+  → Saved 50 synthetic images to distilled_data/client_29.pt
+
+[Client 30] Distilling local data ...
+  [DM] Iteration 100/500, Loss: 785.320129
+  [DM] Iteration 200/500, Loss: 508.234375
+  [DM] Iteration 300/500, Loss: 396.684174
+  [DM] Iteration 400/500, Loss: 332.932709
+  [DM] Iteration 500/500, Loss: 288.376892
+  → Saved 50 synthetic images to distilled_data/client_30.pt
+
+[Client 31] Distilling local data ...
+  [DM] Iteration 100/500, Loss: 574.397949
+  [DM] Iteration 200/500, Loss: 368.178253
+  [DM] Iteration 300/500, Loss: 276.712830
+  [DM] Iteration 400/500, Loss: 225.604309
+  [DM] Iteration 500/500, Loss: 192.466370
+  → Saved 40 synthetic images to distilled_data/client_31.pt
+
+[Client 32] Distilling local data ...
+  [DM] Iteration 100/500, Loss: 771.879272
+  [DM] Iteration 200/500, Loss: 511.064758
+  [DM] Iteration 300/500, Loss: 402.784882
+  [DM] Iteration 400/500, Loss: 340.144226
+  [DM] Iteration 500/500, Loss: 299.147858
+  → Saved 50 synthetic images to distilled_data/client_32.pt
+
+[Client 33] Distilling local data ...
+  [DM] Iteration 100/500, Loss: 428.169861
+  [DM] Iteration 200/500, Loss: 252.431152
+  [DM] Iteration 300/500, Loss: 180.595612
+  [DM] Iteration 400/500, Loss: 144.880722
+  [DM] Iteration 500/500, Loss: 121.776138
+  → Saved 35 synthetic images to distilled_data/client_33.pt
+
+[Client 34] Distilling local data ...
+  [DM] Iteration 100/500, Loss: 563.721741
+  [DM] Iteration 200/500, Loss: 355.975586
+  [DM] Iteration 300/500, Loss: 272.793823
+  [DM] Iteration 400/500, Loss: 228.608017
+  [DM] Iteration 500/500, Loss: 198.996597
+  → Saved 40 synthetic images to distilled_data/client_34.pt
+
+[Client 35] Distilling local data ...
+  [DM] Iteration 100/500, Loss: 738.132690
+  [DM] Iteration 200/500, Loss: 464.916962
+  [DM] Iteration 300/500, Loss: 351.438629
+  [DM] Iteration 400/500, Loss: 290.447906
+  [DM] Iteration 500/500, Loss: 254.575958
+  → Saved 50 synthetic images to distilled_data/client_35.pt
+
+[Client 36] Distilling local data ...
+  [DM] Iteration 100/500, Loss: 796.877563
+  [DM] Iteration 200/500, Loss: 517.315247
+  [DM] Iteration 300/500, Loss: 399.914093
+  [DM] Iteration 400/500, Loss: 333.846497
+  [DM] Iteration 500/500, Loss: 285.699432
+  → Saved 50 synthetic images to distilled_data/client_36.pt
+
+[Client 37] Distilling local data ...
+  [DM] Iteration 100/500, Loss: 615.248596
+  [DM] Iteration 200/500, Loss: 393.334106
+  [DM] Iteration 300/500, Loss: 305.975800
+  [DM] Iteration 400/500, Loss: 256.801392
+  [DM] Iteration 500/500, Loss: 225.912781
+  → Saved 45 synthetic images to distilled_data/client_37.pt
+
+[Client 38] Distilling local data ...
+  [DM] Iteration 100/500, Loss: 716.472961
+  [DM] Iteration 200/500, Loss: 454.571411
+  [DM] Iteration 300/500, Loss: 351.181152
+  [DM] Iteration 400/500, Loss: 293.177979
+  [DM] Iteration 500/500, Loss: 254.328094
+  → Saved 50 synthetic images to distilled_data/client_38.pt
+
+[Client 39] Distilling local data ...
+  [DM] Iteration 100/500, Loss: 421.933899
+  [DM] Iteration 200/500, Loss: 255.593399
+  [DM] Iteration 300/500, Loss: 186.109222
+  [DM] Iteration 400/500, Loss: 149.518509
+  [DM] Iteration 500/500, Loss: 126.730629
+  → Saved 35 synthetic images to distilled_data/client_39.pt
+
+[Client 40] Distilling local data ...
+  [DM] Iteration 100/500, Loss: 648.537598
+  [DM] Iteration 200/500, Loss: 409.625427
+  [DM] Iteration 300/500, Loss: 307.998352
+  [DM] Iteration 400/500, Loss: 255.678085
+  [DM] Iteration 500/500, Loss: 224.070862
+  → Saved 45 synthetic images to distilled_data/client_40.pt
+
+[Client 41] Distilling local data ...
+  [DM] Iteration 100/500, Loss: 792.294189
+  [DM] Iteration 200/500, Loss: 510.626678
+  [DM] Iteration 300/500, Loss: 394.827789
+  [DM] Iteration 400/500, Loss: 329.941711
+  [DM] Iteration 500/500, Loss: 289.896057
+  → Saved 50 synthetic images to distilled_data/client_41.pt
+
+[Client 42] Distilling local data ...
+  [DM] Iteration 100/500, Loss: 582.719971
+  [DM] Iteration 200/500, Loss: 377.101562
+  [DM] Iteration 300/500, Loss: 294.609985
+  [DM] Iteration 400/500, Loss: 247.840561
+  [DM] Iteration 500/500, Loss: 214.323730
+  → Saved 40 synthetic images to distilled_data/client_42.pt
+
+[Client 43] Distilling local data ...
+  [DM] Iteration 100/500, Loss: 766.466980
+  [DM] Iteration 200/500, Loss: 489.025726
+  [DM] Iteration 300/500, Loss: 370.568024
+  [DM] Iteration 400/500, Loss: 307.484161
+  [DM] Iteration 500/500, Loss: 268.979675
+  → Saved 45 synthetic images to distilled_data/client_43.pt
+
+[Client 44] Distilling local data ...
+  [DM] Iteration 100/500, Loss: 647.638611
+  [DM] Iteration 200/500, Loss: 426.031921
+  [DM] Iteration 300/500, Loss: 336.208496
+  [DM] Iteration 400/500, Loss: 285.005951
+  [DM] Iteration 500/500, Loss: 250.214767
+  → Saved 45 synthetic images to distilled_data/client_44.pt
+
+[Client 45] Distilling local data ...
+  [DM] Iteration 100/500, Loss: 628.754333
+  [DM] Iteration 200/500, Loss: 394.125732
+  [DM] Iteration 300/500, Loss: 299.891602
+  [DM] Iteration 400/500, Loss: 246.830444
+  [DM] Iteration 500/500, Loss: 213.827408
+  → Saved 45 synthetic images to distilled_data/client_45.pt
+
+[Client 46] Distilling local data ...
+  [DM] Iteration 100/500, Loss: 590.176758
+  [DM] Iteration 200/500, Loss: 385.105469
+  [DM] Iteration 300/500, Loss: 300.901794
+  [DM] Iteration 400/500, Loss: 253.643707
+  [DM] Iteration 500/500, Loss: 221.548279
+  → Saved 40 synthetic images to distilled_data/client_46.pt
+
+[Client 47] Distilling local data ...
+  [DM] Iteration 100/500, Loss: 602.447510
+  [DM] Iteration 200/500, Loss: 386.821960
+  [DM] Iteration 300/500, Loss: 290.938141
+  [DM] Iteration 400/500, Loss: 239.172180
+  [DM] Iteration 500/500, Loss: 205.458176
+  → Saved 40 synthetic images to distilled_data/client_47.pt
+
+[Client 48] Distilling local data ...
+  [DM] Iteration 100/500, Loss: 804.241211
+  [DM] Iteration 200/500, Loss: 529.745728
+  [DM] Iteration 300/500, Loss: 417.159393
+  [DM] Iteration 400/500, Loss: 349.148010
+  [DM] Iteration 500/500, Loss: 302.577148
+  → Saved 50 synthetic images to distilled_data/client_48.pt
+
+[Client 49] Distilling local data ...
+  [DM] Iteration 100/500, Loss: 975.172729
+  [DM] Iteration 200/500, Loss: 633.601257
+  [DM] Iteration 300/500, Loss: 487.580505
+  [DM] Iteration 400/500, Loss: 404.270447
+  [DM] Iteration 500/500, Loss: 351.519409
+  → Saved 50 synthetic images to distilled_data/client_49.pt
+
+============================================================
+PHASE 0 COMPLETE — All clients distilled successfully.
+============================================================
+
+FUSED-epoch-xxxx-client forget, Avg_r_acc: 0.8435992928738633, Avg_f_acc: 0.022054768866111563
+[Phase 2] Loading DISTILLED data for FIM analysis ...
+  Distilled clean samples: 1875, poison samples: 370
+
+============================================================
+FIM-GUIDED LAYER SENSITIVITY ANALYSIS
+============================================================
+Computing FIM on clean data...
+Computing FIM on poisoned data...
+
+--- Layer Sensitivity Report ---
+Layer                                           Score     Status   Rank
+------------------------------------------------------------------------
+conv1                                         38.5656      clean     --
+conv2                                        173.9921      clean     --
+fc1                                          278.7945    FLAGGED r=  30
+fc2                                          277.8634      clean     --
+fc3                                          294.3782    FLAGGED r=  32
+
+Threshold (τ at 70th percentile): 278.6083
+Total eligible layers: 5
+Flagged layers: 2
+Target modules: ['fc1', 'fc3']
+Rank map: {'fc1': 30, 'fc3': 32}
+============================================================
+
+[DynamicLora] Target modules: ['fc1', 'fc3']
+[DynamicLora] Rank map: {'fc1': 30, 'fc3': 32}
+[DynamicLora] Using median rank: 31
+[DynamicLora] Total params: 58,996, Trainable (LoRA): 14,570 (24.70%)
+FUSED-epoch-0-client forget, Avg_r_acc: 0.8480179239331672, Avg_f_acc: 0.00950078696716434
+FUSED-epoch-1-client forget, Avg_r_acc: 0.8485727969013173, Avg_f_acc: 0.00896418811273021
+FUSED-epoch-2-client forget, Avg_r_acc: 0.850571550568728, Avg_f_acc: 0.008752547901089999
+FUSED-epoch-3-client forget, Avg_r_acc: 0.8518389606128558, Avg_f_acc: 0.008899068047610145
+FUSED-epoch-4-client forget, Avg_r_acc: 0.8524312700354363, Avg_f_acc: 0.009322348470890567
+FUSED-epoch-5-client forget, Avg_r_acc: 0.8516524595209508, Avg_f_acc: 0.009540927705863246
+FUSED-epoch-6-client forget, Avg_r_acc: 0.8516991758865141, Avg_f_acc: 0.009431638088376907
+FUSED-epoch-7-client forget, Avg_r_acc: 0.8523629707866555, Avg_f_acc: 0.009178824235563054
+FUSED-epoch-8-client forget, Avg_r_acc: 0.8522860522452278, Avg_f_acc: 0.009397403470535732
+FUSED-epoch-9-client forget, Avg_r_acc: 0.8538932724488769, Avg_f_acc: 0.009605574170509711
+FUSED-epoch-10-client forget, Avg_r_acc: 0.8531590634412647, Avg_f_acc: 0.009288113853049392
+FUSED-epoch-11-client forget, Avg_r_acc: 0.8527990223185867, Avg_f_acc: 0.00957796892551316
+FUSED-epoch-12-client forget, Avg_r_acc: 0.8532985976039631, Avg_f_acc: 0.00957796892551316
+FUSED-epoch-13-client forget, Avg_r_acc: 0.8542199941206466, Avg_f_acc: 0.00957796892551316
+FUSED-epoch-14-client forget, Avg_r_acc: 0.8538717384018935, Avg_f_acc: 0.00957796892551316
+FUSED-epoch-15-client forget, Avg_r_acc: 0.8537476371916255, Avg_f_acc: 0.00957796892551316
+FUSED-epoch-16-client forget, Avg_r_acc: 0.852529154323511, Avg_f_acc: 0.009738611495794285
+FUSED-epoch-17-client forget, Avg_r_acc: 0.8539474343745491, Avg_f_acc: 0.009738611495794285
+FUSED-epoch-18-client forget, Avg_r_acc: 0.854590634143266, Avg_f_acc: 0.009738611495794285
+FUSED-epoch-19-client forget, Avg_r_acc: 0.8543265329071387, Avg_f_acc: 0.009738611495794285

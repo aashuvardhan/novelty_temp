@@ -5,8 +5,8 @@ torch==2.2.1+cu121
 torchvision==0.17.1+cu121
 
 # --- Standard Data Science & Memory Tools ---
-numpy==1.24.3
-pandas==2.0.2
+numpy==1.26.0
+pandas==2.2.0
 matplotlib==3.7.1
 scikit-learn==1.3.2
 joblib==1.3.2
@@ -19,6 +19,7 @@ peft==0.9.0           # Includes LoraConfig and IA3Config
 accelerate==0.27.2    # Required for efficient GPU offloading
 timm==0.9.16          # Vision backbones (ViT, ResNet)
 bitsandbytes==0.43.3  # For 4-bit/8-bit quantization (Windows-compatible)
-sentencepiece==0.1.99 # Tokenizer dependency
+sentencepiece==0.2.0 # Tokenizer dependency
 datasets==2.18.0      # For loading standard datasets
 evaluate==0.4.1       # For calculating metrics
+triton==3.1.0
