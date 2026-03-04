@@ -81,21 +81,15 @@ class FUSED(Base):
 
         return global_model, client_models
 
-    def forget_client_train(self, global_model, client_all_loaders, test_loaders,var_unlearning=False):
-
-        if(var_unlearning==True):
-            print("\n" + "="*50)
-            print("Starting FUSED Unlearning Phase...")
-
-
+    def forget_client_train(self, global_model, client_all_loaders, test_loaders, var_unlearning=True):
         global_model.load_state_dict(torch.load('save_model/global_model_{}.pth'.format(self.args.data_name)))
         avg_f_acc, avg_r_acc, test_result_ls = test_client_forget(self, 1, global_model, self.args,
                                                                   test_loaders)
-        print('FUSED-epoch-{}-client forget, Avg_r_acc: {}, Avg_f_acc: {}'.format('xxxx', avg_r_acc,
-                                                                                 avg_f_acc))
+        print('FUSED-epoch-{}-client forget, Avg_r_acc: {}, Avg_f_acc: {}'.format('xxxx', avg_r_acc, avg_f_acc))
 
-        if(var_unlearning==True):
-
+        if var_unlearning:
+            print("\n" + "="*50)
+            print("Starting FUSED Unlearning Phase (FIM Guided)...")
             # =====================================================================
             # FIM-GUIDED DYNAMIC LORA PLACEMENT
             # =====================================================================
@@ -160,9 +154,31 @@ class FUSED(Base):
             # Step 3: Create DynamicLora with FIM-determined targets
             fused_model = DynamicLora(self.args, global_model, target_modules, rank_map)
 
+            # ==========================================================
+            # NEW FIX: SWAP TO DISTILLED DATALOADERS FOR UNLEARNING
+            # ==========================================================
+            if use_distilled:
+                print("Swapping to lightweight Distilled Dataloaders for Unlearning Epochs...")
+                import os
+                from torch.utils.data import TensorDataset, DataLoader
+                
+                # Overwrite the massive client_all_loaders with tiny distilled ones
+                distilled_client_loaders = []
+                for client_id in range(self.args.num_user):
+                    pt_path = os.path.join('distilled_data', f'client_{client_id}.pt')
+                    if os.path.exists(pt_path):
+                        syn_img, syn_lbl = torch.load(pt_path, map_location=self.args.device)
+                        tiny_loader = DataLoader(TensorDataset(syn_img, syn_lbl), batch_size=self.args.local_batch_size, shuffle=True)
+                        distilled_client_loaders.append(tiny_loader)
+                    else:
+                        distilled_client_loaders.append(client_all_loaders[client_id])
+                
+                # Replace the reference so global_train_once runs at lightning speed!
+                client_all_loaders = distilled_client_loaders
+            # ==========================================================
+            
         else:
             fused_model = Lora(self.args, global_model)
-
 
         torch.save(fused_model.state_dict(), 'save_model/global_fusedmodel_{}.pth'.format(self.args.data_name))
 
@@ -175,7 +191,6 @@ class FUSED(Base):
             selected_clients = [i for i in range(self.args.num_user) if i not in self.args.forget_client_idx]
             select_client_loaders = select_part_sample(self.args, client_all_loaders, selected_clients)
 
-
             std_time = time.time()
             client_models = self.global_train_once(epoch, fused_model, select_client_loaders, test_loaders, self.args, checkpoints_ls)
             end_time = time.time()
@@ -185,14 +200,10 @@ class FUSED(Base):
 
             fused_model.eval()
 
-            avg_f_acc, avg_r_acc, test_result_ls = test_client_forget(self, epoch, fused_model, self.args,
-                                                                      test_loaders)
-
+            avg_f_acc, avg_r_acc, test_result_ls = test_client_forget(self, epoch, fused_model, self.args, test_loaders)
             result_list.extend(test_result_ls)
 
-            print('FUSED-epoch-{}-client forget, Avg_r_acc: {}, Avg_f_acc: {}'.format(epoch, avg_r_acc,
-                                                                                    avg_f_acc))
-
+            print('FUSED-epoch-{}-client forget, Avg_r_acc: {}, Avg_f_acc: {}'.format(epoch, avg_r_acc, avg_f_acc))
 
         df = pd.DataFrame(result_list, columns=['Epoch', 'Client_id', 'Class_id', 'Label_num', 'Test_acc', 'Test_loss'])
         df['Comsume_time'] = consume_time
@@ -214,25 +225,22 @@ class FUSED(Base):
                         self.args.alpha,
                         len(self.args.forget_class_idx), self.args.cut_sample))
                 
-        
         # =====================================================================
-        # NEW CODE: Retrieve and save the original Phase 1 model
+        # Extract original Phase 1 base model
         # =====================================================================
         print("Unlearning complete. Extracting the original Phase 1 base model...")
-        
-        # We use deepcopy so we don't accidentally destroy the fused_model we need to return
         temp_fused_model = copy.deepcopy(fused_model)
         
-        # Drop the adapters and extract the frozen Phase 1 base model
-        original_restored_model = temp_fused_model.lora_model.unload()
-        
-        # Save this restored model to the hard drive so you can inspect it later
+        try:
+            # For DynamicLora and standard PEFT Lora wrapped models
+            original_restored_model = temp_fused_model.lora_model.unload()
+        except AttributeError:
+            # Fallback if the Lora structure differs
+            original_restored_model = temp_fused_model
+
         torch.save(original_restored_model.state_dict(), 'save_model/restored_phase1_model_{}.pth'.format(self.args.data_name))
         print("Original Phase 1 model successfully restored and saved to disk!")
         # =====================================================================
-
-        # We return the FUSED model so the MIA and Relearning phases have the "cured" model to test
-        
 
         return fused_model
 
