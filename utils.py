@@ -531,6 +531,9 @@ def membership_inference_attack(args, unlearning_model, case, model, client_all_
         test_y_user[k] = test_y_user[k].astype('int32')
     
     # training shadow model using proxy data
+    print("\n" + "="*50)
+    print("Starting Membership Inference Attack Phase...")
+    print("These are primarily used to evaluate the effectiveness of the unlearning process...")
     attack_x_train, attack_y_train, classes_train,attack_x_train_user, attack_y_train_user = train_shadow_model(args, case, model, proxy_client_loaders_bk, proxy_client_loaders, proxy_test_loaders)
 
     ## balance datasets

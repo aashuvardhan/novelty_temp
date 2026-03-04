@@ -138,8 +138,10 @@ if __name__ == '__main__':
         start = time.perf_counter()
         
         args.if_unlearning = True
+        var_unlearning=True
+
         unlearning_model = case.forget_client_train(copy.deepcopy(model), copy.deepcopy(client_all_loaders),
-                                                    test_loaders_process)
+                                                    test_loaders_process, var_unlearning)
         
 
         end= time.perf_counter()
@@ -154,7 +156,11 @@ if __name__ == '__main__':
         
         
         if args.relearn:
+            print("\n" + "="*50)
+            print("Starting Relearning Phase...")
             case.relearn_unlearning_knowledge(unlearning_model, client_all_loaders_process, test_loaders_process)
+        print("\n" + "="*50)
+        print("Verifying Restored Model...")
         case.verify_restored_model(copy.deepcopy(model), client_all_loaders_process, test_loaders_process)
     elif args.forget_paradigm == 'class':
         client_all_loaders_bk = copy.deepcopy(client_all_loaders)
