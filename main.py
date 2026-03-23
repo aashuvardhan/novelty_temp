@@ -138,10 +138,9 @@ if __name__ == '__main__':
         start = time.perf_counter()
         
         args.if_unlearning = True
-        var_unlearning=True
 
         unlearning_model = case.forget_client_train(copy.deepcopy(model), copy.deepcopy(client_all_loaders),
-                                                    test_loaders_process, var_unlearning)
+                                                    test_loaders_process)
         
 
         end= time.perf_counter()
