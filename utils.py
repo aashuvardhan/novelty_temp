@@ -711,6 +711,10 @@ def select_part_sample(args, client_all_loaders, selected_clients):
             inputs, labels = batch
             all_data.append((inputs, labels))
 
+        # Guard: DataLoader yielded nothing (proxy client too small + drop_last=True)
+        if len(all_data) == 0:
+            continue
+
         all_inputs = torch.cat([data[0] for data in all_data])
         all_labels = torch.cat([data[1] for data in all_data])
 
@@ -727,6 +731,10 @@ def select_part_sample(args, client_all_loaders, selected_clients):
                 sampled_class_indices = random.sample(class_indices.tolist(), sample_size)
                 sampled_inputs.append(all_inputs[sampled_class_indices])
                 sampled_labels.append(all_labels[sampled_class_indices])
+
+        # Guard: cut_sample ratio left nothing to sample
+        if len(sampled_inputs) == 0:
+            continue
 
         sampled_inputs = torch.cat(sampled_inputs)
         sampled_labels = torch.cat(sampled_labels)
