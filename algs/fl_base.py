@@ -15,7 +15,7 @@ import os
 import pandas as pd
 import logging
 from alg_utils.ada_hessian import AdaHessian
-from transformers import AdamW
+from torch.optim import AdamW
 
 class Base(object):
     def __init__(self, args):
