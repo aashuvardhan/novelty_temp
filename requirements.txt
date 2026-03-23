@@ -1,25 +1,47 @@
-# --- Core Compute Stack (CUDA 12.1) ---
-# We use the extra index URL to ensure we get the GPU-enabled versions
---extra-index-url https://download.pytorch.org/whl/cu121
-torch==2.2.1+cu121
-torchvision==0.17.1+cu121
+# ===========================================================
+# Requirements — Google Colab & Linux (Python 3.11, CUDA 12.x)
+# ===========================================================
+# Usage:
+#   pip install -r requirements.txt          # fresh Linux machine
+#   !pip install -r requirements.txt         # Google Colab cell
+#
+# Strategy:
+#   - Pre-installed packages on Colab use ">=" lower bounds so
+#     pip accepts Colab's existing versions without reinstalling.
+#   - Packages not in Colab use "==" for reproducibility.
+# ===========================================================
 
-# --- Standard Data Science & Memory Tools ---
-numpy==1.26.0
-pandas==2.2.0
-matplotlib==3.7.1
-scikit-learn==1.3.2
-joblib==1.3.2
-objgraph==3.6.1       # For debugging memory leaks
-tqdm==4.66.2          # For progress bars
+# --- Core Compute Stack ---
+# Colab pre-installs GPU-enabled torch; ">=" accepts it as-is.
+# On a fresh Linux box, pip will install a compatible build.
+torch>=2.2.0
+torchvision>=0.17.0
 
-# --- Hugging Face & Fine-Tuning Ecosystem ---
-transformers==4.38.2  # Stable version for 2.x
-peft==0.9.0           # Includes LoraConfig and IA3Config
-accelerate==0.27.2    # Required for efficient GPU offloading
-timm==0.9.16          # Vision backbones (ViT, ResNet)
-bitsandbytes==0.43.3  # For 4-bit/8-bit quantization (Windows-compatible)
-sentencepiece==0.2.0 # Tokenizer dependency
-datasets==2.18.0      # For loading standard datasets
-evaluate==0.4.1       # For calculating metrics
-triton==3.1.0
+# --- Standard Data Science ---
+numpy>=1.26.0
+pandas>=2.0.0
+matplotlib>=3.7.0
+scikit-learn>=1.3.0
+joblib>=1.3.0
+tqdm>=4.65.0
+
+# --- Hugging Face Ecosystem ---
+# transformers & huggingface_hub are pre-installed on Colab;
+# ">=" keeps Colab's newer version without downgrading.
+transformers>=4.38.0
+huggingface_hub>=0.21.0     # directly imported by ViT_Cifar100.py
+peft==0.9.0                 # LoraConfig / get_peft_model
+accelerate>=0.27.0          # required by peft / transformers
+timm==0.9.16                # vision backbones (ViT, ResNet)
+sentencepiece==0.2.0        # tokenizer dependency
+datasets>=2.18.0            # HuggingFace dataset loader
+evaluate>=0.4.1             # metrics calculation
+
+# --- Quantization ---
+# bitsandbytes Linux wheels are published without a +cuXXX suffix.
+bitsandbytes>=0.43.3
+
+# --- Utilities ---
+objgraph>=3.6.0             # memory-leak debugging
+triton>=2.2.0               # JIT compiler; pre-installed on Colab/Linux
+
