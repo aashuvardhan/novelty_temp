@@ -5,7 +5,7 @@ from models import LeNet_FashionMNIST, CNN_Cifar10, CNN_Cifar100, ViT_Cifar100
 import numpy as np
 import torch.nn.functional as F
 import copy
-from transformers import AdamW
+from torch.optim import AdamW
 from torch import optim
 from sklearn.metrics import classification_report, accuracy_score
 import pandas as pd
