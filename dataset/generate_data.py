@@ -17,35 +17,38 @@ UNK, PAD = '<UNK>', '<PAD>'
 
 def data_init(FL_params):
     dataset_x = []
-    dataset_at = []
     dataset_y = []
 
     trainset, testset = data_set(FL_params.data_name)
 
-    test_loader = DataLoader(testset, batch_size=FL_params.test_batch_size, shuffle=True, num_workers=0, pin_memory=True)
-    train_loader = DataLoader(trainset, batch_size=FL_params.local_batch_size, shuffle=True, num_workers=0, pin_memory=True)
+    # pin_memory=False: avoids locking extra system RAM for DMA buffers
+    test_loader = DataLoader(testset, batch_size=FL_params.test_batch_size, shuffle=True, num_workers=0, pin_memory=False)
+    train_loader = DataLoader(trainset, batch_size=FL_params.local_batch_size, shuffle=True, num_workers=0, pin_memory=False)
 
-    for train_data in train_loader:
-        x_train, y_train = train_data
-        dataset_x.extend(x_train.cpu().detach().numpy())
-        dataset_y.extend(y_train.cpu().detach().numpy())
+    for x_train, y_train in train_loader:
+        dataset_x.append(x_train.numpy())
+        dataset_y.append(y_train.numpy())
     if FL_params.forget_paradigm == 'client':
-        for test_data in test_loader:
-            x_test, y_test = test_data
-            dataset_x.extend(x_test.cpu().detach().numpy())
-            dataset_y.extend(y_test.cpu().detach().numpy())
+        for x_test, y_test in test_loader:
+            dataset_x.append(x_test.numpy())
+            dataset_y.append(y_test.numpy())
 
-    dataset_x = np.array(dataset_x)
-    dataset_y = np.array(dataset_y)
+    # Stack batches into one contiguous array, then free the list
+    dataset_x = np.concatenate(dataset_x, axis=0)
+    dataset_y = np.concatenate(dataset_y, axis=0)
 
     X, y, statistic = separate_data((dataset_x, dataset_y), FL_params.num_user, FL_params.num_classes, FL_params,
                                     FL_params.niid, FL_params.balance, FL_params.partition, class_per_client=2)
 
+    # Free the merged flat arrays — all data now lives in per-client X/y lists
+    del dataset_x, dataset_y
+
     client_loaders, test_loaders, proxy_client_loaders, proxy_test_loaders = split_proxy(X, y, FL_params)
     FL_params.datasize_ls = [len(k) for k in X]
+    del X, y  # free per-client raw arrays; DataLoaders hold TensorDatasets now
+
     if FL_params.forget_paradigm == 'client':
-        test_loaders = test_loaders
-        proxy_test_loaders = proxy_test_loaders
+        pass  # test_loaders and proxy_test_loaders already correct
     else:
         proxy_test_x = []
         proxy_test_y = []
@@ -53,9 +56,10 @@ def data_init(FL_params):
             for x, y in test_loaders[i]:
                 proxy_test_x.append(x)
                 proxy_test_y.append(y)
-        proxy_test_x = torch.cat(proxy_test_x).numpy()
-        proxy_test_y = torch.cat(proxy_test_y).numpy()
-        proxy_test_loader = DataLoader(TensorDataset(torch.tensor(proxy_test_x), torch.tensor(proxy_test_y)), batch_size=FL_params.test_batch_size, shuffle=True)
+        proxy_test_x = torch.cat(proxy_test_x)
+        proxy_test_y = torch.cat(proxy_test_y)
+        proxy_test_loader = DataLoader(TensorDataset(proxy_test_x, proxy_test_y),
+                                       batch_size=FL_params.test_batch_size, shuffle=True)
         proxy_test_loaders = [proxy_test_loader for _ in range(FL_params.num_user)]
     return client_loaders, test_loaders, proxy_client_loaders, proxy_test_loaders
 
@@ -65,21 +69,19 @@ def cross_data_init(FL_params):
 
     trainset, testset = data_set(FL_params.data_name)
 
-    test_loader = DataLoader(testset, batch_size=FL_params.test_batch_size, shuffle=True, num_workers=0, pin_memory=True)
-    train_loader = DataLoader(trainset, batch_size=FL_params.local_batch_size, shuffle=True, num_workers=0, pin_memory=True)
+    test_loader = DataLoader(testset, batch_size=FL_params.test_batch_size, shuffle=True, num_workers=0, pin_memory=False)
+    train_loader = DataLoader(trainset, batch_size=FL_params.local_batch_size, shuffle=True, num_workers=0, pin_memory=False)
 
-    for train_data in train_loader:
-        x_train, y_train = train_data
-        dataset_x.extend(x_train.cpu().detach().numpy())
-        dataset_y.extend(y_train.cpu().detach().numpy())
+    for x_train, y_train in train_loader:
+        dataset_x.append(x_train.numpy())
+        dataset_y.append(y_train.numpy())
     if FL_params.forget_paradigm == 'client':
-        for test_data in test_loader:
-            x_test, y_test = test_data
-            dataset_x.extend(x_test.cpu().detach().numpy())
-            dataset_y.extend(y_test.cpu().detach().numpy())
+        for x_test, y_test in test_loader:
+            dataset_x.append(x_test.numpy())
+            dataset_y.append(y_test.numpy())
 
-    dataset_x = np.array(dataset_x)
-    dataset_y = np.array(dataset_y)
+    dataset_x = np.concatenate(dataset_x, axis=0)
+    dataset_y = np.concatenate(dataset_y, axis=0)
 
     class_num = int(FL_params.num_classes/FL_params.num_user)
     X = []

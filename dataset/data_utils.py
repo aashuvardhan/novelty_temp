@@ -244,15 +244,24 @@ def split_data(X, y, args, client_at=None):
     else:
         train_size = 0.99
     for i in range(len(y)):
-        X_train, X_test, y_train, y_test = train_test_split(
-            X[i], y[i], train_size=train_size, shuffle=True)
+        # Convert to contiguous numpy arrays (handles both list and ndarray input)
+        xi = np.array(X[i], dtype=np.float32) if not isinstance(X[i], np.ndarray) else np.asarray(X[i], dtype=np.float32)
+        yi = np.array(y[i], dtype=np.int64)  if not isinstance(y[i], np.ndarray) else np.asarray(y[i], dtype=np.int64)
 
-        train_data = [(x, y) for x, y in zip(X_train, y_train)]
-        test_data = [(x, y) for x, y in zip(X_test, y_test)]
-        client_loaders.append(DataLoader(train_data, batch_size=args.local_batch_size, shuffle=True, num_workers=0, drop_last=True))
-        test_loaders.append(DataLoader(test_data, batch_size=args.test_batch_size, shuffle=True))
+        X_train, X_test, y_train, y_test = train_test_split(
+            xi, yi, train_size=train_size, shuffle=True)
+        del xi, yi  # free the per-client array once split is done
+
+        # TensorDataset uses contiguous typed tensors — far lower RAM than list-of-tuples
+        train_ds = TensorDataset(torch.from_numpy(X_train), torch.from_numpy(y_train))
+        test_ds  = TensorDataset(torch.from_numpy(X_test),  torch.from_numpy(y_test))
+        del X_train, X_test, y_train, y_test
+
+        client_loaders.append(DataLoader(train_ds, batch_size=args.local_batch_size, shuffle=True,  num_workers=0, drop_last=True))
+        test_loaders.append(  DataLoader(test_ds,  batch_size=args.test_batch_size,  shuffle=True,  num_workers=0))
 
     del X, y
     return client_loaders, test_loaders
+
 
 
