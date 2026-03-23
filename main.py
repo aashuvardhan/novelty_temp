@@ -109,10 +109,10 @@ if __name__ == '__main__':
     case = fused_unlearning.FUSED(args)
 
     if args.forget_paradigm == 'client':
-        client_all_loaders_process, test_loaders_process = baizhanting_attack(args, copy.deepcopy(client_all_loaders),
-                                                                              copy.deepcopy(test_loaders))
-        proxy_client_loaders_process, proxy_test_loaders_process = baizhanting_attack(args, copy.deepcopy(
-            proxy_client_loaders), copy.deepcopy(proxy_test_loaders))
+        client_all_loaders_process, test_loaders_process = baizhanting_attack(args, client_all_loaders,
+                                                                              test_loaders)
+        proxy_client_loaders_process, proxy_test_loaders_process = baizhanting_attack(args,
+            proxy_client_loaders, proxy_test_loaders)
         model, all_client_models = case.train_normal(model, client_all_loaders_process, test_loaders_process)
 
         # =================================================================

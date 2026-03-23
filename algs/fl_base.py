@@ -1,4 +1,5 @@
 import sys
+import gc
 
 import torch
 import torch.functional as F
@@ -26,37 +27,33 @@ class Base(object):
 
         print('\n')
         print(5 * "#" + "  Federated Training Start  " + 5 * "#")
-        all_global_models = list()
-        all_client_models = list()
         global_model = init_global_model
         result_list = []
-
-        all_global_models.append(global_model)
-
         checkpoints_ls = []
         avg_acc = 0
+
         for epoch in range(FL_params.global_epoch):
             last_avg_acc = avg_acc
             selected_clients = list(np.random.choice(range(FL_params.num_user), size=int(FL_params.num_user*FL_params.fraction), replace=False))
-            select_client_loaders = list()
-            for idx in selected_clients:
-                select_client_loaders.append(client_all_loaders[idx])
+            select_client_loaders = [client_all_loaders[idx] for idx in selected_clients]
 
             client_models = self.global_train_once(epoch, global_model, select_client_loaders, test_loader, FL_params, checkpoints_ls)
 
-            all_client_models += client_models
             global_model = self.fedavg(client_models)
-            all_global_models.append(copy.deepcopy(global_model).to('cpu'))
+            # Free all local models immediately after averaging
+            del client_models
+            gc.collect()
+            torch.cuda.empty_cache()
 
             all_idx = [k for k in range(FL_params.num_user)]
             client_test_acc = []
-
+            global_model.to(FL_params.device)
             for client_idx in all_idx:
                 (test_loss, test_acc) = self.test(global_model, test_loader[client_idx], FL_params)
                 client_test_acc.append(test_acc)
                 result_list.append([epoch, client_idx, test_loss, test_acc])
             global_model.to('cpu')
-            avg_acc = sum(client_test_acc) / len(client_test_acc)#TODO: 这里假设每个客户端的数据量是相同的
+            avg_acc = sum(client_test_acc) / len(client_test_acc)
 
             print("FL Round = {}, Global Model Accuracy= {}".format(epoch, avg_acc))
 
@@ -66,7 +63,8 @@ class Base(object):
 
         print(5 * "#" + "  Federated Training End  " + 5 * "#")
 
-        return all_global_models, all_client_models
+        # Return just the final global model; all_client_models no longer stored
+        return global_model, []
 
 
     def FL_Retrain(self, init_global_model,  client_all_loaders, test_loaders, FL_params):
@@ -330,44 +328,21 @@ class Base(object):
     FedAvg
     """
     def fedavg(self, local_models):
-        """
-        Parameters
-        ----------
-        local_models : list of local models
-            DESCRIPTION.In federated learning, with the global_model as the initial model, each user uses a collection of local models updated with their local data.
-        local_model_weights : tensor or array
-            DESCRIPTION. The weight of each local model is usually related to the accuracy rate and number of data of the local model.(Bypass)
-
-        Returns
-        -------
-        update_global_model
-            Updated global model using fedavg algorithm
-        """
-
         global_model = copy.deepcopy(local_models[0])
-
         avg_state_dict = global_model.state_dict()
-        local_state_dicts = list()
-        for model in local_models:
-            local_state_dicts.append(model.state_dict())
 
         for layer in avg_state_dict.keys():
-            avg_state_dict[layer] = 0
-            # for client_idx in range(len(local_models)):
-            #     avg_state_dict[layer] += local_state_dicts[client_idx][layer]*self.args.datasize_ls[client_idx]
-            # if 'num_batches_tracked' in layer:
-            #     avg_state_dict[layer] = (avg_state_dict[layer]/sum(self.args.datasize_ls)).long()
-            # else:
-            #     avg_state_dict[layer] /= sum(self.args.datasize_ls)
-            for client_idx in range(len(local_models)):
-                avg_state_dict[layer] += local_state_dicts[client_idx][layer]
+            # Sum directly from each model's state_dict without building an extra list
+            avg_state_dict[layer] = sum(
+                m.state_dict()[layer] for m in local_models
+            )
             if 'num_batches_tracked' in layer:
                 avg_state_dict[layer] = (avg_state_dict[layer] / len(local_models)).long()
             else:
                 avg_state_dict[layer] /= len(local_models)
 
         global_model.load_state_dict(avg_state_dict)
-
+        del avg_state_dict
         return global_model
 
     def relearn_unlearning_knowledge(self, unlearning_model, client_all_loaders, test_loaders):
