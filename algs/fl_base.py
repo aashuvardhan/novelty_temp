@@ -154,15 +154,13 @@ class Base(object):
     def global_train_once(self, epoch, global_model, client_data_loaders, test_loaders, FL_params, checkpoints_ls):
         global_model.to(FL_params.device)
         device_cpu = torch.device("cpu")
-        client_models = []
         lr = FL_params.lr
+        n_clients = len(client_data_loaders)
 
-        # if FL_params.paradigm == 'federaser':
-        #     for ii in range(len(client_data_loaders)):
-        #         client_models.append("1")
-        # else:
-        # for ii in range(len(client_data_loaders)):
-        #     client_models.append(copy.deepcopy(global_model))
+        # Online FedAvg: accumulate running parameter sum, delete each client model immediately.
+        # Peak RAM = 2 models (global + 1 client) instead of N models simultaneously.
+        param_sum = None
+        ref_dtype = {}
 
         for idx, client_data in enumerate(client_data_loaders):
             model = copy.deepcopy(global_model)
@@ -170,17 +168,12 @@ class Base(object):
                 optimizer = AdamW(model.parameters(), lr=1e-5)
             else:
                 optimizer = optim.SGD(model.parameters(), lr=lr, momentum=0.9, weight_decay=5e-4)
-            # model.to(device)
             model.train()
 
-            # local training
             if self.args.paradigm == 'infocom22' and self.args.if_unlearning == True:
                 self.local_train_infocom22(model, optimizer, client_data_loaders[idx], FL_params)
             else:
                 model = self.local_train(model, optimizer, client_data_loaders[idx], FL_params)
-            
-
-            client_models.append(model)
 
             if self.args.paradigm == 'lora':
                 for name, param in model.named_parameters():
@@ -192,8 +185,30 @@ class Base(object):
                             diff = torch.norm(diff)
                             self.param_change_dict[name] = diff
                             self.param_size[name] = param_size
+
+            # Move to CPU, accumulate sum, then free immediately
             model.to(device_cpu)
-        return client_models
+            state = model.state_dict()
+            if param_sum is None:
+                param_sum = {k: v.clone().float() for k, v in state.items()}
+                ref_dtype = {k: v.dtype for k, v in state.items()}
+            else:
+                for k in param_sum:
+                    param_sum[k].add_(state[k].float())
+            del model, state
+            gc.collect()
+
+        # Divide running sum to get averaged model
+        avg_model = copy.deepcopy(global_model).to(device_cpu)
+        avg_sd = {}
+        for k, v in param_sum.items():
+            avg_v = v / n_clients
+            avg_sd[k] = avg_v.long() if 'num_batches_tracked' in k else avg_v.to(ref_dtype[k])
+        avg_model.load_state_dict(avg_sd)
+        del param_sum, avg_sd
+        gc.collect()
+        torch.cuda.empty_cache()
+        return avg_model
 
 
     """
@@ -347,68 +362,51 @@ class Base(object):
 
     def relearn_unlearning_knowledge(self, unlearning_model, client_all_loaders, test_loaders):
         checkpoints_ls = []
-        all_global_models = list()
-        all_client_models = list()
         global_model = unlearning_model
         result_list = []
-
-        all_global_models.append(global_model)
         std_time = time.time()
+
         for epoch in range(self.args.global_epoch):
             if self.args.forget_paradigm == 'client':
-                select_client_loaders = list()
-                for idx in self.args.forget_client_idx:
-                    select_client_loaders.append(client_all_loaders[idx])
+                select_client_loaders = [client_all_loaders[idx] for idx in self.args.forget_client_idx]
             elif self.args.forget_paradigm == 'class':
-                select_client_loaders = list()
                 client_loaders = select_forget_class(self.args, copy.deepcopy(client_all_loaders))
-                for v in client_loaders:
-                    if v is not None:
-                        select_client_loaders.append(v)
+                select_client_loaders = [v for v in client_loaders if v is not None]
             elif self.args.forget_paradigm == 'sample':
-                select_client_loaders = list()
                 client_loaders = select_forget_sample(self.args, copy.deepcopy(client_all_loaders))
-                for v in client_loaders:
-                    if v is not None:
-                        select_client_loaders.append(v)
-            client_models = self.global_train_once(epoch, global_model, select_client_loaders, test_loaders, self.args,
-                                                   checkpoints_ls)
+                select_client_loaders = [v for v in client_loaders if v is not None]
 
-            all_client_models += client_models
-            global_model = self.fedavg(client_models)
-            all_global_models.append(copy.deepcopy(global_model).to('cpu'))
-            end_time = time.time()
+            # global_train_once now returns averaged model directly
+            avg_model = self.global_train_once(epoch, global_model, select_client_loaders,
+                                               test_loaders, self.args, checkpoints_ls)
+            global_model.load_state_dict(avg_model.state_dict())
+            del avg_model
 
-            consume_time = end_time - std_time
+            consume_time = time.time() - std_time
+            avg_f_acc, avg_r_acc = 0, 0
 
+            global_model.to(self.args.device)
             if self.args.forget_paradigm == 'client':
-                avg_f_acc, avg_r_acc, test_result_ls = test_client_forget(self, epoch, global_model, self.args,
-                                                                          test_loaders)
+                avg_f_acc, avg_r_acc, test_result_ls = test_client_forget(self, epoch, global_model, self.args, test_loaders)
                 for item in test_result_ls:
                     item.append(consume_time)
                 result_list.extend(test_result_ls)
-                df = pd.DataFrame(result_list,
-                                  columns=['Epoch', 'Client_id', 'Class_id', 'Label_num', 'Test_acc', 'Test_loss',
-                                           'Comsume_time'])
+                df = pd.DataFrame(result_list, columns=['Epoch', 'Client_id', 'Class_id', 'Label_num', 'Test_acc', 'Test_loss', 'Comsume_time'])
             elif self.args.forget_paradigm == 'class':
-                avg_f_acc, avg_r_acc, test_result_ls = test_class_forget(self, epoch, global_model, self.args,
-                                                                         test_loaders)
+                avg_f_acc, avg_r_acc, test_result_ls = test_class_forget(self, epoch, global_model, self.args, test_loaders)
                 for item in test_result_ls:
                     item.append(consume_time)
                 result_list.extend(test_result_ls)
-                df = pd.DataFrame(result_list,
-                                  columns=['Epoch', 'Client_id', 'Class_id', 'Test_acc', 'Test_loss', 'Comsume_time'])
+                df = pd.DataFrame(result_list, columns=['Epoch', 'Client_id', 'Class_id', 'Test_acc', 'Test_loss', 'Comsume_time'])
             elif self.args.forget_paradigm == 'sample':
                 avg_jingdu, avg_acc_zero, avg_test_acc, test_result_ls = test_backdoor_forget(self, epoch, global_model, self.args, test_loaders)
                 for item in test_result_ls:
                     item.append(consume_time)
                 result_list.extend(test_result_ls)
-                df = pd.DataFrame(result_list,
-                                  columns=['Epoch', 'Client_id', 'Jingdu', 'Acc_zero', 'Test_acc', 'Comsume_time'])
+                df = pd.DataFrame(result_list, columns=['Epoch', 'Client_id', 'Jingdu', 'Acc_zero', 'Test_acc', 'Comsume_time'])
 
             global_model.to('cpu')
-
-            print("Relearn Round = {}".format(epoch))
+            print("Relearn Round = {} Avg Forget Acc = {}, Avg Remember Acc = {}".format(epoch, avg_f_acc, avg_r_acc))
 
         if self.args.cut_sample == 1.0:
             df.to_csv('./results/{}/relearn_data_{}_distri_{}_fnum_{}_algo_{}.csv'.format(self.args.forget_paradigm,

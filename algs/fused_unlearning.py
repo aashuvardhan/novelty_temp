@@ -30,30 +30,25 @@ class FUSED(Base):
         result_list = []
         param_list = []
         for name, param in global_model.named_parameters():
-            # print(name)
             self.param_change_dict[name] = 0
             self.param_size[name] = 0
 
         for epoch in range(self.args.global_epoch):
             selected_clients = list(np.random.choice(range(self.args.num_user), size=int(self.args.num_user*self.args.fraction), replace=False))
             select_client_loaders = [client_all_loaders[idx] for idx in selected_clients]
-            client_models = self.global_train_once(epoch, global_model, select_client_loaders, test_loaders, self.args, checkpoints_ls)
 
-            global_model = self.fedavg(client_models)
+            # global_train_once now returns averaged model directly (online FedAvg)
+            global_model = self.global_train_once(epoch, global_model, select_client_loaders, test_loaders, self.args, checkpoints_ls)
 
             if self.args.forget_paradigm == 'sample':
-            
                 avg_jingdu, avg_acc_zero, avg_test_acc, test_result_ls = test_backdoor_forget(self, epoch, global_model,
                                                                                               self.args, test_loaders)
-                print('Epoch={}, jingdu={}, acc_zero={}, avg_test_acc={}'.format(epoch, avg_jingdu, avg_acc_zero,
-                                                                                 avg_test_acc))
+                print('Epoch={}, jingdu={}, acc_zero={}, avg_test_acc={}'.format(epoch, avg_jingdu, avg_acc_zero, avg_test_acc))
                 result_list.extend(test_result_ls)
-            
             elif self.args.forget_paradigm == 'client':
                 avg_f_acc, avg_r_acc, test_result_ls = test_client_forget(self, epoch, global_model, self.args, test_loaders)
                 print('Epoch={}, avg_f_acc={}, avg_r_acc={}'.format(epoch, avg_f_acc, avg_r_acc))
                 result_list.extend(test_result_ls)
-            
             elif self.args.forget_paradigm == 'class':
                 avg_f_acc, avg_r_acc, test_result_ls = test_class_forget(self, epoch, global_model, self.args, test_loaders)
                 print('Epoch={}, avg_f_acc={}, avg_r_acc={}'.format(epoch, avg_f_acc, avg_r_acc))
@@ -64,7 +59,7 @@ class FUSED(Base):
                 name = list(self.param_change_dict.keys())
                 diff_ls_ = [float(i) for i in diff_ls]
                 param_list.append(diff_ls_)
-                # diff_ls_.append(list(self.param_size.values()))
+
         df = pd.DataFrame(param_list, columns=name)
         df.to_csv('./results/param_change_{}_distri_{}.csv'.format(self.args.data_name, self.args.alpha))
 
@@ -79,7 +74,8 @@ class FUSED(Base):
         if self.args.save_normal_result:
             df.to_csv('./results/Acc_loss_fl_{}_data_{}_distri_{}.csv'.format(self.args.forget_paradigm, self.args.data_name, self.args.alpha))
 
-        return global_model, client_models
+        return global_model, []
+
 
     def forget_client_train(self, global_model, client_all_loaders, test_loaders):
         global_model.load_state_dict(torch.load('save_model/global_model_{}.pth'.format(self.args.data_name)))
@@ -157,18 +153,19 @@ class FUSED(Base):
         result_list = []
         consume_time = 0
 
+        std_time = time.time()
         for epoch in range(self.args.global_epoch):
             fused_model.train()
             selected_clients = [i for i in range(self.args.num_user) if i not in self.args.forget_client_idx]
             select_client_loaders = select_part_sample(self.args, client_all_loaders, selected_clients)
 
-
-            std_time = time.time()
-            client_models = self.global_train_once(epoch, fused_model, select_client_loaders, test_loaders, self.args, checkpoints_ls)
+            # global_train_once returns averaged model directly
+            avg_model = self.global_train_once(epoch, fused_model, select_client_loaders, test_loaders, self.args, checkpoints_ls)
             end_time = time.time()
-            avg_model = self.fedavg(client_models)
             consume_time += end_time - std_time
+            std_time = end_time  # reset for next epoch
             fused_model.load_state_dict(avg_model.state_dict())
+            del avg_model
 
             fused_model.eval()
 
@@ -236,9 +233,9 @@ class FUSED(Base):
             select_client_loaders = select_part_sample(self.args, client_all_loaders, selected_clients)
             std_time = time.time()
 
-            client_models = self.global_train_once(epoch, fused_model,  select_client_loaders, test_loaders, self.args, checkpoints_ls)
+            client_models = self.global_train_once(epoch, fused_model, select_client_loaders, test_loaders, self.args, checkpoints_ls)
             end_time = time.time()
-            fused_model = self.fedavg(client_models)
+            fused_model.load_state_dict(client_models.state_dict())  # client_models is now the avg model
             consume_time += end_time-std_time
             avg_f_acc, avg_r_acc, test_result_ls = test_class_forget(self, epoch, fused_model, self.args, test_loaders)
             result_list.extend(test_result_ls)
@@ -281,9 +278,9 @@ class FUSED(Base):
                 if idx in self.args.forget_client_idx:
                     self.select_forget_idx.append(record)
             std_time = time.time()
-            client_models = self.global_train_once(epoch, fused_model,  select_client_loaders, test_loaders, self.args, checkpoints_ls)
+            client_models = self.global_train_once(epoch, fused_model, select_client_loaders, test_loaders, self.args, checkpoints_ls)
             end_time = time.time()
-            fused_model = self.fedavg(client_models)
+            fused_model.load_state_dict(client_models.state_dict())  # client_models is now the avg model
             consume_time += end_time-std_time
 
             avg_jingdu, avg_acc_zero, avg_test_acc, test_result_ls = test_backdoor_forget(self, epoch, fused_model, self.args, test_loaders)
@@ -430,10 +427,10 @@ class FUSED(Base):
             # Select ALL clients for standard federated training
             select_client_loaders = client_all_loaders 
             
-            # Local training and aggregation
-            client_models = self.global_train_once(epoch, global_model, select_client_loaders, test_loaders, self.args, checkpoints_ls)
-            avg_model = self.fedavg(client_models)
+            # global_train_once returns averaged model directly
+            avg_model = self.global_train_once(epoch, global_model, select_client_loaders, test_loaders, self.args, checkpoints_ls)
             global_model.load_state_dict(avg_model.state_dict())
+            del avg_model
             
             global_model.eval()
             

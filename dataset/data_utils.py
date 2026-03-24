@@ -205,37 +205,49 @@ def split_test_proxy(test_loader, args):
 
 
 def split_proxy(x, y, args, AT=None):
-    client_x, client_at, client_y, proxy_data_x, proxy_data_at, proxy_data_y = [], [], [], [], [], []
+    client_loaders = []
+    test_loaders = []
+    proxy_client_loaders = []
+    proxy_test_loaders = []
 
-    classes_ls = [i for i in range(args.num_classes)]
+    classes_ls = list(range(args.num_classes))
 
     for client in range(args.num_user):
         dataset_image = x[client]
         dataset_label = y[client]
-        idxs = np.array(range(len(dataset_label)))
-        idx_for_each_class = {}
-        all_class_x = []
-        all_class_y = []
-        all_class_x_proxy = []
-        all_class_y_proxy = []
-        for i in classes_ls:
-            idx_for_each_class[i] = idxs[dataset_label == i]
-            num_class_proxy = len(idx_for_each_class[i])*args.proxy_frac
-            idx_class_proxy = np.random.choice(idx_for_each_class[i], int(num_class_proxy))
-            idx_class_client = list(set(idx_for_each_class[i])-set(idx_class_proxy))
-            all_class_x_proxy.extend(dataset_image[idx_class_proxy])
-            all_class_y_proxy.extend(dataset_label[idx_class_proxy])
-            all_class_x.extend(dataset_image[idx_class_client])
-            all_class_y.extend(dataset_label[idx_class_client])
-        client_x.append(all_class_x)
-        client_y.append(all_class_y)
-        proxy_data_x.append(all_class_x_proxy)
-        proxy_data_y.append(all_class_y_proxy)
+        idxs = np.arange(len(dataset_label))
 
-    client_loaders, test_loaders = split_data(client_x, client_y, args)
-    proxy_client_loaders, proxy_test_loaders = split_data(proxy_data_x, proxy_data_y, args)
+        all_class_x, all_class_y = [], []
+        all_class_x_proxy, all_class_y_proxy = [], []
+
+        for i in classes_ls:
+            cls_idx = idxs[dataset_label == i]
+            n_proxy = int(len(cls_idx) * args.proxy_frac)
+            idx_proxy = np.random.choice(cls_idx, n_proxy, replace=False)
+            idx_client = np.array(list(set(cls_idx.tolist()) - set(idx_proxy.tolist())))
+            all_class_x_proxy.append(dataset_image[idx_proxy])
+            all_class_y_proxy.append(dataset_label[idx_proxy])
+            all_class_x.append(dataset_image[idx_client])
+            all_class_y.append(dataset_label[idx_client])
+
+        # Stack and build loaders for this client immediately, then free raw arrays
+        xi = np.concatenate(all_class_x, axis=0).astype(np.float32)
+        yi = np.concatenate(all_class_y, axis=0).astype(np.int64)
+        xi_p = np.concatenate(all_class_x_proxy, axis=0).astype(np.float32)
+        yi_p = np.concatenate(all_class_y_proxy, axis=0).astype(np.int64)
+        del all_class_x, all_class_y, all_class_x_proxy, all_class_y_proxy
+
+        cl, tl = split_data([xi], [yi], args)
+        pcl, ptl = split_data([xi_p], [yi_p], args)
+        del xi, yi, xi_p, yi_p
+
+        client_loaders.extend(cl)
+        test_loaders.extend(tl)
+        proxy_client_loaders.extend(pcl)
+        proxy_test_loaders.extend(ptl)
 
     return client_loaders, test_loaders, proxy_client_loaders, proxy_test_loaders
+
 
 def split_data(X, y, args, client_at=None):
     client_loaders, test_loaders = [], []
