@@ -222,13 +222,17 @@ def split_proxy(x, y, args, AT=None):
 
         for i in classes_ls:
             cls_idx = idxs[dataset_label == i]
+            if len(cls_idx) == 0:
+                continue
             n_proxy = int(len(cls_idx) * args.proxy_frac)
             idx_proxy = np.random.choice(cls_idx, n_proxy, replace=False)
-            idx_client = np.array(list(set(cls_idx.tolist()) - set(idx_proxy.tolist())))
+            # Force int64 — empty set differences produce float64 by default which can't index arrays
+            idx_client = np.array(sorted(set(cls_idx.tolist()) - set(idx_proxy.tolist())), dtype=np.int64)
             all_class_x_proxy.append(dataset_image[idx_proxy])
             all_class_y_proxy.append(dataset_label[idx_proxy])
-            all_class_x.append(dataset_image[idx_client])
-            all_class_y.append(dataset_label[idx_client])
+            if len(idx_client) > 0:
+                all_class_x.append(dataset_image[idx_client])
+                all_class_y.append(dataset_label[idx_client])
 
         # Stack and build loaders for this client immediately, then free raw arrays
         xi = np.concatenate(all_class_x, axis=0).astype(np.float32)
