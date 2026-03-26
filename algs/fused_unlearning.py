@@ -336,11 +336,11 @@ class FUSED(Base):
                 for v in client_loaders:
                     if v is not None:
                         select_client_loaders.append(v)
-            client_models = self.global_train_once(epoch, global_model, select_client_loaders, test_loaders, self.args,
+            avg_model = self.global_train_once(epoch, global_model, select_client_loaders, test_loaders, self.args,
                                                    checkpoints_ls)
 
-            all_client_models += client_models
-            global_model = self.fedavg(client_models)
+            global_model.load_state_dict(avg_model.state_dict())
+            del avg_model
             all_global_models.append(copy.deepcopy(global_model).to('cpu'))
             end_time = time.time()
 
