@@ -133,6 +133,26 @@ class FUSED(Base):
 
         clean_loader_fim = DL(TensorDataset(clean_x, clean_y), batch_size=64, shuffle=False)
         poison_loader_fim = DL(TensorDataset(poison_x, poison_y), batch_size=64, shuffle=False)
+
+        # ---- Build per-client distilled DataLoaders for the TRAINING LOOP ----
+        # Only done when DM is enabled. The epoch loop below uses these small
+        # synthetic loaders instead of the full real client_all_loaders, which
+        # is what delivers the expected speedup.
+        distilled_train_loaders = []
+        if use_distilled:
+            for client_id in range(self.args.num_user):
+                if client_id in self.args.forget_client_idx:
+                    continue  # skip forget clients
+                pt_path = os.path.join('distilled_data', f'client_{client_id}.pt')
+                if not os.path.exists(pt_path):
+                    print(f"  WARNING: {pt_path} not found, skipping client {client_id}")
+                    continue
+                syn_img, syn_lbl = torch.load(pt_path, map_location='cpu')
+                dl = DL(TensorDataset(syn_img, syn_lbl),
+                        batch_size=self.args.local_batch_size, shuffle=True)
+                distilled_train_loaders.append(dl)
+            print(f"[Phase 2] Training loop will use {len(distilled_train_loaders)} distilled client loaders "
+                  f"({sum(len(dl.dataset) for dl in distilled_train_loaders)} total synthetic samples).")
         
         # Step 2: Run FIM sensitivity analysis
         target_modules, rank_map, sensitivity_scores = compute_layer_sensitivity(
@@ -156,8 +176,14 @@ class FUSED(Base):
         std_time = time.time()
         for epoch in range(self.args.global_epoch):
             fused_model.train()
-            selected_clients = [i for i in range(self.args.num_user) if i not in self.args.forget_client_idx]
-            select_client_loaders = select_part_sample(self.args, client_all_loaders, selected_clients)
+            if use_distilled:
+                # Use tiny synthetic loaders — this is what gives the speedup
+                select_client_loaders = distilled_train_loaders
+            else:
+                selected_clients = [i for i in range(self.args.num_user)
+                                    if i not in self.args.forget_client_idx]
+                select_client_loaders = select_part_sample(
+                    self.args, client_all_loaders, selected_clients)
 
             # global_train_once returns averaged model directly
             avg_model = self.global_train_once(epoch, fused_model, select_client_loaders, test_loaders, self.args, checkpoints_ls)
