@@ -204,7 +204,7 @@ def erase_forget_class(args, client_loaders):
         data_x = torch.Tensor(data_x).type(torch.float32)
         data_y = torch.Tensor(data_y).type(torch.int64)
         train_data = [(x1, y1) for x1, y1 in zip(data_x, data_y)]
-        client_loaders[user] = torch.utils.data.DataLoader(train_data, batch_size=args.local_batch_size, shuffle=True)
+        client_loaders[user] = torch.utils.data.DataLoader(train_data, batch_size=args.local_batch_size, shuffle=True, drop_last=True)
     return client_loaders
 
 def select_forget_sample(args, client_loaders):
@@ -225,7 +225,7 @@ def select_forget_sample(args, client_loaders):
             dataset_y = torch.Tensor(dataset_y).type(torch.int64)
             dataset = [(x, y) for x, y in zip(dataset_x, dataset_y)]
             client_loaders[user] = torch.utils.data.DataLoader(dataset, batch_size=args.local_batch_size,
-                                                                shuffle=False)
+                                                                shuffle=False, drop_last=True)
     return client_loaders
 
 def select_forget_class(args, client_loaders):
@@ -252,7 +252,7 @@ def select_forget_class(args, client_loaders):
             data_x = torch.Tensor(data_x).type(torch.float32)
             data_y = torch.Tensor(data_y).type(torch.int64)
             train_data = [(x1, y1) for x1, y1 in zip(data_x, data_y)]
-            client_loaders[user] = torch.utils.data.DataLoader(train_data, batch_size=args.local_batch_size, shuffle=True)
+            client_loaders[user] = torch.utils.data.DataLoader(train_data, batch_size=args.local_batch_size, shuffle=True, drop_last=True)
     return client_loaders
 
 def baizhanting_attack(args, client_loaders, test_loaders):
@@ -285,7 +285,7 @@ def baizhanting_attack(args, client_loaders, test_loaders):
         data_y = torch.Tensor(data_y).type(torch.int64)
         train_data = [(x1, y1) for x1, y1 in zip(data_x, data_y)]
         client_loaders[user] = torch.utils.data.DataLoader(train_data, batch_size=args.local_batch_size,
-                                                           shuffle=True)
+                                                           shuffle=True, drop_last=True)
         for idx, cls in enumerate(test_label):
             if int(test_label[idx]) < args.num_classes-1:
                 test_label[idx] = int(test_label[idx])+1
@@ -321,7 +321,7 @@ def backdoor_attack(args, client_loaders):
         dataset_y = torch.Tensor(dataset_y).type(torch.int64)
         dataset = [(x, y) for x, y in zip(dataset_x, dataset_y)]
         client_loaders[client] = torch.utils.data.DataLoader(dataset, batch_size=args.local_batch_size,
-                                                             shuffle=False)
+                                                             shuffle=False, drop_last=True)
     return client_loaders
 
 def erase_backdoor(args, client_loaders):
@@ -339,7 +339,7 @@ def erase_backdoor(args, client_loaders):
         dataset_y = torch.Tensor(dataset_y).type(torch.int64)
         dataset = [(x, y) for x, y in zip(dataset_x, dataset_y)]
         client_loaders[client] = torch.utils.data.DataLoader(dataset, batch_size=args.local_batch_size,
-                                                             shuffle=False)
+                                                             shuffle=False, drop_last=True)
     return client_loaders
 
 def insert_backdoor(args, data, target, trigger_label=0, trigger_pixel_value=255):

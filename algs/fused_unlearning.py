@@ -149,7 +149,7 @@ class FUSED(Base):
                     continue
                 syn_img, syn_lbl = torch.load(pt_path, map_location='cpu')
                 dl = DL(TensorDataset(syn_img, syn_lbl),
-                        batch_size=self.args.local_batch_size, shuffle=True)
+                        batch_size=self.args.local_batch_size, shuffle=True, drop_last=True)
                 distilled_train_loaders.append(dl)
             print(f"[Phase 2] Training loop will use {len(distilled_train_loaders)} distilled client loaders "
                   f"({sum(len(dl.dataset) for dl in distilled_train_loaders)} total synthetic samples).")
